@@ -24,7 +24,7 @@ gulp.task('serve', function() {
 			baseDir: "./",
 			index: 'guide.html'			
 		},
-		port:8000,
+		port:5000,
 		ui: false,
 		notify:false
 	});
