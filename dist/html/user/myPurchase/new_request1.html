@@ -21,14 +21,23 @@
 <body>
 <!--header-->
 <header class="sub_header">
-    <div class="header_inner">
-     매물구분
+    <div class="header_inner h_process">
+        매수/임차 중개의뢰
+        <div class="process_idx">
+            <em class="on">1</em>
+            <em>2</em>
+            <em>3</em>
+            <em>4</em>
+        </div>
     </div>
 </header>
 <!--//header-->
 <div class="wrapper">
     <div id=sub_container class="sub_container">  
-        <div class="container_inner">
+        <div class="container_inner">    
+            <div class="content_info">
+                ※ 거래구분과 매물유형을 선택 후 [다음]을 클릭하십시오.
+            </div>
             <div class="filter_area">  
                 <div class="section_inner">
                     <div class="content_head type1">
@@ -57,7 +66,12 @@
                     <input type="checkbox" id="offer_type10" class="act_btn green"><label for="offer_type10">한옥주택</label>
                     <input type="checkbox" id="offer_type11" class="act_btn green"><label for="offer_type11">타운하우스</label>
                 </div>
-                <button class="submit fixed">적용</button>
+                <div class="btn_submit fixed">
+                   <button class="btn cancle">
+                       취소
+                   </button>
+                   <button class="btn next on">다음</button>
+                </div>
             </div>
         </div>
     </div>

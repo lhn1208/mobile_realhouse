@@ -4,7 +4,7 @@
 
 * {margin:0px; padding:0px;}
 html {height:100%; font-size: 10px;}
-body{width: 100%; line-height: normal; color:#646464; font-family: "Noto Sans KR",sans-serif,"돋움","Dotum"; font-weight: 500;background-color:#fff; -moz-text-size-adjust:none; -o-text-size-adjust:none;}
+body{width: 100%; line-height: normal; color:#3c3c3c; font-family: "Noto Sans KR",sans-serif,"돋움","Dotum"; font-weight: 500;background-color:#fff; -moz-text-size-adjust:none; -o-text-size-adjust:none;}
 
 body *{box-sizing: border-box;}
 /*Reset*/
@@ -42,17 +42,22 @@ textarea{resize: none;}
 .search_input_area .search_box{position: relative; width:100%; height: 5.5rem; padding-left:4em; font-size: 1.3rem; color: #5f5f5f; background-color: #fff; border: 1px solid #e6e6e6; border-radius: 5rem; box-shadow:3px 4px 3px -2px #d6d6d6; text-align: left;}
 .search_input_area .search_box:before{content: ""; position: absolute; top:1.9rem; left:2.8rem; width:2.2rem; height: 2.4rem; background:url("../../images/main/bg_search.png") no-repeat 0 0; background-size: 100%;}
 .main_container .main_cont{width: 96vw; margin:0 auto 3rem; border:1px solid #e6e6e6; border-radius: .5rem;}
-.main_cont .content{padding: 1.4rem 6.4rem 1.2rem 1.2rem; line-height: 1.8; font-size: 1.2rem; font-weight: 400; color: #373737; background:url("../../images/main/bg_event.png") no-repeat 98% 2.3rem; background-size: 20%;}
-.main_cont .content.company_intro{background:url("../../images/main/bg_company_intro.png") no-repeat 98% 1rem; background-size: 18%;}
+.main_cont .content{padding: 1.4rem 6.4rem 1.2rem 1.2rem; line-height: 1.8; font-size: 1.2rem; font-weight: 400; color: #373737; background:url("../../images/main/bg_event.png") no-repeat 98% 2.3rem; background-size: 7.2rem;}
+.main_cont .content.company_intro{background:url("../../images/main/bg_company_intro.png") no-repeat 98% 1rem; background-size: 7rem;}
 .main_cont .content .txt_red{font-size: 1.2rem;}
 .main_cont .content .tit{margin-bottom: .3em; font-size: 1.4rem; font-weight: 700; color: #0ec4bf;}
 .main_cont .content .tit.type{color: #1e1e1e;}
 .main_cont .link_box{padding:1.2rem; background-color: #fafafa; border-top:1px solid #e6e6e6; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;}
 .main_cont .link_box a{font-size: 1.3rem; font-weight: 700;}
+/*checkbox*/
+.checkbox +label{font-size: 1.2rem; font-weight: 700; }
+.checkbox +label .chk_set{display: inline-block; width:2.2rem; height: 2.2rem; margin-right:.6rem; border:2px solid #ccc; border-radius: .3rem; vertical-align: -6px;}
+.checkbox:checked +label .chk_set{border:none; background: url("../../images/common/bg_check.png") #378cff no-repeat center; background-size: 72%;}
+.checkbox[disabled] +label .chk_set{background-color: #ccc;}
 
 /*sub header*/
 .sub_header{position: fixed; top:0; left:0; width:100%; background-color:#fff; z-index: 9999; }
-.sub_header .header_inner{position: relative; line-height: 2.8; font-size: 1.5rem; font-weight: 700; color: #1e1e1e; background: url("../../images/common/ico_header_arr.png") no-repeat 1.25rem 50%; background-size: 4%; border-bottom: 1px solid #e6e6e6; text-align: center;}
+.sub_header .header_inner{position: relative; line-height: 2.8; font-size: 1.5rem; font-weight: 700; color: #1e1e1e; background: url("../../images/common/ico_header_arr.png") no-repeat 1.25rem 50%; background-size: 1.6rem; border-bottom: 1px solid #e6e6e6; text-align: center;}
 .sub_container{margin-top:4.4rem;}
 .sub_container.type{margin-top:8.5rem;}
 /*footer*/
