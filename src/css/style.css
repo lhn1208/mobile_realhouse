@@ -42,6 +42,7 @@
 .agent_select_area .area_more{line-height: 4.4; font-weight: 700; font-size: 1.1rem; color: #378cff; border-bottom: 1px solid #ccc; text-align: center;}
 .agent_select_area .area_more:after{display: inline-block; content:""; width:1.1rem; height:.6rem; margin-left: .3rem; background:url("../../images/common/bg_link_more.png") no-repeat; background-size: 100%;}
 .agent_select_area .area_more .link_more{color: #378cff;}
+.agent_select_area .content_area .header{border-top:none;}
 .new_request .select_area{padding: 1.7rem 1.2rem;}
 .new_request .tit{margin-bottom: 1rem; font-size: 1.5rem; font-weight: 700;}
 .new_request .link_select{margin-left:.4rem; padding:0 .5rem}
@@ -52,3 +53,15 @@
 .grade_list_area{font-weight: 400;}
 .grade_list_area .contract_type{font-weight: 400;}
 .grade_list_area .date{font-size: 1.1rem; color: #646464;}
+/*중개사 평점*/
+.agent_grade_box{padding:1.2rem;}
+.agent_grade_box .agent_grade{position: relative; border:1px solid #ccc; border-radius: 3px;}
+.agent_grade_box .total{position: relative; padding-right:1.2rem; border-top:1px solid #ccc; border-bottom:1px solid #ccc; text-align: right;}
+.agent_grade_box .point{color:#ff6161;}
+.agent_grade_box .point.blue{color:#378cff;}
+.agent_grade_box .total dt{position:absolute; top:1.2rem; left:1.3rem; font-weight: 700; font-size: 1.5rem; color: #1e1e1e;}
+.agent_grade_box .total dd{display: inline-block; padding:1.5rem 0; }
+.agent_grade_box .grade{padding:0 1.2rem; background-color:#f9fcfd; border-bottom-left-radius: .3rem; border-bottom-right-radius: .3rem}
+.agent_grade_box .grade li:frise-child{margin-left: 0;}
+.agent_grade_box .grade li{float: left; margin-left: 2.7rem; line-height: 4; font-weight: 400; }
+.agent_grade_box .agent_img{top:1rem;}

@@ -41,8 +41,8 @@ button:focus{outline:none;}
 
 /*매물 리스트*/
 .items_list li{position: relative; border-bottom: 1px solid #ccc;}
-.items_list li a,.items_list li .item_box{padding:.85rem .75rem;}
-.items_list li .img_area{position: relative; position: absolute; width:12.7rem;}
+.items_list li a,.items_list li .item_box{position: relative; padding:.85rem .75rem;}
+.items_list li .img_area{position: absolute; width:12.7rem; left:1rem; top:50%;  transform: translateY(-50%);}
 .items_list .cover{position:absolute; bottom: 0; width: 100%; height:100%; padding-top:3.75rem; font-size: 1.4rem; font-weight:500; font-family: "Noto Sans KR",sans-serif; color:#fff; background:rgba(0,0,0,.5); text-align: center;}
 .items_list .seen{position: absolute; bottom:0; width:100%; line-height: 2.5; font-size: 1.0rem; color: #fff200; background:rgba(0,0,0,.5); text-align: center;}
 .items_list .item_info{margin-left: 14rem; line-height: 1.6; font-size: 1.25rem; color: #646464;}
@@ -97,37 +97,29 @@ section:first-of-type.content_area .header{border-top:none;}
 .content_area .cont{position: relative; padding:1.2rem; line-height: 1.6; border-bottom: 1px solid #ccc;}
 .content_area .cont.border_none{border-bottom: none;}
 
-.agent_grade_box{padding:1.2rem;}
-.agent_grade_box .agent_grade{position: relative; border:1px solid #ccc; border-radius: 3px;}
+
 .agent_info{position: relative;}
-.agent_img{position: absolute; top:.8rem; left:1.3rem; width:6.2rem; height:6.2rem; border:1px solid #ccc; border-radius: 50%; overflow: hidden;}
-.agent_info .info_detal{margin-left:7.6rem; padding: 1.2rem 1.2rem 1.4rem; font-weight: 500;}
+.agent_img{position: absolute; top:1.2rem; left:1.3rem; width:6.2rem; height:6.2rem; border:1px solid #ccc; border-radius: 50%; overflow: hidden;}
+.agent_info .info_detal{margin-left:7.6rem; padding: 1.2rem 1.2rem 1.8rem; font-weight: 500;}
 .agent_info .info_detal .name{display: block; margin-bottom: .4rem; font-weight: 700; color: #1e1e1e;}
 .agent_info .info_detal .company{color:#6b6b6b;}
-.agent_grade_box .total{position: relative; padding-right:1.2rem; border-top:1px solid #ccc; border-bottom:1px solid #ccc; text-align: right;}
-.agent_grade_box .point{color:#ff6161;}
-.agent_grade_box .point.blue{color:#378cff;}
-.agent_grade_box .total dt{position:absolute; top:1.2rem; left:1.3rem; font-weight: 700; font-size: 1.5rem; color: #1e1e1e;}
-.agent_grade_box .total dd{display: inline-block; padding:1.5rem 0; }
-.agent_grade_box .grade{padding:0 1.2rem; background-color:#f9fcfd; border-bottom-left-radius: .3rem; border-bottom-right-radius: .3rem}
-.agent_grade_box .grade li:frise-child{margin-left: 0;}
-.agent_grade_box .grade li{float: left; margin-left: 2.7rem; line-height: 4; font-weight: 400; }
+
 
 .grade_list{padding:1.2rem 0;}
 .grade_list li:first-of-type{margin-left:0;}
-.grade_list li{float: left; margin-left:.4rem;}
-.grade_list li em{float: left;}
-.grade_list li .star_grade {float:right; padding-top:.2rem; margin-left: .28rem}
-.grade_list li .star_grade span{display: inline-block; width:1.3rem; height: 1.3rem; background: url("../../images/sub/grade_star_small2.png") no-repeat; background-size: 100%;}
+.grade_list li{float: left; width:32%; margin-left: 1%;}
+.grade_list li em{float: left; width:32%;}
+.grade_list li .star_grade {float:left; padding-top:.2rem;}
+.grade_list li .star_grade span{display: inline-block; width:1.2rem; height: 1.2rem; background: url("../../images/sub/grade_star_small2.png") no-repeat; background-size: 100%;}
 .grade_list li .star_grade span.on{background: url("../../images/sub/grade_star_small2_on.png") no-repeat;  background-size: 100%;}
 
 
 
 /*info*/
 .info_box{padding:1.4rem 1.2rem; line-height: 2; background-color: #fffbfb; border-bottom: 1px solid #ccc;}
-.info_list li{line-height: 2; text-indent: -1.4rem; padding-left: 1.4rem;}
+.info_list li{line-height: 2; text-indent: -1.4rem; padding-left: 1.4rem; word-break: keep-all;}
 
-@media screen and (min-width: 320px) and (max-width: 374px){
+@media screen and (min-width: 220px) and (max-width: 374px){
     html{font-size: 8px;;}
   }
   
