@@ -49,3 +49,6 @@
 .new_request .info_box{border-top: 1px solid #ccc; background-color:#fffbfb;}
 .new_request .sub_info{padding-top:3rem; line-height: 2;}
 .new_request .sub_info .line_dot{display: inline-block; width:100%; border-top: 1px dashed #3c3c3c; margin-bottom: .4rem;}
+.grade_list_area{font-weight: 400;}
+.grade_list_area .contract_type{font-weight: 400;}
+.grade_list_area .date{font-size: 1.1rem; color: #646464;}
