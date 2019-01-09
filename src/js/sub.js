@@ -38,7 +38,7 @@ $(document).ready(function(){
 
     //pop
     $('.slide_link').click(function(){
-        $('.pop_slide').stop().animate({top:'42%'},speed);
+        $('.pop_slide').stop().animate({top:'44%'},speed);
         $('.cover').addClass('active');
     })
     $('.pop_slide .close').click(function(){
