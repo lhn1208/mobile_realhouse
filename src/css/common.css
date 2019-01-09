@@ -34,7 +34,7 @@ textarea{resize: none;}
 
 .wrapper.type{height: 100%;}
 .wrapper{position: relative;}
-.container_inner{padding-bottom: 7.4rem;}
+.container_inner{padding-bottom: 7rem;}
 .main_container .intro{padding-top:5.6rem; margin-bottom: 1.4em; font-size: 2rem; font-weight: 500; color: #646464; text-align: center;}
 .main_container .intro strong{display: block; font-size: 2rem; font-weight: 500; color: #1e1e1e;}
 .main_container .intro .logo{width: 10.2rem; margin:0 auto 3rem;}
@@ -56,7 +56,7 @@ textarea{resize: none;}
 .checkbox[disabled] +label .chk_set{background-color: #ccc;}
 
 /*sub header*/
-.sub_header{position: fixed; top:0; left:0; width:100%; background-color:#fff; z-index: 9999; }
+.sub_header{position: fixed; top:0; left:0; width:100%; background-color:#fff; z-index: 100; }
 .sub_header .header_inner{position: relative; line-height: 3; background: url("../../images/common/ico_header_arr.png") no-repeat 1.25rem 50%; background-size: 1.6rem; border-bottom: 1px solid #ccc; text-align: center;}
 .sub_header .tit{ font-size: 1.5rem; font-weight: 700; color: #1e1e1e; }
 .sub_container{margin-top:4.4rem;}

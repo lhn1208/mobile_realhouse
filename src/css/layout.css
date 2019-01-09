@@ -13,9 +13,14 @@ button:focus{outline:none;}
 .act_btn.check+label{min-width: 6.5rem; }
 .act_btn.check:checked +label{position: relative; color: #fff; font-weight: 700; font-size: 1.1rem; background-color: #ff6161;}
 .act_btn.check:checked +label:before{display: inline-block; content:""; margin-right: .4rem; width:1.2rem; height: .8rem; background:url("../../images/common/bg_btn_check.png") no-repeat; background-size: 100%;}
-
-.link_select{position: relative; line-height: 2.6; color: #3c3c3c; border:1px solid #ccc; border-radius: .3rem; width:48.8%;}
+.circle_btn+label{display: inline-block; width:2rem; height:2rem; background:url("../../images/common/bg_radio_circle.png") no-repeat; background-size: 100%;}
+.circle_btn:checked+label{background:url("../../images/common/bg_radio_circle_on.png") no-repeat; background-size: 100%;}
+/*셀렉트박스 링크*/
+.link_select{position: relative; line-height: 2.6; padding:0 .5rem; color: #3c3c3c; border:1px solid #ccc; border-radius: .3rem; width:48.8%;}
 .link_select:after{display: inline-block; content:""; position: absolute; top:38%; right:6%; width:1.1rem; height:.6rem; background:url("../../images/common/bg_select_active.png") no-repeat; background-size: 100%;}
+.link_select.w_93{width:93%;}
+.link_select.off{color: #9c9c9c;}
+.link_select.off:after{background:url("../../images/common/bg_select.png") no-repeat; background-size: 100%;}
 
 .submit{line-height: 3.6; font-size: 1.2rem; font-weight: 700; color: #fff; background-color: #0ec4bf; text-align: center;}
 .btn_submit{width:100vw; background-color: #0ec4bf; text-align: center;}
@@ -28,7 +33,7 @@ button:focus{outline:none;}
 .btn_submit .btn.prev:before{margin-left:-2.3rem;}
 .btn_submit .btn.next:before{margin-left:2.3rem;  background:url("../../images/common/bg_next_btn_active.png") no-repeat;  background-size: 100%; }
 .btn_submit .btn.prev.on,.btn_submit .btn.next.on{opacity: 1;}
-.fixed{position: fixed; left:0; bottom:0; width:100vw; }
+.fixed{position: fixed; left:0; bottom:0; width:100vw; z-index: 100;}
 .section_inner{padding-bottom: 1.9rem; border-bottom: 1px solid #ccc;}
 
 /*슬라이드*/
@@ -95,10 +100,9 @@ button:focus{outline:none;}
 .slide_box.open_offer .all_offer{display: block; border-top: 1px solid #ccc;} */
 .content_area{position: relative;}
 section:first-of-type.content_area .header,.content_area .header.border_none{border-top:none;}
-.content_area .header{padding:0 1.2rem; line-height: 3.9; font-weight: 700; background-color: #f9fcfd; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
+.content_area .header{position: relative; padding:0 1.2rem; line-height: 3.9; font-weight: 700; background-color: #f9fcfd; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
 .content_area .cont{position: relative; padding:1.2rem; line-height: 1.6; border-bottom: 1px solid #ccc;}
 .content_area .cont.border_none{border-bottom: none;}
-
 
 .agent_info{position: relative;}
 .agent_img{position: absolute; top:1.2rem; left:1.3rem; width:6.2rem; height:6.2rem; border:1px solid #ccc; border-radius: 50%; overflow: hidden;}
@@ -108,7 +112,11 @@ section:first-of-type.content_area .header,.content_area .header.border_none{bor
 
 .no_date{position: relative; width:100%; color: #9c9c9c; overflow: hidden; padding-bottom: 100%; height:auto;}
 .no_date .no_inner{padding-top:50%; transform: translateY(0, -50%); text-align: center;}
-/* .no_date .no_inner{position: absolute; top:50%; left:50%;  transform: translate(-50%, -50%);} */
+
+.pop_slide{position: fixed; top:110%; width:100%; height: 100%; background-color: #fff; border-top:1px solid #ccc; z-index: 130; }
+.pop_slide .close{position: absolute; top:50%; right:1.2rem; transform: translateY(-50%); width:1.3rem; height:1.3rem; background:url("../../images/common/slide_pop_close.png") no-repeat; background-size: 100%;}
+.cover{display: none; position: fixed; top:0; left:0; right:0; bottom:0; background-color: rgba(0,0,0,.5); z-index: 105;}
+.cover.active{display: block;}
 /*info*/
 .info_box{padding:1.4rem 1.2rem; line-height: 2; background-color: #fffbfb; border-bottom: 1px solid #ccc;}
 .info_list li{line-height: 2; text-indent: -1.4rem; padding-left: 1.4rem; word-break: keep-all;}

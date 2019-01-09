@@ -12,13 +12,49 @@
 <!--header-->
 <header class="sub_header">
     <div class="header_inner">
-        현장방문 요청
+        <h1 class="tit">현장방문 요청</h1>
     </div>
 </header>
 <!--//header-->
 <div class="wrapper">
-    <div id=sub_container class="sub_container type">  
+    <div class="cover"></div>
+    <div id=sub_container class="sub_container">  
         <div class="container_inner">    
+            <section class="visit_request">
+                <a href="#" class="slide_link link_select w_93">전세 | 홍길동(은성공인중개사사무소)</a>
+                <a href="#" class="slide_link link_select w_93 off">전세 | 홍길동(은성공인중개사사무소)</a>
+                <article class="agent_info">
+                    <span class="agent_img"><img src="../../../../images/sub/sample/agent.jpg"></span>
+                    <div class="info_detal">
+                        <strong class="name">홍길동</strong>
+                        <div class="company">잠실현대공인중개사사무소
+                            <div class="address">서울시 송파구 잠실동321-1은성빌딩 102호</div>
+                        </div>
+                    </div>
+                </article>
+            </section>
+            <div class="info_box">관심등록 후, 중개의뢰 현황에서 한번에  방문요청하실 수 있습니다.</div>
+            <div class="btn_submit fixed">
+                <button class="btn cancle">신규 중개의뢰 요청</button>
+                <button class="btn">추가 방문요청</button>
+            </div>
+            <!--매수/임차 중개의뢰 선택 창-->
+            <div class="pop_slide purchase_select">
+                <section class="content_area"> 
+                    <header class="header">매수/임차 중개의뢰 선택<a href="#" class="close"><span class="blind">닫기</span></a></header>
+                    <article class="cont">
+                        <strong class="company">홍길동(잠실현대공인중개사사무소)</strong>
+                        <p class="address">전세 | 서울시 송파구 잠실동</p>
+                        <input type="radio" id="purch_chk1" class="circle_btn btn_purch" name="purch_chk" ><label for="purch_chk1"></label>
+                    </article>
+                    <article class="cont">
+                        <strong class="company">홍길동(잠실현대공인중개사사무소)</strong>
+                        <p class="address">전세 | 서울시 송파구 잠실동</p>
+                        <input type="radio" id="purch_chk2" class="circle_btn btn_purch" name="purch_chk" checked><label for="purch_chk2"></label>
+                    </article>
+                </section>
+            </div>
+            <!--//매수/임차 중개의뢰 선택 창-->
         </div>
     </div>
 </div>

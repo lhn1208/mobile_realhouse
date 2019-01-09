@@ -7,6 +7,7 @@ $(document).ready(function(){
     //전체매물 slideup
     var $Slidebox=$('.slide_box');
     var $target_cont=$(".offer_map");
+    var speed=500;
     $Slidebox.find('.header').click(function(){
         var t_slideBox= $(this).parent();
         // if(!(t_slideBox.hasClass('open'))){
@@ -25,7 +26,7 @@ $(document).ready(function(){
 
         $('.slide_box.open').css('opacity','1');
         $('.slide_box.fix').css('opacity','0');
-        $('.slide_box.open').stop().animate({top : '0',opacity:'1'},300);
+        $('.slide_box.open').stop().animate({top : '0',opacity:'1'},speed);
     })
               
     //평점
@@ -34,4 +35,14 @@ $(document).ready(function(){
     $(this).addClass('on').prevAll('span').addClass('on');
     return false;
     });
+
+    //pop
+    $('.slide_link').click(function(){
+        $('.pop_slide').stop().animate({top:'40%'},speed);
+        $('.cover').addClass('active');
+    })
+    $('.pop_slide .close').click(function(){
+        $('.pop_slide').stop().animate({top:'110%'},speed);
+        $('.cover').removeClass('active');
+    })
 });

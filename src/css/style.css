@@ -45,7 +45,7 @@
 .agent_select_area .content_area .header{border-top:none;}
 .new_request .select_area{padding: 1.7rem 1.2rem;}
 .new_request .tit{margin-bottom: 1rem; font-size: 1.5rem; font-weight: 700;}
-.new_request .link_select{margin-left:.2rem; padding:0 .5rem}
+.new_request .link_select{margin-left:.2rem;}
 .new_request .info_box{border-top: 1px solid #ccc; background-color:#fffbfb;}
 .new_request .sub_info{padding-top:3rem; line-height: 2;}
 .new_request .sub_info .line_dot{display: inline-block; width:100%; border-top: 1px dashed #3c3c3c; margin-bottom: .4rem;}
@@ -79,3 +79,10 @@
 .star_grade_eval .star_grade span:first-of-type{margin-left:1.6rem;}
 .star_grade_eval .star_grade span{display: inline-block; width:2.8rem; height: 2.6rem; margin-left:2.5rem; background: url("../../images/sub/grade_star.png") no-repeat; background-size: 100%;}
 .star_grade_eval .star_grade span.on{background: url("../../images/sub/grade_star_on.png") no-repeat;  background-size: 100%;}
+
+.visit_request{padding-top:2rem;}
+.visit_request .link_select{display: block; margin: 0 auto;}
+.visit_request .agent_info{border-bottom: 1px solid #ccc;}
+.visit_request .agent_info.no_items{padding:.4rem 1.6rem 3.1rem; line-height: 2; color: #6b6b6b;}
+.purchase_select .company{color: #1e1e1e;}
+.purchase_select .cont .btn_purch+label{position: absolute; top:50%; right:1.2rem; transform: translateY(-50%);}
