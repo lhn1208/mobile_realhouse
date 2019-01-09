@@ -45,14 +45,10 @@
 .agent_select_area .content_area .header{border-top:none;}
 .new_request .select_area{padding: 1.7rem 1.2rem;}
 .new_request .tit{margin-bottom: 1rem; font-size: 1.5rem; font-weight: 700;}
-.new_request .link_select{margin-left:.4rem; padding:0 .5rem}
-.new_request .link_select:first-of-type{margin-left:0;}
+.new_request .link_select{margin-left:.2rem; padding:0 .5rem}
 .new_request .info_box{border-top: 1px solid #ccc; background-color:#fffbfb;}
 .new_request .sub_info{padding-top:3rem; line-height: 2;}
 .new_request .sub_info .line_dot{display: inline-block; width:100%; border-top: 1px dashed #3c3c3c; margin-bottom: .4rem;}
-.grade_list_area{font-weight: 400;}
-.grade_list_area .contract_type{font-weight: 400;}
-.grade_list_area .date{font-size: 1.1rem; color: #646464;}
 /*중개사 평점*/
 .agent_grade_box{padding:1.2rem;}
 .agent_grade_box .agent_grade{position: relative; border:1px solid #ccc; border-radius: 3px;}
@@ -65,3 +61,21 @@
 .agent_grade_box .grade li:frise-child{margin-left: 0;}
 .agent_grade_box .grade li{float: left; margin-left: 2.7rem; line-height: 4; font-weight: 400; }
 .agent_grade_box .agent_img{top:1rem;}
+.grade_list_area{font-weight: 400;}
+.grade_list_area .contract_type{font-weight: 400;}
+.grade_list_area .date{font-size: 1.1rem; color: #646464;}
+.grade_list_area .grade_list{padding:1.2rem 0;}
+.grade_list_area .grade_list li:first-of-type{margin-left:0;}
+.grade_list_area .grade_list li{float: left; width:32%; margin-left: 1%;}
+.grade_list_area .grade_list li em{float: left; width:32%;}
+.grade_list_area .grade_list .star_grade {float:left; padding-top:.2rem;}
+.grade_list_area .grade_list .star_grade span{display: inline-block; width:1.2rem; height: 1.2rem; background: url("../../images/sub/grade_star_small2.png") no-repeat; background-size: 100%;}
+.grade_list_area .grade_list .star_grade span.on{background: url("../../images/sub/grade_star_small2_on.png") no-repeat;  background-size: 100%;}
+
+.star_grade_eval li{padding:1.1rem; border-bottom: 1px solid #ccc;}
+.star_grade_eval li:after{display: block; content:""; clear: both;}
+.star_grade_eval li em{float: left; padding-top:.6rem; font-weight: 700;}
+.star_grade_eval .star_grade{float:left;}
+.star_grade_eval .star_grade span:first-of-type{margin-left:1.6rem;}
+.star_grade_eval .star_grade span{display: inline-block; width:2.8rem; height: 2.6rem; margin-left:2.5rem; background: url("../../images/sub/grade_star.png") no-repeat; background-size: 100%;}
+.star_grade_eval .star_grade span.on{background: url("../../images/sub/grade_star_on.png") no-repeat;  background-size: 100%;}

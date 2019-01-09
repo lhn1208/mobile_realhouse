@@ -28,4 +28,10 @@ $(document).ready(function(){
         $('.slide_box.open').stop().animate({top : '0',opacity:'1'},300);
     })
               
+    //평점
+    $('.star_grade span').on('click', function(){
+    $(this).parent().children('span').removeClass('on');
+    $(this).addClass('on').prevAll('span').addClass('on');
+    return false;
+    });
 });
