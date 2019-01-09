@@ -37,7 +37,7 @@ button:focus{outline:none;}
 .swiper-wrapper .info{line-height: 1.8;}
 .swiper-wrapper .img_area{display: inline-block; margin-bottom: 0.4rem;}
 .swiper-wrapper .info .tit{display: block; font-size:1.4rem; font-weight: 700; color: #000;}
-.swiper-wrapper .info .desc{font-size: 1.1rem; color: #373737;}
+.swiper-wrapper .info .desc{font-size: 1.2rem; color: #373737;}
 
 /*매물 리스트*/
 .items_list li{position: relative; border-bottom: 1px solid #ccc;}
