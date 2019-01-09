@@ -46,6 +46,6 @@
 .new_request .tit{margin-bottom: 1rem; font-size: 1.5rem; font-weight: 700;}
 .new_request .link_select{margin-left:.4rem; padding:0 .5rem}
 .new_request .link_select:first-of-type{margin-left:0;}
-.new_request .info{border-top: 1px solid #ccc; background-color:#fffbfb;}
+.new_request .info_box{border-top: 1px solid #ccc; background-color:#fffbfb;}
 .new_request .sub_info{padding-top:3rem; line-height: 2;}
-.new_request .sub_info .line_dot{display: inline-block; width:100%; border-top: 1px dotted #3c3c3c; margin-bottom: .4rem;}
+.new_request .sub_info .line_dot{display: inline-block; width:100%; border-top: 1px dashed #3c3c3c; margin-bottom: .4rem;}
