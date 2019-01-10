@@ -84,6 +84,6 @@
 .visit_request .link_select{display: block; margin: 0 auto;}
 .visit_request .agent_info{border-bottom: 1px solid #ccc;}
 .visit_request .agent_info.no_items{padding:.4rem 1.6rem 3.1rem; line-height: 2; color: #6b6b6b;}
-.purch_pop{height: 60vh; bottom:-60vh;}
+.purch_pop{height: 54vh; bottom:-54vh;}
 .purch_pop .company{color: #1e1e1e;}
 .purch_pop .cont .btn_purch+label{position: absolute; top:50%; right:1.2rem; transform: translateY(-50%);}
