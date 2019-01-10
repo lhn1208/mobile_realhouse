@@ -37,12 +37,19 @@ $(document).ready(function(){
     });
 
     //pop
+    var $layerPop=$('.layer_pop');
+    var pop_h=$layerPop.outerHeight();
+    var up_num='0'
+    var reset_num=-pop_h;
+    
     $('.slide_link').click(function(){
-        $('.pop_slide').stop().animate({top:'44%'},speed);
+         $layerPop.stop().animate({bottom:up_num},speed);
         $('.cover').addClass('active');
+        $('body').addClass('scroll_hidden');
     })
-    $('.pop_slide .close').click(function(){
-        $('.pop_slide').stop().animate({top:'110%'},speed);
+    $('.layer_pop .close').click(function(){
+         $layerPop.stop().animate({bottom:reset_num},speed);
         $('.cover').removeClass('active');
+        $('body').removeClass('scroll_hidden');
     })
 });
