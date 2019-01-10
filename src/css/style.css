@@ -1,6 +1,8 @@
 @charset "utf-8";
 
-.header_inner .ico_search{display: block; position: absolute; top:1.2rem; right:1.2rem; width:1.6rem; height:1.6rem; background: url("../../images/common/ico_search.png") no-repeat; background-size: 100%;}
+.header_inner .right_link{display: block; position: absolute; top:1.2rem; right:1.2rem; background-size: 100%; background-repeat: no-repeat;}
+.header_inner .ico_search{width:1.6rem; height:1.6rem; background-image: url("../../images/common/ico_search.png"); }
+.header_inner .ico_share{width:2rem; height:1.5rem; background-image: url("../../images/sub/ico_share.png"); }
 
 .locate_box{padding:.5rem 0; background-color: #f9fcfd; border-bottom: 1px solid #ccc;}
 .locate_box .locate{width: 96vw; margin:0 auto;}
@@ -22,7 +24,7 @@
 /*매물지도*/
 .option .dis_ico{display: none;}
 .offer_map{position: relative;}
-.offer_map .ico_offer_aera{position: absolute; height:1.9rem; background-color: #fff; border-radius: 5rem; z-index: 105; }
+.offer_map .ico_offer_aera{position: absolute; height:1.9rem; background-color: #fff; border-radius: 5rem; z-index: 80; }
 .offer_map .ico_offer_aera .cnt{display: inline-block; padding:3px 10px 5px; margin-top:-.4rem; font-weight: 700; font-size: 1.2rem; color:#fff; background-color:#ff6161; border-radius: 5rem;}
 .offer_map .ico_offer_aera .address{display: inline-block; height:1.9rem; line-height: 1.6; padding:0 1.2rem 0 .5rem; font-size: 1.1rem; color:#1e1e1e;}
 .offer_map .ico_offer_aera.position1{top:2%; left:40%; }
@@ -87,3 +89,16 @@
 .purch_pop{height: 54vh; bottom:-54vh;}
 .purch_pop .company{color: #1e1e1e;}
 .purch_pop .cont .btn_purch+label{position: absolute; top:50%; right:1.2rem; transform: translateY(-50%);}
+
+/*매물상세*/
+.offer_main .swiper_box{margin-bottom: 3.2rem}
+.offer_main .offer_mark{margin-bottom:5.5rem;text-align: right;}
+.offer_main .offer_mark:after{display: block; content:""; clear: both;}
+.offer_main .offer_mark dl{float: left; width:37%; padding-right:.7rem; line-height: 1.8; border-right:1px solid #e6e6e6;}
+.offer_main .offer_mark dl:nth-of-type(2){width:26%;}
+.offer_main .offer_mark dl:last-of-type{width:30%; border-right: none;}
+/* .offer_main .offer_mark .offer_ico{height:4rem; line-height: 1.5; margin-right:1.2rem; padding:2rem 2.2rem; font-size: 2.2rem; color:#fff; border-radius: 3rem; text-align: center; vertical-align: .2rem} */
+.offer_main .offer_mark dt{font-size:1.1rem; color:#9c9c9c;}
+.offer_main .offer_mark dd{font-size: 1.6rem; font-weight:500; color: #1e1e1e;}
+/* .offer_main .offer_mark dd span{font-size:1.1rem; color:#9c9c9c;} */
+.offer_main .offer_mark dd .sub{font-size: 1.1rem;}

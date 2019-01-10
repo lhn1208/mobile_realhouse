@@ -32,6 +32,9 @@ textarea{resize: none;}
 .legend,.blind{position: absolute; left:-9999px; font-size: 0; height: 1px; width:1px; line-height: 0; text-indent: -9999px;}
 .clearfix:after{display: block; content:""; clear: both;}
 
+/*공통 버튼*/
+.btn_perv{position: absolute; top:0; left:1.2rem; width:1.4rem; height:100%; background: url("../../images/common/ico_header_arr.png") no-repeat 0 1.5rem; background-size: 100%; }
+
 .wrapper.type{height: 100%;}
 .wrapper{position: relative;}
 .container_inner{padding-bottom: 7rem;}
@@ -57,10 +60,10 @@ textarea{resize: none;}
 
 /*sub header*/
 .sub_header{position: fixed; top:0; left:0; width:100%; background-color:#fff; z-index: 100; }
-.sub_header .header_inner{position: relative; line-height: 3; background: url("../../images/common/ico_header_arr.png") no-repeat 1.25rem 50%; background-size: 1.6rem; border-bottom: 1px solid #ccc; text-align: center;}
+.sub_header .header_inner{position: relative; line-height: 3; border-bottom: 1px solid #ccc; text-align: center;}
 .sub_header .tit{ font-size: 1.5rem; font-weight: 700; color: #1e1e1e; }
 .sub_container{margin-top:4.4rem;}
-.sub_container.type{margin-top:8.5rem;}
+.sub_container.type{margin-top:12%;}
 /*footer*/
 #footer_nav_section{padding:1rem 0 .8rem 0; background-color: #f9fcff; border-top:1px solid #ccc; z-index: 9999;}
 #footer_nav ul:after{display: block; content:""; clear: both;}
