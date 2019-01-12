@@ -4,18 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, target-densitydpi=medium-dpi, minimal-ui">
-    <link href="../../../css/font.min.css" rel="stylesheet">
-    <link href="../../../css/common.min.css" rel="stylesheet">
-    <link href="../../../css/layout.min.css" rel="stylesheet">
-    <link href="../../../css/style.min.css" rel="stylesheet">
-    <link href="../../../css/swiper.min.css" rel="stylesheet">
-
-
-    <script src="../../../js/3.3.1.min.js"></script>	
-    <script src="../../../js/common.min.js"></script>	
-    <script src="../../../js/sub.min.js"></script>	
-    <script src="../../../js/plugin/swiper.min.js"></script>	
-
+    <include src="../../include/set_css.html"></include>
+    <include src="../../include/set_js.html"></include>
+    
     <title>realhouse</title>
 </head>
 <body> 
@@ -33,7 +24,7 @@
         <div class="container_inner">             
             <div class="offer_main">
                 <section class="swiper_box">
-                    <div class="swiper-container swiper1">
+                    <div class="swiper-container swiper_figure">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide"><img src="../../../../images/sub/sample/img_offer1.jpg"></div>
                             <div class="swiper-slide"><img src="../../../../images/sub/sample/img_offer2.jpg"></div>
@@ -256,11 +247,21 @@
                 </header>
                 <div class="cont_inner">
                     <div class="tab_list_box swiper_box">
-                        <div class="swiper-pagination pagination2"></div>
-                        <div class="swiper-container swiper2">
+                        
+                        <div class="swiper-container swiper_menu">
+                            <ul class="swiper-wrapper">
+                                <li class="swiper-slide">
+                                    <a href="#">다음매물</a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="#">이전매물</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <section class="swiper-container swiper_cont">
                             <div class="swiper-wrapper">
                                 <!--다음매물-->
-                                <div class="swiper-slide tab_list_cont">
+                                <articel class="swiper-slide tab_list_cont">
                                     <div class="all_offer">
                                         <ul class="items_list">
                                             <li>
@@ -323,10 +324,10 @@
                                             <a href="#" class="link_more">더보기</a> 
                                         </div>
                                     </div>
-                                </div>
+                                </articel>
                                 <!--//다음매물-->
                                 <!--이전매물-->
-                                <div class="swiper-slide tab_list_cont">
+                                <articel class="swiper-slide tab_list_cont">
                                     <div class="all_offer">
                                         <ul class="items_list">
                                             <li>
@@ -389,58 +390,15 @@
                                             <a href="#" class="link_more">더보기</a> 
                                         </div>
                                     </div>
-                                </div>
+                                </articel>
                                 <!--//이전매물-->
                             </div>
-                        </div>
+                        </section>
                     </div>
                 </div>
             </section>
             <!--//검색 매물-->
-            <!--검색 매물-->
-            <section class="offer_info">
-                <header class="content_head type1">
-                    <h2 class="tit">검색 매물</h2>
-                </header>
-                <div class="cont_inner">
-                    <div class="tab_list_box swiper_box">
-                        <div class="swiper-pagination pagination2"></div>
-                        <div class="swiper-container swiper2">
-                            <div class="swiper-wrapper">
-                                <!--다음매물-->
-                                <div class="swiper-slide tab_list_cont">
-                                    <div class="all_offer">
-                                        <div class="no_date no_cont_date">
-                                            <div class="no_inner">
-                                                검색된 다음 매물이 없습니다.
-                                            </div>
-                                        </div>
-                                        <div class="area_more off">
-                                            <a href="#" class="link_more">더보기</a> 
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--//다음매물-->
-                                <!--이전매물-->
-                                <div class="swiper-slide tab_list_cont">
-                                    <div class="all_offer">
-                                        <div class="no_date no_cont_date">
-                                            <div class="no_inner">
-                                                검색된 다음 매물이 없습니다.
-                                            </div>
-                                        </div>
-                                        <div class="area_more off">
-                                            <a href="#" class="link_more">더보기</a> 
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--//이전매물-->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!--//검색 매물-->
+
             <div class="visit_req_btn_area fixed clearfix">
                 <div class="btn_how_to_area">
                     <button class="btn_how_to">방문요청 방법</button>
@@ -453,5 +411,8 @@
         </div>
     </article>
 </div>
+<script>
+
+</script>
 </body>
 </html>

@@ -58,6 +58,10 @@ textarea{resize: none;}
 .checkbox:checked +label .chk_set{border:none; background: url("../../images/common/bg_check.png") #378cff no-repeat center; background-size: 72%;}
 .checkbox[disabled] +label .chk_set{background-color: #ccc;}
 
+.splash{position:relative; width:100%; padding-bottom: 100%; height: auto; font-size: 1.5rem; color:#0ec4bf; overflow: hidden;}
+.splash .inner{padding-top:50%; text-align: center; transform: translateY(50%);}
+.splash .logo{position: fixed; bottom:3.8rem; left:50%; margin-left: -10%; width:6.2rem; height:1.3rem; }
+
 /*sub header*/
 .sub_header{position: fixed; top:0; left:0; width:100%; background-color:#fff; z-index: 100; }
 .sub_header .header_inner{position: relative; line-height: 3; border-bottom: 1px solid #ccc; text-align: center;}

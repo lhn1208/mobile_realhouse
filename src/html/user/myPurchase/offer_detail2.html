@@ -22,30 +22,21 @@
     <article id=sub_container class="sub_container">  
         <div class="container_inner">             
             <div class="offer_main">
-                <section class="swiper_box">
-                    <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img src="../../../../images/sub/sample/img_offer1.jpg"></div>
-                            <div class="swiper-slide"><img src="../../../../images/sub/sample/img_offer2.jpg"></div>
-                            <div class="swiper-slide"><img src="../../../../images/sub/sample/img_offer1.jpg"></div>
-                        </div>
-                        <!--pagination-->
-                        <div class="swiper-pagination"></div>
+                <div class="offer_mark_area clearfix">
+                    <div class="offer_mark clearfix">
+                        <dl>
+                            <dt>전세보증금</dt>
+                            <dd><i class="icon_type1 blue offer_ico">전세</i> 2억1000</dd>
+                        </dl>
+                        <dl>
+                            <dt>전용면적</dt>
+                            <dd>33.9㎡<span class="sub">(10)</span></dd>
+                        </dl>
+                        <dl>
+                            <dt>방수/욕실수</dt>
+                            <dd>2룸/1</dd>
+                        </dl>
                     </div>
-                </section>
-                <div class="offer_mark clearfix">
-                    <dl>
-                        <dt>월세보증금/월세</dt>
-                        <dd><i class="icon_type1 blue offer_ico">단기</i> 1억1000/50</dd>
-                    </dl>
-                    <dl>
-                        <dt>전용면적</dt>
-                        <dd>33.9㎡<span class="sub">(10)</span></dd>
-                    </dl>
-                    <dl>
-                        <dt>방수/욕실수</dt>
-                        <dd>원룸<span class="sub">(개방형)</span>/1</dd>
-                    </dl>
                 </div>
             </div>
             <!--매물정보-->
@@ -91,8 +82,7 @@
                         </ul>
                     </div>
                 </div>
-            </section>
-            <!--//매물정보-->
+                <!--//매물정보-->
             <!--옵션-->
             <section class="offer_info">
                 <header class="content_head type1">
@@ -191,20 +181,104 @@
             <section class="offer_info">
                 <header class="content_head type1">
                     <h2 class="tit">매물 설명</h2>
-                    <div class="cont_inner"> 
-                        <div class="explain_area">
-                            공인중개사가 작성한 설명이 나타납니다. 
-                            <br>공인중개사가 작성한 설명이 나타납니다. 
-                            <br>공인중개사가 작성한 설명이 나타납니다. 
-                            <br>공인중개사가 작성한 설명이 나타납니다. 
-                            <br>공인중개사가 작성한 설명이 나타납니다.
-                        </div>
-                    </div>
                 </header>
+                <div class="cont_inner"> 
+                    <div class="explain_area">
+                        공인중개사가 작성한 설명이 나타납니다. 
+                        <br>공인중개사가 작성한 설명이 나타납니다. 
+                        <br>공인중개사가 작성한 설명이 나타납니다. 
+                        <br>공인중개사가 작성한 설명이 나타납니다. 
+                        <br>공인중개사가 작성한 설명이 나타납니다.
+                    </div>
+                </div>
             </section>
              <!--//매물 설명-->
+             <!--지도-->
+            <section class="offer_locate">
+                <header class="content_head type1">
+                    <h2 class="tit">지도</h2>
+                </header>
+                <div class="cont_inner">
+                    <div class="locate_box">
+                        <div class="locate_header">
+                            서울시 송파구 잠실동(잠실주공1단지)
+                        </div>
+                        <div class="map">                              
+                            <span class="ico_area">30m</span>
+                            <div class="map_control">
+                                <button><span class="blind">지도 확대</span></button>
+                                <button class="minus"><span class="blind">지도 축소</span></button>
+                            </div>
+                            <!--지도 샘플이미지-->
+                            <img src="../../../../images/sub/sample/img_offer_map.jpg">
+                            <!--//지도 샘플이미지-->
+                        </div>
+                        <div class="map_btn_area clearfix">
+                            <button class="map_btn">지도 확대</button>
+                            <button class="map_btn road_view">로드뷰</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--//지도-->
+            <!--검색 매물-->
+            <section class="offer_info">
+                <header class="content_head type1">
+                    <h2 class="tit">검색 매물</h2>
+                </header>
+                <div class="cont_inner">
+                    <div class="tab_list_box swiper_box">
+                        <div class="swiper-pagination pagination2"></div>
+                        <section class="swiper-container swiperCont">
+                            <div class="swiper-wrapper">
+                                <!--다음매물-->
+                                <article class="swiper-slide tab_list_cont">
+                                    <div class="all_offer">
+                                        <div class="no_date no_cont_date">
+                                            <div class="no_inner">
+                                                검색된 다음 매물이 없습니다.
+                                            </div>
+                                        </div>
+                                        <div class="area_more off">
+                                            <a href="#" class="link_more">더보기</a> 
+                                        </div>
+                                    </div>
+                                </article>
+                                <!--//다음매물-->
+                                <!--이전매물-->
+                                <article class="swiper-slide tab_list_cont">
+                                    <div class="all_offer">
+                                        <div class="no_date no_cont_date">
+                                            <div class="no_inner">
+                                                검색된 다음 매물이 없습니다.
+                                            </div>
+                                        </div>
+                                        <div class="area_more off">
+                                            <a href="#" class="link_more">더보기</a> 
+                                        </div>
+                                    </div>
+                                </article>
+                                <!--//이전매물-->
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </section>
+            <!--//검색 매물-->
+            <div class="visit_req_btn_area fixed clearfix">
+                <div class="btn_how_to_area">
+                    <button class="btn_how_to">방문요청 방법</button>
+                </div>
+                <div class="btn_favor clearfix">
+                    <div class="btn_wrap"><button class="btn on">요청완료</button></div>
+                    <div class="btn_wrap"><button class="btn pick on">관심취소</button></div>
+                </div>
+            </div>
         </div>
     </article>
 </div>
+<script>
+    var swiper_menu = ['다음', '이전']
+</script>
 </body>
 </html>

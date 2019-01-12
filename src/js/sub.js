@@ -1,15 +1,54 @@
 $(document).ready(function(){
     //매물 상품swiper
-    var swiper = new Swiper('.swiper_box .swiper-container',{
-        pagination: {
-         el: '.swiper-pagination',
-         type: 'fraction',
-        },
-    });
     var swiper = new Swiper('.swiper_offer', {
-     slidesPerView: 2,
+        slidesPerView: 2,
+       });
+    var swiperFigure = new Swiper('.swiper_box .swiper_figure',{
+        pagination: {
+         el: '.pagination1',type: 'fraction',
+        },
+        
+    }); 
+
+
+    var swiperMenu = new Swiper('.swiper_box .swiper_menu',{
+        slidesPerView: 'auto',
+        paginationClickable: true,
+        freeMode: true,
+        pagination: false
     });
+
+   
+    var tabLen = $(".swiper_menu li").length;
+    var swiperCon = new Swiper('.swiper_box .swiper_cont',{
+        slidesPerView: 1,
+        spaceBetween: 0,
+        pagination: false,
+        loop: false,
+        autoHeight:true,
+        onSlideChangeStart : function(swiper){
+            var idx = swiper.activeIndex;
+            console.log('idx===>'+swiper);
+
+            $(".swiper_menu li").removeClass("active").eq(idx).addClass("active");
+            if(idx < tabLen){
+                swiperMenu.slideTo(idx, 300);
+            }
+            
+        }
+        // pagination: {
+        //     el: '.pagination2',
+        //           clickable: true,
+        //         renderBullet: function (index, className) {
+        //         return '<span class="' + className + '">' + (swiper_menu[index]) + '</span>';
+        //       },
+        //   },
+          
+    }); 
+
     
+
+
     var $body=$('body');
     //전체매물 slideup
     var $Slidebox=$('.slide_box');

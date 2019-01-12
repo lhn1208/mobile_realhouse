@@ -19,30 +19,27 @@
     <title>realhouse</title>
 </head>
 <body>
-<!--header-->
-<header class="sub_header">
-    <div class="header_inner">
-        <a href="#" class="btn_perv"><span class="blind">뒤로가기</span></a>  
-        <h1 class="tit">관심 매물(102)</h1>
-    </div>
-</header>
-<!--//header-->
 <div class="wrapper">
     <article id=sub_container class="sub_container">  
         <div class="container_inner">   
-            <!--관심매물-->      
-            <div class="no_date">
-                <div class="no_inner">
-                    관심매물이 없습니다.
-                </div>
+            <div class="swiper_box">
+                <div class="swiper-pagination pagination2"></div>
+
+                <section class="swiper-container swiperCont">
+                    <div class="swiper-wrapper">
+                        <article class="swiper-slide req_list">
+                            
+                        </article>
+                    </div>
+                </section>
+
             </div>
-             <!--//관심매물-->    
-            <div class="btn_submit fixed">
-                <button class="btn">전체 관심매물 삭제</button>
-                <button class="btn">거래완료 매물 삭제</button>
-            </div>
+            
         </div>
     </article>
 </div>
+    <script>
+        var swiper_menu = ['다음+"('+1')", '이전']
+    </script>
 </body>
 </html>

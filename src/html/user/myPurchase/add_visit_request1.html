@@ -8,30 +8,28 @@
     <include src="../../include/set_js.html"></include>
     <title>realhouse</title>
 </head>
-<body>
+<body> 
 <!--header-->
 <header class="sub_header">
-    <div class="header_inner h_process">
+    <div class="header_inner">
         <a href="#" class="btn_perv"><span class="blind">뒤로가기</span></a>  
-        <h1 class="tit">매수/임차 중개의뢰</h1>
-        <div class="process_idx">
-            <em>1</em>
-            <em class="on">2</em>
-            <em>3</em>
-            <em>4</em>
-        </div>
+        <h1 class="tit">추가 방문요청</h1>
     </div>
 </header>
 <!--//header-->
 <div class="wrapper">
     <article id=sub_container class="sub_container">  
-        <div class="container_inner">    
+        <div class="container_inner">     
             <div class="content_info">
-                ※ 관심매물 중 방문하고 싶은 매물을 모두 선택하십시오.
-            </div>
-            <div class="all_offer request_offer">
-                <ul class="items_list">
+                ※ 방문하고 싶은 매물을 모두 선택 후, [확인]을 클릭하십시오.
+            </div>        
+            <div class="all_offer add_visit_req">
+                <!--추천매물-->
+                <ul class="items_list header_type">
                     <li>
+                        <header class="item_header">
+                            <strong class="tit">추천매물 :</strong><span class="cnt">1</span>
+                        </header>
                         <div class="item_box">
                             <span class="img_area">
                                 <img src="../../../../images/sub/img_offering2.jpg">
@@ -46,9 +44,17 @@
                         <div class="chk_area">
                             <input id="visit_req1" type="checkbox" class="checkbox">
                             <label for="visit_req1"><span class="chk_set"></span>방문요청</label>
+                            <span class="right_area date">18.09.06 13:14</span>
                         </div>
                     </li>
+                </ul>
+                 <!--//추천매물-->
+                <!--관심매물-->
+                <ul class="items_list header_type">
                     <li>
+                        <header class="item_header">
+                            <strong class="tit">관심매물 :</strong><span class="cnt">5</span>
+                        </header>
                         <div class="item_box">
                             <span class="img_area">
                                 <!--거래완료--><span class="img_cover">거래완료</span>
@@ -62,8 +68,9 @@
                             </div>
                         </div>
                         <div class="chk_area">
-                            <input id="visit_req2" type="checkbox" class="checkbox" disabled>
+                            <input id="visit_req2" type="checkbox" class="checkbox" disabled="">
                             <label for="visit_req2"><span class="chk_set"></span>방문요청</label>
+                            <span class="right_area date">18.09.06 13:14</span>
                         </div>
                     </li>
                     <li>
@@ -82,18 +89,22 @@
                         <div class="chk_area">
                             <input id="visit_req3" type="checkbox" class="checkbox">
                             <label for="visit_req3"><span class="chk_set"></span>방문요청</label>
+                            <span class="right_area date">18.09.06 13:14</span>
                         </div>
                     </li>
                 </ul>
+                <!--//관심매물-->
             </div>
+           
             <div class="btn_submit fixed">
-                <button class="btn">
-                    취소
-                </button>
-                <button class="btn porcess next">다음</button>
+                <button class="btn"> 취소</button>
+                <button class="btn off">확인(0)</button>
             </div>
         </div>
     </article>
 </div>
+<script>
+
+</script>
 </body>
 </html>

@@ -18,7 +18,7 @@
 
     <title>realhouse</title>
 </head>
-<body> 
+<body class="scroll_hidden"> 
 <!--header-->
 <header class="sub_header">
     <div class="header_inner">
@@ -29,17 +29,24 @@
 </header>
 <!--//header-->
 <div class="wrapper">
+    <div class="cover active favoer_cover">
+        <div class="deal_complete">
+            2018.05.02
+            <br>거래 완료된 매물입니다.
+        </div>
+    </div>
     <article id=sub_container class="sub_container">  
         <div class="container_inner">             
             <div class="offer_main">
                 <section class="swiper_box">
-                    <div class="swiper-container swiper1">
+                    <div class="swiper-container">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide"><img src="../../../../images/sub/sample/img_offer1.jpg"></div>
                             <div class="swiper-slide"><img src="../../../../images/sub/sample/img_offer2.jpg"></div>
                             <div class="swiper-slide"><img src="../../../../images/sub/sample/img_offer1.jpg"></div>
                         </div>
-                        <div class="swiper-pagination pagination1"></div>
+                        <!--pagination-->
+                        <div class="swiper-pagination"></div>
                     </div>
                 </section>
                 <div class="offer_mark_area clearfix">
@@ -255,143 +262,72 @@
                     <h2 class="tit">검색 매물</h2>
                 </header>
                 <div class="cont_inner">
-                    <div class="tab_list_box swiper_box">
-                        <div class="swiper-pagination pagination2"></div>
-                        <div class="swiper-container swiper2">
-                            <div class="swiper-wrapper">
-                                <!--다음매물-->
-                                <div class="swiper-slide tab_list_cont">
-                                    <div class="all_offer">
-                                        <ul class="items_list">
-                                            <li>
-                                                <a href="#">
-                                                    <span class="img_area">
-                                                        <!--seen--><spna class="seen">SEEN</spna>
-                                                        <img src="../../../../images/sub/img_offering2.jpg">
-                                                    </span>
-                                                    <div class="item_info">
-                                                        <strong class="tit">월세 5억1000/50</strong>
-                                                        <p>3룸 | 3층 | 82㎡(25)/100㎡(33)</p>
-                                                        <p class="mark"><span class="type">아파트</span><span>욕실수리</span><span>주방수리</span></p>
-                                                        <p class="locate">잠실아이파크(잠실동)</p>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <span class="img_area">
-                                                    <!--거래완료--><span class="img_cover">거래완료</span>
-                                                        <img src="../../../../images/sub/img_offering2.jpg">
-                                                    </span>
-                                                    <div class="item_info">
-                                                        <strong class="tit">월세 5억1000/50</strong>
-                                                        <p>3룸 | 3층 | 82㎡(25)/100㎡(33)</p>
-                                                        <p class="mark"><span class="type">아파트</span><span>욕실수리</span><span>주방수리</span></p>
-                                                        <p class="locate">잠실아이파크(잠실동)</p>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            
-                                            <li>
-                                                <a href="#">
-                                                    <span class="img_area">
-                                                        <img src="../../../../images/sub/img_offering2.jpg">
-                                                    </span>
-                                                    <div class="item_info">
-                                                        <strong class="tit">월세 5억1000/50</strong>
-                                                        <p>3룸 | 3층 | 82㎡(25)/100㎡(33)</p>
-                                                        <p class="mark"><span class="type">아파트</span><span>욕실수리</span><span>주방수리</span></p>
-                                                        <p class="locate">잠실아이파크(잠실동)</p>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <span class="img_area">
-                                                        <img src="../../../../images/sub/img_offering2.jpg">
-                                                    </span>
-                                                    <div class="item_info">
-                                                        <strong class="tit">월세 5억1000/50</strong>
-                                                        <p>3룸 | 3층 | 82㎡(25)/100㎡(33)</p>
-                                                        <p class="mark"><span class="type">아파트</span><span>욕실수리</span><span>주방수리</span></p>
-                                                        <p class="locate">잠실아이파크(잠실동)</p>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                        <div class="area_more">
-                                            <a href="#" class="link_more">더보기</a> 
+                    <div class="tab_list_box">
+                        <div class="tab_header clearfix">
+                            <a href="#" class="active">다음 매물</a>
+                            <a href="#">이전 매물</a>
+                        </div>
+                        <div class="all_offer">
+                            <ul class="items_list">
+                                <li>
+                                    <a href="#">
+                                        <span class="img_area">
+                                            <!--seen--><spna class="seen">SEEN</spna>
+                                            <img src="../../../../images/sub/img_offering2.jpg">
+                                        </span>
+                                        <div class="item_info">
+                                            <strong class="tit">월세 5억1000/50</strong>
+                                            <p>3룸 | 3층 | 82㎡(25)/100㎡(33)</p>
+                                            <p class="mark"><span class="type">아파트</span><span>욕실수리</span><span>주방수리</span></p>
+                                            <p class="locate">잠실아이파크(잠실동)</p>
                                         </div>
-                                    </div>
-                                </div>
-                                <!--//다음매물-->
-                                <!--이전매물-->
-                                <div class="swiper-slide tab_list_cont">
-                                    <div class="all_offer">
-                                        <ul class="items_list">
-                                            <li>
-                                                <a href="#">
-                                                    <span class="img_area">
-                                                    <!--거래완료--><span class="img_cover">거래완료</span>
-                                                        <img src="../../../../images/sub/img_offering2.jpg">
-                                                    </span>
-                                                    <div class="item_info">
-                                                        <strong class="tit">월세 5억1000/50</strong>
-                                                        <p>3룸 | 3층 | 82㎡(25)/100㎡(33)</p>
-                                                        <p class="mark"><span class="type">아파트</span><span>욕실수리</span><span>주방수리</span></p>
-                                                        <p class="locate">잠실아이파크(잠실동)</p>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <span class="img_area">
-                                                    <!--거래완료--><span class="img_cover">거래완료</span>
-                                                        <img src="../../../../images/sub/img_offering2.jpg">
-                                                    </span>
-                                                    <div class="item_info">
-                                                        <strong class="tit">월세 5억1000/50</strong>
-                                                        <p>3룸 | 3층 | 82㎡(25)/100㎡(33)</p>
-                                                        <p class="mark"><span class="type">아파트</span><span>욕실수리</span><span>주방수리</span></p>
-                                                        <p class="locate">잠실아이파크(잠실동)</p>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            
-                                            <li>
-                                                <a href="#">
-                                                    <span class="img_area">
-                                                        <img src="../../../../images/sub/img_offering2.jpg">
-                                                    </span>
-                                                    <div class="item_info">
-                                                        <strong class="tit">월세 5억1000/50</strong>
-                                                        <p>3룸 | 3층 | 82㎡(25)/100㎡(33)</p>
-                                                        <p class="mark"><span class="type">아파트</span><span>욕실수리</span><span>주방수리</span></p>
-                                                        <p class="locate">잠실아이파크(잠실동)</p>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#">
-                                                    <span class="img_area">
-                                                        <img src="../../../../images/sub/img_offering2.jpg">
-                                                    </span>
-                                                    <div class="item_info">
-                                                        <strong class="tit">월세 5억1000/50</strong>
-                                                        <p>3룸 | 3층 | 82㎡(25)/100㎡(33)</p>
-                                                        <p class="mark"><span class="type">아파트</span><span>욕실수리</span><span>주방수리</span></p>
-                                                        <p class="locate">잠실아이파크(잠실동)</p>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                        <div class="area_more">
-                                            <a href="#" class="link_more">더보기</a> 
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="img_area">
+                                           <!--거래완료--><span class="img_cover">거래완료</span>
+                                            <img src="../../../../images/sub/img_offering2.jpg">
+                                        </span>
+                                        <div class="item_info">
+                                            <strong class="tit">월세 5억1000/50</strong>
+                                            <p>3룸 | 3층 | 82㎡(25)/100㎡(33)</p>
+                                            <p class="mark"><span class="type">아파트</span><span>욕실수리</span><span>주방수리</span></p>
+                                            <p class="locate">잠실아이파크(잠실동)</p>
                                         </div>
-                                    </div>
-                                </div>
-                                <!--//이전매물-->
-                            </div>
+                                    </a>
+                                </li>
+                                
+                                <li>
+                                    <a href="#">
+                                        <span class="img_area">
+                                            <img src="../../../../images/sub/img_offering2.jpg">
+                                        </span>
+                                        <div class="item_info">
+                                            <strong class="tit">월세 5억1000/50</strong>
+                                            <p>3룸 | 3층 | 82㎡(25)/100㎡(33)</p>
+                                            <p class="mark"><span class="type">아파트</span><span>욕실수리</span><span>주방수리</span></p>
+                                            <p class="locate">잠실아이파크(잠실동)</p>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span class="img_area">
+                                            <img src="../../../../images/sub/img_offering2.jpg">
+                                        </span>
+                                        <div class="item_info">
+                                            <strong class="tit">월세 5억1000/50</strong>
+                                            <p>3룸 | 3층 | 82㎡(25)/100㎡(33)</p>
+                                            <p class="mark"><span class="type">아파트</span><span>욕실수리</span><span>주방수리</span></p>
+                                            <p class="locate">잠실아이파크(잠실동)</p>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="area_more">
+                            <a href="#" class="link_more">더보기</a> 
                         </div>
                     </div>
                 </div>
@@ -403,39 +339,20 @@
                     <h2 class="tit">검색 매물</h2>
                 </header>
                 <div class="cont_inner">
-                    <div class="tab_list_box swiper_box">
-                        <div class="swiper-pagination pagination2"></div>
-                        <div class="swiper-container swiper2">
-                            <div class="swiper-wrapper">
-                                <!--다음매물-->
-                                <div class="swiper-slide tab_list_cont">
-                                    <div class="all_offer">
-                                        <div class="no_date no_cont_date">
-                                            <div class="no_inner">
-                                                검색된 다음 매물이 없습니다.
-                                            </div>
-                                        </div>
-                                        <div class="area_more off">
-                                            <a href="#" class="link_more">더보기</a> 
-                                        </div>
-                                    </div>
+                    <div class="tab_list_box">
+                        <div class="tab_header clearfix">
+                            <a href="#" class="active">다음 매물</a>
+                            <a href="#">이전 매물</a>
+                        </div>
+                        <div class="all_offer">
+                            <div class="no_date no_cont_date">
+                                <div class="no_inner">
+                                    검색된 다음 매물이 없습니다.
                                 </div>
-                                <!--//다음매물-->
-                                <!--이전매물-->
-                                <div class="swiper-slide tab_list_cont">
-                                    <div class="all_offer">
-                                        <div class="no_date no_cont_date">
-                                            <div class="no_inner">
-                                                검색된 다음 매물이 없습니다.
-                                            </div>
-                                        </div>
-                                        <div class="area_more off">
-                                            <a href="#" class="link_more">더보기</a> 
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--//이전매물-->
                             </div>
+                        </div>
+                        <div class="area_more off">
+                            <a href="#" class="link_more">더보기</a> 
                         </div>
                     </div>
                 </div>
