@@ -45,15 +45,15 @@ $(document).ready(function(){
     }
 
     //content 닫힘
-    // $(window).scroll(function() {
-    //     var sct=$(window).scrollTop();
-    //     var ev_cont=$('.present_cont').scrollTop();
-    //     if(sct>10){ 
-    //         $('.present_sec').stop().animate({'height':0},speed);
-    //     }else{
-    //         $('.present_sec').stop().animate({'height':'100%'},speed);
-    //     }
-    // });
+    $(window).scroll(function() {
+        var sct=$(window).scrollTop();
+        var ev_cont=$('.present_cont').scrollTop();
+        if(sct>10){ 
+            $('.present_sec').stop().animate({'height':0,'opacity':0},speed);
+        }else{
+            $('.present_sec').stop().animate({'height':'100%','opacity':'1'},speed);
+        }
+    });
 
                  
     //평점

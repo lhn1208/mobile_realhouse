@@ -37,7 +37,7 @@ $(document).ready(function(){
                 if(idx < tabLen){
                     swiperMenu.slideTo(idx, 300);
                 }
-            }
+            },
         },
     });
 
