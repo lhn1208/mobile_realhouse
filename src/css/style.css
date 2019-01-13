@@ -70,6 +70,8 @@
 .grade_list_area .grade_list .star_grade {float:left; padding-top:.2rem;}
 .grade_list_area .grade_list .star_grade span{display: inline-block; width:1.2rem; height: 1.2rem; background: url("../../images/sub/grade_star_small2.png") no-repeat; background-size: 100%;}
 .grade_list_area .grade_list .star_grade span.on{background: url("../../images/sub/grade_star_small2_on.png") no-repeat;  background-size: 100%;}
+.grade_list_area .no_date{padding-bottom:50%;}
+.grade_list_area .no_date .no_inner{padding-top:35%; transform: translateY(25%);}
 
 .star_grade_eval li{padding:1.1rem; border-bottom: 1px solid #ccc;}
 .star_grade_eval li:after{display: block; content:""; clear: both;}
@@ -173,7 +175,7 @@
 .contract_cont .col{display: table-cell; width:82%; line-height: 1.8; padding:1rem 1.2rem; border-bottom:1px solid #ccc;}
 .contract_cont strong.col{width:18%; padding:1rem; text-align: right;}
 .contract_cont .deal_type_area .act_btn+label{min-width: 6.5rem; margin-left: 0;}
-.contract_cont .input_amt{width:90%; margin:0 .2rem; padding:0 .4rem}
+.contract_cont .input_amt{width:90%; margin:0 .2rem; padding:0 .4rem; text-align: right;}
 .contract_cont .content_info{width:100%}
 /*알림*/
 .alarm {position: relative;}
@@ -207,8 +209,7 @@
 .present_cont .state dl:first-of-type{margin-left: 0;}
 .present_cont .state dl{float: left; width:20%;}
 .present_cont .state dd{font-size: 1.5rem; font-weight: 700; color: #378cff;}
-.present_cont .my_present{padding-top:2.5rem;}
-.my_present .present_manage{width:96vw; margin:0 auto;}
+.my_present .present_manage{width:96vw; margin:0 auto; padding-top:2.5rem;}
 .present_manage li{position: relative; height: 8.4rem;}
 .present_manage li:before{display: block; content:""; position: absolute; top:3.2rem; left:1.2rem; width:.6rem; height: 5rem; background-color: #e6e6e6;}
 .present_manage li:last-child:before{background: none;}
@@ -230,3 +231,13 @@
 .present_manage li.red .head{background-color: #ff6161;}
 .present_manage li.red .state{color: #ff6161;}
 .present_cont .info_box{border-top:1px solid #ccc;}
+
+.my_present .client_manage{position: relative;}
+.my_present .client_manage .right_area{top:24%;}
+.my_present .client_manage .btn.txt_color{color: #3c3c3c;}
+.my_present .client_register{margin:2rem 0;}
+.my_present .client_register .row{padding:1.2rem; border-top:1px solid #ccc;}
+.client_register .manager .btn{min-width:27%; color: #3c3c3c;}
+.client_register .input{width:64.8%; margin-left: 2.2rem;}
+.client_register .phone .input{margin-left: 0;}
+.client_register .phone .hipen{margin:.7rem;}

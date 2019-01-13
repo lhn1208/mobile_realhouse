@@ -29,6 +29,7 @@ $(document).ready(function(){
         spaceBetween: 0,
         pagination: false,
         loop: false,
+        autoHeight:true,
         on: {
             slideChange(swiper) {
                 var idx = this.activeIndex;
@@ -39,4 +40,6 @@ $(document).ready(function(){
             }
         },
     });
+
+   
 })
