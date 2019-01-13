@@ -27,17 +27,23 @@ legend {display:none;}
 input[type="checkbox"],input[type="radio"]{display: none; -webkit-appearance: none; -moz-appearance: none; appearance: none;}
 table caption{position: absolute; left:-9999px; font-size: 0; height: 1px; width:1px; line-height: 0; text-indent: -9999px;}
 form {position:relative}
-button {display:inline-block; zoom:1; position:relative; overflow:visible; margin:0px; padding:0px; border:0px; font-family: "Noto Sans KR",sans-serif;background:transparent; cursor:pointer; vertical-align:middle;}
+button {display:inline-block; zoom:1; position:relative; overflow:visible; margin:0px; padding:0px; border:0px; font-family: "Noto Sans KR",sans-serif;background:transparent; font-weight: 500; cursor:pointer; vertical-align:middle;}
 textarea{resize: none;}
 .legend,.blind{position: absolute; left:-9999px; font-size: 0; height: 1px; width:1px; line-height: 0; text-indent: -9999px;}
 .clearfix:after{display: block; content:""; clear: both;}
 
 /*공통 버튼*/
 .btn_perv{position: absolute; top:0; left:1.2rem; width:1.4rem; height:100%; background: url("../../images/common/ico_header_arr.png") no-repeat 0 1.5rem; background-size: 100%; }
+/*확인 팝업*/
+.layer_confirm{position: absolute; top:50%; left:50%; margin-left: -40%; transform: translateY(-50%); background-color: #fff; border-radius: .3rem; z-index: 110;}
+.layer_confirm .layer_inner{position: relative; width:80vw; height: 17.5rem; padding-top:20%; text-align: center;}
+.layer_confirm .btn_submit{position: absolute; width:100%; bottom:0; left:0; line-height: 4; font-size: 1.1rem; color: #fff;}
+.layer_confirm .btn_submit .btn{line-height: 4; font-size: 1.1rem;}
+.layer_alarm{position: fixed; width:80%; left:50%; bottom:8%; margin-left: -40%; line-height: 3.2; color: #fff; border-radius: 3rem; z-index: 105; background-color: rgba(0,0,0,.7); text-align: center;}
 
 .wrapper.type{height: 100%;}
 .wrapper{position: relative;}
-.container_inner{padding-bottom: 7rem;}
+.container_inner{padding-bottom: 7rem; background-color: #fcfcfc;}
 .main_container .intro{padding-top:5.6rem; margin-bottom: 1.4em; font-size: 2rem; font-weight: 500; color: #646464; text-align: center;}
 .main_container .intro strong{display: block; font-size: 2rem; font-weight: 500; color: #1e1e1e;}
 .main_container .intro .logo{width: 10.2rem; margin:0 auto 3rem;}

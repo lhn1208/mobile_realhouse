@@ -228,11 +228,22 @@
                 </header>
                 <div class="cont_inner">
                     <div class="tab_list_box swiper_box">
-                        <div class="swiper-pagination pagination2"></div>
-                        <section class="swiper-container swiperCont">
+                        <!--swiper menu-->
+                        <div class="swiper-container swiper_menu">
+                            <ul class="swiper-wrapper">
+                                <li class="swiper-slide active">
+                                    <a href="#">다음매물</a>
+                                </li>
+                                <li class="swiper-slide">
+                                    <a href="#">이전매물</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--//swiper menu-->
+                        <section class="swiper-container swiper_cont">
                             <div class="swiper-wrapper">
                                 <!--다음매물-->
-                                <article class="swiper-slide tab_list_cont">
+                                <articel class="swiper-slide tab_list_cont">
                                     <div class="all_offer">
                                         <div class="no_date no_cont_date">
                                             <div class="no_inner">
@@ -243,21 +254,21 @@
                                             <a href="#" class="link_more">더보기</a> 
                                         </div>
                                     </div>
-                                </article>
+                                </articel>
                                 <!--//다음매물-->
                                 <!--이전매물-->
-                                <article class="swiper-slide tab_list_cont">
+                                <articel class="swiper-slide tab_list_cont">
                                     <div class="all_offer">
                                         <div class="no_date no_cont_date">
                                             <div class="no_inner">
-                                                검색된 다음 매물이 없습니다.
+                                                검색된 이전 매물이 없습니다.
                                             </div>
                                         </div>
                                         <div class="area_more off">
                                             <a href="#" class="link_more">더보기</a> 
                                         </div>
                                     </div>
-                                </article>
+                                </articel>
                                 <!--//이전매물-->
                             </div>
                         </section>
@@ -277,8 +288,6 @@
         </div>
     </article>
 </div>
-<script>
-    var swiper_menu = ['다음', '이전']
-</script>
 </body>
+<script src="../../../js/ui.min.js"></script>
 </html>

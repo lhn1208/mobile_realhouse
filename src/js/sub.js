@@ -1,54 +1,4 @@
 $(document).ready(function(){
-    //매물 상품swiper
-    var swiper = new Swiper('.swiper_offer', {
-        slidesPerView: 2,
-       });
-    var swiperFigure = new Swiper('.swiper_box .swiper_figure',{
-        pagination: {
-         el: '.pagination1',type: 'fraction',
-        },
-        
-    }); 
-
-
-    var swiperMenu = new Swiper('.swiper_box .swiper_menu',{
-        slidesPerView: 'auto',
-        paginationClickable: true,
-        freeMode: true,
-        pagination: false
-    });
-
-   
-    var tabLen = $(".swiper_menu li").length;
-    var swiperCon = new Swiper('.swiper_box .swiper_cont',{
-        slidesPerView: 1,
-        spaceBetween: 0,
-        pagination: false,
-        loop: false,
-        autoHeight:true,
-        onSlideChangeStart : function(swiper){
-            var idx = swiper.activeIndex;
-            console.log('idx===>'+swiper);
-
-            $(".swiper_menu li").removeClass("active").eq(idx).addClass("active");
-            if(idx < tabLen){
-                swiperMenu.slideTo(idx, 300);
-            }
-            
-        }
-        // pagination: {
-        //     el: '.pagination2',
-        //           clickable: true,
-        //         renderBullet: function (index, className) {
-        //         return '<span class="' + className + '">' + (swiper_menu[index]) + '</span>';
-        //       },
-        //   },
-          
-    }); 
-
-    
-
-
     var $body=$('body');
     //전체매물 slideup
     var $Slidebox=$('.slide_box');
@@ -93,6 +43,17 @@ $(document).ready(function(){
             $body.removeClass('scroll_hidden');
         }
     }
+
+    //content 닫힘
+    $(window).scroll(function() {
+        var sct=$(window).scrollTop();
+        var ev_cont=$('.present_cont').scrollTop();
+        if(sct>ev_cont){ 
+            $('.present_sec').css({'height':0,'opacity':0});
+        }else{
+            $('.present_sec').removeAttr('style');
+        }
+    });
 
                  
     //평점
