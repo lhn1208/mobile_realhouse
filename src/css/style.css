@@ -190,7 +190,7 @@
 .alarm .custom_tel{position: absolute; bottom:9.4rem; left:50%; color: #646464; transform: translateX(-50%);}
 
 .req_resent{padding-top:1.2rem;}
-.present_sec{position: relative; width: 96vw; height: 100%; margin:0 auto 1.5rem; border:1px solid #ccc; border-radius: .3rem;}
+.present_sec{position: relative; width: 96vw; height: 100%; opacity:1; margin:0 auto 1.5rem; border:1px solid #ccc; border-radius: .3rem;}
 .present_sec.slide{}
 
 .present_sec .req_info{line-height: 1.8; padding:1rem 1.2rem; border-bottom: 1px solid #ccc;}

@@ -49,9 +49,9 @@ $(document).ready(function(){
         var sct=$(window).scrollTop();
         var ev_cont=$('.present_cont').scrollTop();
         if(sct>ev_cont){ 
-            $('.present_sec').css({'height':0,'opacity':0});
+            $('.present_sec').stop().animate({'height':0},speed);
         }else{
-            $('.present_sec').removeAttr('style');
+            $('.present_sec').stop().animate({'height':'100%'},speed);
         }
     });
 

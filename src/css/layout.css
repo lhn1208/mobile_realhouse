@@ -179,10 +179,9 @@ section:first-of-type.content_area .header,.content_area .header.border_none{bor
 .area_more.off .link_more{color: #9c9c9c;}
 
 /*info*/
-
 .info_box{padding:1.4rem 1.2rem; line-height: 2; background-color: #fffbfb; border-bottom: 1px solid #ccc;}
 .info_list li{line-height: 2; text-indent: -1.4rem; padding-left: 1.4rem; word-break: keep-all;}
-
+.info_box .info_desc{text-indent: -1.4rem; padding-left: 1.4rem; word-break: keep-all;}
 
 @media screen and (min-width: 220px) and (max-width: 374px){
     html{font-size: 8px;;}
