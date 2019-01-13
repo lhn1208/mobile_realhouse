@@ -218,23 +218,101 @@
                                                 <p class="phone">010-0000-0000</p>
                                                 <button class="right_area btn_type1 btn txt_color">수정/삭제</button>
                                             </div>
+                                            <div class="cont">
+                                                <strong class="name">홍길순 <i class="icon_type1 grey">미가입</i></strong>
+                                                <p class="phone">010-0000-0000</p>
+                                                <button class="right_area btn_type1 btn check">수정/삭제</button>
+                                            </div>
                                     </article>
                                     <div class="client_register">
                                         <div class="row manager">
                                             <button class="btn btn_type1">담당자</button>
-                                            <input type="text" class="input input_text" placeholder="이름 입력">
+                                            <label for="input_client1"><input type="text" id="input_client1" class="input input_text" placeholder="이름 입력"></label>
                                         </div>
                                         <div class="row phone">
                                             <a href="#" class="link_select phone">010</a>
                                             <i class="hipen">-</i>
-                                            <input type="text" class="input input_text" placeholder="휴대전화번호 입력(숫자만 입력)">
+                                            <label for="input_phone1"><input type="text" id="input_phone1" class="input input_text" placeholder="휴대전화번호 입력(숫자만 입력)"></label>
                                         </div>
                                         <div class="btn_submit">
                                             <button class="submit off">추가</button>
                                         </div>
                                     </div>
+                                    <!--담당자 선택시-->
+                                    <div class="client_register">
+                                        <div class="row manager">
+                                            <button class="btn btn_type1 bg_type on">담당자</button>
+                                            <label for="input_client2"><input type="text" id="input_client2" class="input input_text" placeholder="이름 입력"></label>
+                                        </div>
+                                        <div class="row phone">
+                                            <a href="#" class="link_select phone off">010</a>
+                                            <i class="hipen">-</i>
+                                            <label for="input_phone2"><input type="text" id="input_phone2" class="input input_text" placeholder="휴대전화번호 입력(숫자만 입력)"></label>
+                                        </div>
+                                        <div class="btn_submit">
+                                            <button class="submit">추가</button>
+                                        </div>
+                                    </div>
+                                    <!--미가입 담당자-->
+                                    <div class="client_register">
+                                        <div class="row manager">
+                                            <button class="btn btn_type1 bg_type off">담당자</button>
+                                            <label for="input_client3"><input type="text" id="input_client3" class="input input_text" placeholder="이름 입력" value="홍길동"></label>
+                                        </div>
+                                        <div class="row phone">
+                                            <a href="#" class="link_select phone">010</a>
+                                            <i class="hipen">-</i>
+                                            <label for="input_phone3"><input type="text" id="input_phone3" class="input input_text" placeholder="휴대전화번호 입력(숫자만 입력)" value="000-000-0000"></label>
+                                        </div>
+                                        <div class="btn_submit">
+                                            <button class="btn">수정</button>
+                                            <button class="btn">삭제</button>
+                                        </div>
+                                    </div>
+                                    <!--미승인 담당자-->
+                                    <div class="client_register">
+                                        <div class="row manager">
+                                            <button class="btn btn_type1">담당자</button>
+                                            <label for="input_client4"><input type="text" id="input_client4" class="input input_text off" placeholder="이름 입력" value="홍길동"></label>
+                                        </div>
+                                        <div class="row phone">
+                                            <a href="#" class="link_select phone off">010</a>
+                                            <i class="hipen">-</i>
+                                            <label for="input_phone4"><input type="text" id="input_phone4" class="input input_text off" placeholder="휴대전화번호 입력(숫자만 입력)" value="000-000-0000"></label>
+                                        </div>
+                                        <div class="btn_submit">
+                                            <button class="btn">수정</button>
+                                            <button class="btn">삭제</button>
+                                        </div>
+                                    </div>
                                 </section>
                                 <!--//의뢰인 관리-->
+                                <!--중개의뢰 관리-->
+                                <section class="swiper-slide">
+                                    <article class="my_present">
+                                        <section class="content_area purchase_manage">
+                                            <header class="header">
+                                                의뢰일: 2018.06.09 15:30
+                                                <button class="right_area btn_type1 red">중개의뢰 종료</button>
+                                            </header>
+                                            <article class="cont">
+                                                <strong class="tit">방문일(3)</strong>
+                                                <ul class="visit_list">
+                                                    <li>18.06.09(화) 15시 30분/18.06.09(화) 15시 30분/</li>
+                                                    <li>18.06.09(화) 15시 30분</li>
+                                                </ul>
+                                            </article>
+                                            <div class="info_box">
+                                                <ul class="info_list">
+                                                    <li>1. 더 이상 매수/임차를 진행할 의사가 없을 경우 [중개의뢰 종료]를 하십시오.</li>
+                                                    <li>2. <span class="txt_red">리얼하우스를 통해 계약한 경우</span> 방문현황 관리에서 계약된 매물을 선택해 방문완료 후, <span class="txt_red">계약 처리하시면 중개의뢰는 
+                                                            거래완료</span>됩니다.</li>
+                                                </ul>
+                                            </div>
+                                        </section>
+                                    </article>
+                                </section>
+                                <!--//중개의뢰 관리-->
                             </div>
                         </section>
                     </div>

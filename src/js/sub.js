@@ -45,18 +45,18 @@ $(document).ready(function(){
     }
 
     //content 닫힘
-    $(window).scroll(function() {
-        var sct=$(window).scrollTop();
-        var ev_cont=$('.present_cont').scrollTop();
-        if(sct>16){ 
-            console.log(sct);
-            $('.present_sec').stop().animate({'height':'0','opacity':'0'},speed);
-            $('.section_wrap').css('padding-top','24%')
-        }else{
-            $('.present_sec').stop().animate({'height':'100%','opacity':'1'},speed);
-            $('.section_wrap').removeAttr('style');
-        }
-    });
+    // $(window).scroll(function() {
+    //     var sct=$(window).scrollTop();
+    //     var ev_cont=$('.present_cont').scrollTop();
+    //     if(sct>16){ 
+    //         console.log(sct);
+    //         $('.present_sec').stop().animate({'height':'0','opacity':'0'},speed);
+    //         $('.section_wrap').css('padding-top','24%')
+    //     }else{
+    //         $('.present_sec').stop().animate({'height':'100%','opacity':'1'},speed);
+    //         $('.section_wrap').removeAttr('style');
+    //     }
+    // });
 
                  
     //평점

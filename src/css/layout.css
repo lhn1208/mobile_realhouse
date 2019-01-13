@@ -12,15 +12,13 @@ button:focus{outline:none;}
 .act_btn:checked+label,.btn_type1.on{color: #fff; border:none}
 .act_btn.green:checked +label,.btn_type1.on{line-height: 3; background-color: #92d050;}
 .act_btn.check+label{min-width: 6.5rem; }
-.act_btn.check:checked +label{position: relative; color: #fff; font-weight: 700; font-size: 1.1rem; background-color: #ff6161;}
-.act_btn.check:checked +label:before{display: inline-block; content:""; margin-right: .4rem; width:1.2rem; height: .8rem; background:url("../../images/common/bg_btn_check.png") no-repeat; background-size: 100%;}
+.act_btn.check:checked +label,.btn_type1.check{position: relative; color: #fff; font-weight: 700; font-size: 1.1rem; background-color: #ff6161; border:none;}
+.act_btn.check:checked +label:before,.btn_type1.check:before{display: inline-block; content:""; margin-right: .4rem; width:1.2rem; height: .8rem; background:url("../../images/common/bg_btn_check.png") no-repeat; background-size: 100%;}
 
 .btn_type1.red{color:#fff; background-color: #ff6161; border:none;}
-
 .round_btn{min-width: 9.6rem; line-height: 3; padding:0 1.4rem; font-size: 1.1rem; color: #fff; border-radius: 3rem; }
 .round_btn.green{background-color: #92d050;}
 .round_btn.skyblue{background-color: #0ec4bf;}
-
 .circle_btn+label{display: inline-block; width:2rem; height:2rem; background:url("../../images/common/bg_radio_circle.png") no-repeat; background-size: 100%;}
 .circle_btn:checked+label{background:url("../../images/common/bg_radio_circle_on.png") no-repeat; background-size: 100%;}
 /*하단 버튼*/
@@ -38,7 +36,6 @@ button:focus{outline:none;}
 .btn_submit .btn.next:after{margin-left:2.3rem;  background:url("../../images/common/bg_next_btn_active.png") no-repeat;  background-size: 100%; }
 .btn_submit .btn.prev.on,.btn_submit .btn.next.on{opacity: 1;}
 
-
 /*셀렉트박스 링크*/
 .link_select{position: relative; line-height: 2.6; padding:0 .5rem; color: #3c3c3c; border:1px solid #ccc; border-radius: .3rem; width:48.8%;}
 .link_select:after{display: inline-block; content:""; position: absolute; top:38%; right:6%; width:1.1rem; height:.6rem; background:url("../../images/common/bg_select_active.png") no-repeat; background-size: 100%;}
@@ -46,7 +43,7 @@ button:focus{outline:none;}
 .link_select.w_100{width:100%;}
 .link_select.phone{width:27%;}
 .link_select.off{color: #9c9c9c;}
-.link_select.off:after{background:url("../../images/common/bg_select.png") no-repeat; background-size: 100%;}
+.link_select.off:after{background:url("../../images/common/bg_bottom_arr.png") no-repeat; background-size: 100%;}
 
 .input_text{line-height: 2.4; padding:0 .6rem; font-size: 1.2rem; border:1px solid #ccc; border-radius: .3rem;}
 .input_text::placeholder{color: #9c9c9c;}
@@ -142,8 +139,10 @@ button:focus{outline:none;}
 .content_area{position: relative;}
 section:first-of-type.content_area .header,.content_area .header.border_none{border-top:none;}
 .content_area .header{position: relative; padding:0 1.2rem; line-height: 3.9; font-weight: 700; background-color: #f9fcfd; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
+.content_area .header .right_area{position: absolute; top:12%; right: 1.2rem;}
 .content_area .cont{position: relative; padding:1.2rem; line-height: 1.6; border-bottom: 1px solid #ccc;}
 .content_area .cont.border_none{border-bottom: none;}
+.content_area .cont .tit{display: inline-block; margin-bottom: .4rem;}
 .content_area .cont .right_area{position: absolute; right: 1.2rem;}
 
 .agent_info{position: relative;}
@@ -178,7 +177,7 @@ section:first-of-type.content_area .header,.content_area .header.border_none{bor
 /*더보기*/
 .area_more{line-height: 4.4; font-weight: 700; font-size: 1.1rem; color: #378cff; border-bottom: 1px solid #ccc; text-align: center;}
 .area_more:after{display: inline-block; content:""; width:1.1rem; height:.6rem; margin-left: .3rem; background:url("../../images/common/bg_link_more.png") no-repeat; background-size: 100%;}
-.area_more.off:after{background:url("../../images/common/bg_link_more_off.png") no-repeat; background-size: 100%;}
+.area_more.off:after{background:url("../../images/common/bg_bottom_arr.png") no-repeat; background-size: 100%;}
 .area_more .link_more{color: #378cff;}
 .area_more.off .link_more{color: #9c9c9c;}
 

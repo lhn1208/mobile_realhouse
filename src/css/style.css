@@ -9,7 +9,7 @@
 .filter_locate_box .locate:after{display: block; content:""; clear: both;}
 .filter_locate_box .locate dt{margin-left: 0;}
 .filter_locate_box .area{float: left; width:32.6%; height:3.2rem; line-height: 2.6; margin-left: 1%; padding:0 .75rem; font-size: 1.2rem; font-weight: 500; color: #1e1e1e; border:none; background-image:url("../../images/common/bg_select_active.png"); background-repeat: no-repeat; background-color: #fff; background-position: 88% 50%; background-size: 10%; border:1px solid #e6e6e6; border-radius: .5rem; text-align: left;}
-.filter_locate_box .area.no_data{position: relative; line-height: 3; background-color: #fafafa; background-image:url("../../images/common/bg_select.png");}
+.filter_locate_box .area.no_data{position: relative; line-height: 3; background-color: #fafafa; background-image:url("../../images/common/bg_bottom_arr.png");}
 .filter_locate_box .area.no_data::before{display: block; content: ""; position: absolute; top:50%; left: .75rem; width:.35rem; height: .1rem; background-color: #9c9c9c;}
 .link_section .link_area a{float: left; width:33.3%; line-height: 3.6; font-size: 1.2rem; border: 1px solid #ccc; border-top: none; border-left: none; text-align: center;}
 .link_section .link_area a:nth-of-type(3n+1){border-left: 0;}
@@ -237,7 +237,16 @@
 .my_present .client_manage .btn.txt_color{color: #3c3c3c;}
 .my_present .client_register{margin:2rem 0;}
 .my_present .client_register .row{padding:1.2rem; border-top:1px solid #ccc;}
-.client_register .manager .btn{min-width:27%; color: #3c3c3c;}
+.client_register .manager .btn{position: relative; min-width:27%; color: #646464;}
+.client_register .manager .btn.bg_type:before{display: inline-block; content:""; margin-right: .4rem; width:1.2rem; height: .8rem; background-repeat: no-repeat; background-size: 100%;;}
+.client_register .manager .btn.on{color: #fff; background-color: #92d050;}
+.client_register .manager .btn.on:before{background-image: url("../../images/common/bg_btn_check.png");}
+.client_register .manager .btn.off{color: #9c9c9c;}
+.client_register .manager .btn.off::before{background-image: url("../../images/common/bg_bottom_arr.png");}
 .client_register .input{width:64.8%; margin-left: 2.2rem;}
+.client_register .input.off{color: #9c9c9c;}
 .client_register .phone .input{margin-left: 0;}
 .client_register .phone .hipen{margin:.7rem;}
+.my_present .purchase_manage .header{font-weight: 500; color: #3c3c3c;}
+.my_present .purchase_manage .info_box{border-top:none;}
+.my_present .purchase_manage .visit_list li{color: #3c3c3c;}
