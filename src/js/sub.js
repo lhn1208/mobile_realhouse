@@ -48,7 +48,7 @@ $(document).ready(function(){
     $(window).scroll(function() {
         var sct=$(window).scrollTop();
         var ev_cont=$('.present_cont').scrollTop();
-        if(sct>ev_cont){ 
+        if(sct>10){ 
             $('.present_sec').stop().animate({'height':0},speed);
         }else{
             $('.present_sec').stop().animate({'height':'100%'},speed);
