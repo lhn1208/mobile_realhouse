@@ -48,7 +48,7 @@ $(document).ready(function(){
     $(window).scroll(function() {
         var sct=$(window).scrollTop();
         var ev_cont=$('.present_cont').scrollTop();
-        if(sct>60){ 
+        if(sct>16){ 
             console.log(sct);
             $('.present_sec').stop().animate({'height':'0','opacity':'0'},speed);
             $('.section_wrap').css('padding-top','24%')
