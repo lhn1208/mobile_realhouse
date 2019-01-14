@@ -186,7 +186,7 @@
 .alarm .alarm_cont .cont_header .date{font-size: 1.1rem; color: #646464;}
 .alarm .alarm_cont .cont_header .ico{padding:.2rem .4rem;}
 .alarm .alarm_cont .cont{height: 4rem; word-break: keep-all;}
-.alarm .alarm_login{padding-bottom:calc(100% - 4rem); -webkit-padding-bottom:calc(100% - 4rem); -moz-padding-bottom:calc(100% - 4rem); height: auto;}
+.alarm .alarm_login{padding-bottom:calc(100% - 7rem); -webkit-padding-bottom:calc(100% - 7rem); -moz-padding-bottom:calc(100% - 7rem); height: auto;}
 .alarm .alarm_login .inner{padding-top:calc(50% - 5rem); transform: translateY(26%); text-align: center;}
 .alarm .alarm_login .link{display:block; width:36%; margin:1rem auto; padding:.8rem 0; font-size: 1.1rem; font-weight: 700; color: #fff; border-radius:3rem; background-color: #ff6161;}
 .alarm .custom_tel{position: fixed; bottom:6.5rem; left:50%; color: #646464; transform: translateX(-50%);}
