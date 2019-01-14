@@ -175,9 +175,9 @@ section:first-of-type.content_area .header,.content_area .header.border_none{bor
 .swiper_box .swiper_menu li+li:before{display: inline-block; content:""; position: absolute; top:27%; left:0; width:.1rem; height: 1.8rem;; background-color: #ccc;}
 /*더보기*/
 .area_more{line-height: 4.4; font-weight: 700; font-size: 1.1rem; color: #378cff; border-bottom: 1px solid #ccc; text-align: center;}
-.area_more:after{display: inline-block; content:""; width:1.1rem; height:.6rem; margin-left: .3rem; background:url("../../images/common/bg_link_more.png") no-repeat; background-size: 100%;}
-.area_more.off:after{background:url("../../images/common/bg_bottom_arr.png") no-repeat; background-size: 100%;}
 .area_more .link_more{color: #378cff;}
+.area_more .link_more:after{display: inline-block; content:""; width:1.1rem; height:.6rem; margin-left: .3rem; background:url("../../images/common/bg_link_more.png") no-repeat; background-size: 100%;}
+.area_more.off .link_more:after{background:url("../../images/common/bg_bottom_arr.png") no-repeat; background-size: 100%;}
 .area_more.off .link_more{color: #9c9c9c;}
 
 /*info*/
