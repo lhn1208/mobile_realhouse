@@ -97,7 +97,7 @@ button:focus{outline:none;}
 .all_offer .items_list.no_cont_date li{border-bottom: none;}
 .all_offer.no_items{line-height: 2; font-size: 1.2rem; color: #9c9c9c; text-align: center;}
 .all_offer.no_items .desc{color:#646464;}
-.all_offer.no_items .no_date .no_inner{width:100%;}
+.all_offer.no_items .no_inner{width:100%; padding-top:50%; transform: scaleY(-50%);}
 .all_offer.add_visit_req .no_cont_date{border-bottom: none;}
 
 .sub_header.header_fix{border-bottom: 1px solid #ccc; height:12%;}
