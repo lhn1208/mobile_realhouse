@@ -190,6 +190,7 @@
 .alarm  .alarm_login .inner{padding-top:50%; transform: translateY(26%); text-align: center;}
 .alarm  .alarm_login .link{display:block; width:36%; margin:1rem auto; padding:.8rem 0; font-size: 1.1rem; font-weight: 700; color: #fff; border-radius:3rem; background-color: #ff6161;}
 .alarm .custom_tel{position: absolute; bottom:9.4rem; left:50%; color: #646464; transform: translateX(-50%);}
+.alarm_cont .no_items{padding-top:50%; transform: translateY(25%); color: #9c9c9c; text-align: center;}
 
 .req_resent{padding-top:1.2rem;}
 .section_wrap{position: relative; height: 100%; }
