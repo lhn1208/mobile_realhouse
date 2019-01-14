@@ -42,7 +42,7 @@ textarea{resize: none;}
 .layer_alarm{position: fixed; width:80%; left:50%; bottom:8%; margin-left: -40%; line-height: 3.2; color: #fff; border-radius: 3rem; z-index: 105; background-color: rgba(0,0,0,.7); text-align: center;}
 
 .wrapper.type{height: 100%;}
-.wrapper{position: relative; width:100%; height: calc(100%-8vh);}
+.wrapper{position: relative; width:100%; height: calc(100% - 3.6rem);}
 .container_inner{padding-bottom: 7rem;}
 .main_container .intro{padding-top:5.6rem; margin-bottom: 1.4em; font-size: 2rem; font-weight: 500; color: #646464; text-align: center;}
 .main_container .intro strong{display: block; font-size: 2rem; font-weight: 500; color: #1e1e1e;}
