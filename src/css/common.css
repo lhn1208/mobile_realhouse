@@ -72,8 +72,9 @@ textarea{resize: none;}
 .sub_header{position: fixed; top:0; left:0; width:100%; background-color:#fff; z-index: 100; }
 .sub_header .header_inner{position: relative; line-height: 3; border-bottom: 1px solid #ccc; text-align: center;}
 .sub_header .tit{ font-size: 1.5rem; font-weight: 700; color: #1e1e1e; }
-.sub_container{margin-top:4.4rem;}
+.sub_container{padding-top:4.4rem;}
 .sub_container.type{margin-top:12%;}
+.sub_container.type_pd0{padding-top:0;}
 /*footer*/
 #footer_nav_section{padding:1rem 0 .8rem 0; background-color: #f9fcff; border-top:1px solid #ccc; z-index: 9999;}
 #footer_nav ul:after{display: block; content:""; clear: both;}

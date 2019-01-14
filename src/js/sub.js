@@ -48,10 +48,11 @@ $(document).ready(function(){
     // $(window).scroll(function() {
     //     var sct=$(window).scrollTop();
     //     var ev_cont=$('.present_cont').scrollTop();
-    //     if(sct>16){ 
+    //     if(sct>ev_cont){ 
+    //         console.log('ev_cont->'+ev_cont);
     //         console.log(sct);
     //         $('.present_sec').stop().animate({'height':'0','opacity':'0'},speed);
-    //         $('.section_wrap').css('padding-top','24%')
+    //        // $('.section_wrap').css('padding-top','24%')
     //     }else{
     //         $('.present_sec').stop().animate({'height':'100%','opacity':'1'},speed);
     //         $('.section_wrap').removeAttr('style');
