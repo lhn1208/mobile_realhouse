@@ -65,7 +65,7 @@ textarea{resize: none;}
 .checkbox[disabled] +label .chk_set{background-color: #ccc;}
 
 .splash{position:relative; width:100%; padding-bottom: 100%; height: auto; font-size: 1.5rem; color:#0ec4bf; overflow: hidden;}
-.splash .inner{padding-top:50%; text-align: center; transform: translateY(40%);}
+.splash .inner{padding-top:50%; text-align: center; transform: translateY(36%);}
 .splash .logo{position: fixed; bottom:3.8rem; left:50%; margin-left: -10%; width:6.2rem; height:1.3rem; }
 
 /*sub header*/
