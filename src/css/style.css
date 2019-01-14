@@ -125,10 +125,10 @@
 .locate_box .map_btn_area .map_btn+ .map_btn:before{display: inline-block; content:""; position: absolute; top:25%; left:0; width:.1rem; height: 1.8rem; background-color: #ccc;}
 
 .visit_req_btn_area{width:100vw; background-color: #0ec4bf; text-align: center;}
-.visit_req_btn_area .btn_how_to_area{float: left; width:45%; line-height: 3.8rem; padding-left:1.2rem; text-align: left;}
+.visit_req_btn_area .btn_how_to_area{float: left; width:45%; line-height: 3.8rem; padding-left:1.2rem; text-align: left; background-color: #0ec4bf;}
 .visit_req_btn_area .btn_how_to{padding:.4rem 1.3rem; font-weight: 700; color: #fff; border:1px solid #fff; border-radius: 5rem;}
-.visit_req_btn_area .btn_favor{float: left; width:55%;}
-.visit_req_btn_area .btn_favor .btn_wrap{float: left;  width:43%;  margin-left:7%; line-height: 3.6;}
+.visit_req_btn_area .btn_favor{float: left; width:55%;  background-color: #0ec4bf;}
+.visit_req_btn_area .btn_favor .btn_wrap{float: left;  width:43%;  margin-left:7%; line-height: 3.6;  background-color: #0ec4bf;}
 .visit_req_btn_area .btn_favor .btn{position: relative; display: inline-block; font-weight: 700; color: #fff;}
 .visit_req_btn_area .btn_favor .btn:after{display: inline-block; content:""; position: absolute; top:-.1rem; left:-2rem; width:1.5rem; height:2.1rem; background-image: url("../../images/sub/ico_btn_locate.png"); background-repeat: no-repeat; background-size: 100%;}
 .visit_req_btn_area .btn_favor .pick:after{top:.1rem; background-image: url("../../images/sub/ico_btn_favor.png"); background-size: 100%;}
