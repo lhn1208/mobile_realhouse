@@ -64,7 +64,7 @@
 .grade_list_area .contract_type{font-weight: 400;}
 .grade_list_area .date{font-size: 1.1rem; color: #646464;}
 .grade_list_area .grade_list{padding:1.2rem 0;}
-.grade_list_area .grade_list li:first-of-type{margin-left:0;}
+.grade_list_area .grade_list li:first-child{margin-left:0;}
 .grade_list_area .grade_list li{float: left; width:32%; margin-left: 1%;}
 .grade_list_area .grade_list li em{float: left; width:32%;}
 .grade_list_area .grade_list .star_grade {float:left; padding-top:.2rem;}
@@ -140,8 +140,8 @@
 .request_swiper .swiper_menu li a{color: #9c9c9c}
 .request_swiper .swiper_menu li.active a{color: #1e1e1e;}
 .request_swiper .swiper_menu li+li:before{background: none;}
+.no_items .sub_desc{margin:.6rem 0; color: #3c3c3c;}
 .my_req_cont .no_items{padding-top: 10%; text-align: center; color: #9c9c9c;}
-.my_req_cont .no_items .sub_desc{margin:.6rem 0; color: #3c3c3c;}
 .my_req_cont .no_items .link_style{margin-bottom:1.8rem;}
 .my_req_cont .no_items.type{padding-top:20%;}
 .my_req_cont .no_items.type .link_style{margin:1.6rem 0;}
@@ -181,7 +181,6 @@
 .req_resent{padding-top:1.2rem;}
 .section_wrap{position: relative; min-height: 40%;}
 .present_sec{position: relative; width: 96vw; height: 100%; opacity:1; margin:0 auto 1.5rem; border:1px solid #ccc; border-radius: .3rem;}
-
 .present_sec .req_info{line-height: 1.8; padding:1rem 1.2rem; border-bottom: 1px solid #ccc;}
 .present_sec .row{position: relative; line-height: 4; padding:0 1.2rem; border-bottom: 1px solid #ccc;}
 .present_sec .offer_type{color: #1e1e1e;}
@@ -264,5 +263,24 @@
 .share_area .ico_share{position: absolute; top:0; right:1.4rem}
 .share_area .ico_share a{width:3rem; height:3rem; margin:0 .3rem}
 .more_sec .custom_tel{padding:2.7rem 0 1rem; color: #646464; text-align: center;}
-.req_manage_sec .req_manage .header{text-align: center;}
+.req_manage_sec .req_manage{margin-bottom: .5rem;}
 .req_manage_sec .req_manage .header .tit{color: #ff6161;}
+.req_manage_sec .req_manage .header .tit.blue{color: #378cff;}
+.request_list .content_area{margin:.5rem 0;}
+.point_sec .point_box{margin:.8rem auto; padding: 0 1.3rem; line-height: 3.3; font-size: 1.5rem;}
+.point_sec .point_box .tit{color: #3c3c3c;}
+
+.point_sec .point_area .tit{color: #1e1e1e; font-weight: 700;}
+.point_sec .point_area:last-of-type .cont{border-bottom:1px solid #ccc;}
+.point_sec .point_area .cont{position: relative; border-bottom:none;} 
+.point_sec .point_area .date{position: absolute; top:1.2rem; right: 1.2rem; font-size: 1.1rem; color: #646464;}
+.point_sec .point_area .no_items{padding-top:35%; transform: translateY(25%); color: #9c9c9c; text-align: center; border-bottom: none;}
+.fee_sec .agent_select .tit{font-weight: 700; color: #3c3c3c;}
+.fee_sec .agent_select .cont .right_area{top:1.4rem;}
+.fee_sec .agent_select .cont .btn{color: #3c3c3c;}
+.fee_sec .agent_select .cont .btn.check{color: #fff;}
+.fee_sec .agent_select:first-of-type{border-top: 1px solid #ccc;}
+.fee_sec .agent_select .header{border-top: none;}
+.fee_sec .agent_select .cont .input_text{width:15.2rem; margin-right: .4rem; text-align: right;}
+.fee_sec .agent_select .cont .control_area{display: inline-block; margin-left: 2.1rem;}
+.agent_select .no_items{padding-top:24%; line-height:2; text-align: center; color: #9c9c9c;}
