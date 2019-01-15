@@ -86,8 +86,6 @@
 .visit_request .agent_info.no_items{padding:.4rem 1.6rem 3.1rem; line-height: 2; color: #6b6b6b;}
 .purch_pop{height: 54vh; bottom:-54vh;}
 .purch_pop .company{color: #1e1e1e;}
-.purch_pop .cont .btn_purch+label{display: inline-block; position: relative; padding-right: 20rem; z-index: 10;}
-.purch_pop .cont .btn_purch+label:before{position: absolute; top:50%; right:0; transform: translateY(-50%);}
 
 /*매물상세*/
 .offer_main .offer_mark_area{padding-top:3.2rem; margin:0 .4rem 2.8rem;}
@@ -237,32 +235,35 @@
 .my_present .purchase_manage .info_box{border-top:none;}
 .my_present .purchase_manage .visit_list li{color: #3c3c3c;}
 /*더보기*/
-.more_sec .more_intro{position: relative; padding:2.8rem 4.6rem 2.8rem 2rem;}
-.more_sec .more_intro .tit{font-size: 1.7rem; color: #1e1e1e;}
+.more_sec .more_intro{position: relative; padding:3rem 5rem 3rem 2.4rem;}
+.more_sec .more_intro .tit{font-size: 1.8rem; color: #1e1e1e;}
 .more_sec .more_intro .email{color: #646464;}
-.more_sec .more_intro:after{display: inline-block; content:""; position: absolute; top:3.6rem; right:3rem;; width:2rem; height: 2rem; background: url("../../images/sub/bg_setting.png") no-repeat; background-size: 100%;}
+.more_sec .more_intro:after{display: inline-block; content:""; position: absolute; top:3.6rem; right:2.5rem;; width:2.2rem; height: 2.2rem; background: url("../../images/sub/bg_setting.png") no-repeat; background-size: 100%;}
 .point_box{width: 96vw; margin:0 auto 3rem; border:1px solid #ccc; border-radius: .5rem;}
-.point_box .content{padding: 1.4rem 2rem 1.2rem 1.2rem; line-height: 1.8; font-size: 1.2rem; border-bottom: 1px solid #ccc;}
+.point_box .content{padding: 2.4rem 2rem 2.4rem 1.2rem; font-size: 1.2rem; border-bottom: 1px solid #ccc;}
 .point_box .tit{float: left; font-weight: 700; font-size: 1.5rem; color: #ff6161;}
-.point_box .point{float: right;}
+.point_box .point{float: right; font-size: 1.5rem;}
 .point_box .point .amount{font-weight: 700; font-size: 1.4rem; color: #378cff;}
-.point_box .link_box a{float: left; position: relative; width:33.3%; line-height: 3.8; font-size: 1.1; text-align: center;}
+.point_box .link_box{background-color: #fafafa; border-bottom-left-radius: .3rem; border-bottom-right-radius: .3rem;}
+.point_box .link_box a{float: left; position: relative; width:33.3%; line-height: 4.4; font-size: 1.2rem; text-align: center;}
 .point_box .link_box a:first-of-type:before{background: none;}
 .point_box .link_box a:before{display: inline-block; content:""; position: absolute; top:36%; left:0; width:.1rem; height:1.2rem; background-color: #646464;}
-.notice .header{position: relative; padding:0 1.2rem; line-height: 3; background-color: #f9fcff; border-top-right-radius: 5rem; border-top-left-radius: 5rem;}
+
+.notice .header{position: relative; padding:0 1.2rem; line-height: 3.8; background-color: #f9fcff; border-top-right-radius: 5rem; border-top-left-radius: 5rem;}
 .notice .header .tit{font-weight: 700; font-size: 1.4rem; color: #1e1e1e;}
+
 .notice .header .link{position: absolute; top:4%; right:1.2rem;}
-.notice .header .link:after{top:1.3rem}
-.notice .notice_list li{padding:0 1.2rem; line-height: 3.4; border-top:1px solid #ccc;}
+.notice .header .link:after{top:40%}
+.notice .notice_list li{padding:0 1.2rem; line-height: 4; border-top:1px solid #ccc;}
 .notice .notice_list li:after{display: block; content:""; clear: both;}
 .notice .notice_list li .link{float: left;}
-.notice .notice_list li .new{min-width: 2.5rem; padding:.2rem .4rem}
+.notice .notice_list li .new{min-width: 2.6rem; padding:.2rem .4rem;}
 .notice .notice_list li .date{float: right; color: #9c9c9c;}
-.more_sec .share_area{position: relative; line-height: 3.3; padding:0 1.2rem; border-top:1px solid #ccc; border-bottom: 1px solid #ccc;}
+.more_sec .share_area{position: relative; line-height: 4; padding:0 1.2rem; border-top:1px solid #ccc; border-bottom: 1px solid #ccc;}
 .more_sec .share_area>a{float: left; margin:0 .5rem; color: #9c9c9c;}
 .share_area .ico_share{position: absolute; top:0; right:1.4rem}
 .share_area .ico_share a{width:3rem; height:3rem; margin:0 .3rem}
-.more_sec .custom_tel{padding:2.7rem 0 1rem; color: #646464; text-align: center;}
+.more_sec .custom_tel{padding:2.7rem 0 1rem; font-size: 1.5rem; color: #646464; text-align: center;}
 .req_manage_sec .req_manage{margin-bottom: .5rem;}
 .req_manage_sec .req_manage .header .tit{color: #ff6161;}
 .req_manage_sec .req_manage .header .tit.blue{color: #378cff;}

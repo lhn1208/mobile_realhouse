@@ -12,4 +12,5 @@ $(document).ready(function(){
         bottom:'-8%'
     },500)
     }
+  
 });
