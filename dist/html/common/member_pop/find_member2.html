@@ -24,28 +24,27 @@
         <div class="container_inner">
             <div class="member_box_area">
                 <i class="close"><span class="blind">닫기</span></i>                
-                <h1 class="tit">이메일로 회원가입</h1>
+                <h1 class="tit">아이디/비밀번호 찾기</h1>
                 <div class="member_box">
                     <fieldset>
-                        <legend>비밀번호 입력</legend>
+                        <legend>이메일 입력 및 비밀번호 입력</legend>
                         <div class="member_form form_area">
+                            <label for="member_email">
+                                <input id="member_email" class="member_input" type="text" placeholder="이메일 입력">  
+                                <i class="delete"><span class="blind">삭제</span></i>
+                            </label>
                             <label for="member_pw">
                                 <input id="member_pw" class="member_input pw_input" type="password">  
                                 <i class="delete"><span class="blind">삭제</span></i>
                                 <!--비밀번호 placeholder--><span class="placeholder">비밀번호 입력</span>
                             </label>
-                            <label for="member_pw_chk">
-                                <input id="member_pw_chk" class="member_input pw_input" type="password">
-                                <i class="delete"><span class="blind">삭제</span></i>
-                                <!--비밀번호 placeholder--><span class="placeholder">비밀번호 재입력</span>
-                            </label>
                         </div>
-                        <div class="member_info">※ 비밀번호를 6자 이상 입력해주십시오.(영문/숫자 조합)</div>
+                        <div class="member_info">※ 비밀번호를 잊으셨을 경우 [비밀번호 변경]을 클릭하십시오.</div>
                     </fieldset>
-
                 </div>
                 <div class="btn_submit fixed">
-                    <button class="submit process next">다음</button>
+                    <button class="btn">비밀번호 변경</button>
+                    <button class="btn off">로그인</button>
                 </div>
             </div>
         </div>

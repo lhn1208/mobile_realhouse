@@ -17,25 +17,28 @@
                 <h1 class="tit">이메일로 회원가입</h1>
                 <div class="member_box">
                     <fieldset>
-                        <legend>비밀번호 입력</legend>
-                        <div class="member_form form_area">
-                            <label for="member_pw">
-                                <input id="member_pw" class="member_input pw_input" type="password">  
+                        <legend>휴대전화번호 및 인증번호 입력</legend>
+                        <div class="member_form form_area btn_delete">
+                            <label for="input_phone">
+                                <input id="input_phone" class="member_input input_phone" type="text" placeholder="휴대전화번호 입력(번호만 입력)">  
                                 <i class="delete"><span class="blind">삭제</span></i>
-                                <!--비밀번호 placeholder--><span class="placeholder">비밀번호 입력</span>
+                                <a href="#" class="btn_type1 btn_certify">인증번호 전송</a>
                             </label>
-                            <label for="member_pw_chk">
-                                <input id="member_pw_chk" class="member_input pw_input" type="password">
+                            <label for="">
+                                <input id="" class="member_input input_phone" type="text" placeholder="휴대전화번호 입력(번호만 입력)" value="010-000-0000">  
+                                <i class="delete" style="display:block"><span class="blind">삭제</span></i>
+                                <a href="#" class="btn_type1 btn_certify green">인증번호 전송</a>
+                            </label>
+                            <label for="member_email">
+                                <input id="member_email" class="member_input" type="text" placeholder="인증번호 입력">  
                                 <i class="delete"><span class="blind">삭제</span></i>
-                                <!--비밀번호 placeholder--><span class="placeholder">비밀번호 재입력</span>
                             </label>
                         </div>
-                        <div class="member_info">※ 비밀번호를 6자 이상 입력해주십시오.(영문/숫자 조합)</div>
+                        <div class="member_info">※ 휴대전화번호 입력 후 [인증번호 전송]을 누르십시오.</div>
                     </fieldset>
-
                 </div>
                 <div class="btn_submit fixed">
-                    <button class="submit process next">다음</button>
+                    <button class="submit off">가입완료</button>
                 </div>
             </div>
         </div>

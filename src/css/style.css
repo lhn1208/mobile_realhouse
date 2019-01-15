@@ -285,3 +285,18 @@
 .fee_sec .agent_select .cont .input_text{width:15.2rem; margin-right: .4rem; text-align: right;}
 .fee_sec .agent_select .cont .control_area{display: inline-block; margin-left: 2.1rem;}
 .agent_select .no_items{padding-top:24%; line-height:2; text-align: center; color: #9c9c9c;}
+/*설정*/
+.member_set{padding-top:.5rem;}
+.member_set_list{display: table; width:100%; border-top:1px solid #ccc; border-bottom:1px solid #ccc;}
+.member_set_list li{display: table-row; position: relative; line-height: 4.1;}
+.member_set_list li:first-child{border-top:none;}
+.member_set_list li .col{display: table-cell; padding:0 1.2rem; font-size: 1.3rem; border-top:1px solid #ccc;}
+.member_set_list li .member_tit{width:20%; color: #9c9c9c;}
+.member_set_list li .member_cont{width:80%; position: relative;}
+.member_set_list li .member_cont .btn_setting{position: absolute; top:16%; right:1.5rem; color: #646464;}
+.member_set_list li .member_pw{width:50vw; font-size: 2.8rem; border:none; background: none;}
+.member_set_list li .pw_area{position: absolute; top:-.5rem; left:1.2rem;}
+.member_set .set_btn.fixed{bottom:1.5rem;}
+.member_set .set_btn .inner{width:96vw; margin:0 auto;}
+.member_set .set_btn .btn{float: left; color: #3c3c3c;}
+.member_set .set_btn .btn+.btn{float: right;}
