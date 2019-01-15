@@ -92,7 +92,7 @@ textarea{resize: none;}
 #footer_nav li:nth-child(5).on a{background-image: url("../../images/common/footer_navi/footer_more_on.png");}
 
 #footer_nav li a{position: relative; width:100%; height: 2.8rem; background-size:82%; background-repeat: no-repeat;}
-#footer_nav li a .ico_alarm{position: absolute; top:0; right:-.5rem; width:1.3rem; height:1.3rem; font-size: .9rem; color: #fff; background-color: #f15544; border-radius: 50%;}
+#footer_nav li a .ico_alarm{position: absolute; top:0; right:-.5rem; width:1.5rem; height:1.5rem; font-size: .9rem; color: #fff; background-color: #f15544; border-radius: 50%;}
 
 /*회원가입*/
 .pop_container .logo{width: 10.2rem; margin:0 auto 5rem;}
