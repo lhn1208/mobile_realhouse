@@ -65,7 +65,7 @@
 .grade_list_area .grade_list{padding:1rem 0;}
 .grade_list_area .grade_list li:first-child{margin-left:0;}
 .grade_list_area .grade_list li{float: left; width:32%; margin-left: 1%;}
-.grade_list_area .grade_list li em{float: left; width:32%;}
+.grade_list_area .grade_list li em{float: left; width:38%;}
 .grade_list_area .grade_list .star_grade {float:left; padding-top:.2rem;}
 .grade_list_area .grade_list .star_grade span{display: inline-block; width:1.2rem; height: 1.2rem; background: url("../../images/sub/grade_star_small2.png") no-repeat; background-size: 100%;}
 .grade_list_area .grade_list .star_grade span.on{background: url("../../images/sub/grade_star_small2_on.png") no-repeat;  background-size: 100%;}
