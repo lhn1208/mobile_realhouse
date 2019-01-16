@@ -8,7 +8,7 @@
 .filter_locate_box .locate{width: 96vw; margin:0 auto;}
 .filter_locate_box .locate:after{display: block; content:""; clear: both;}
 .filter_locate_box .locate dt{margin-left: 0;}
-.filter_locate_box .area{float: left; width:32.6%; height:3.2rem; line-height: 2.6; margin-left: 1%; padding:0 .75rem; font-size: 1.3rem; font-weight: 500; color: #1e1e1e; border:none; background-image:url("../../images/common/bg_select_active.png"); background-repeat: no-repeat; background-color: #fff; background-position: 88% 50%; background-size: 1.5rem; border:1px solid #e6e6e6; border-radius: .5rem; text-align: left;}
+.filter_locate_box .area{float: left; width:32.6%; height:3.2rem; line-height: 2.3; margin-left: 1%; padding:0 .75rem; font-size: 1.3rem; font-weight: 500; color: #1e1e1e; border:none; background-image:url("../../images/common/bg_select_active.png"); background-repeat: no-repeat; background-color: #fff; background-position: 88% 50%; background-size: 1.5rem; border:1px solid #e6e6e6; border-radius: .5rem; text-align: left;}
 .filter_locate_box .area.no_data{position: relative; line-height: 3; background-color: #fafafa; background-image:url("../../images/common/bg_bottom_arr.png");}
 .filter_locate_box .area.no_data::before{display: block; content: ""; position: absolute; top:50%; left: .75rem; width:.35rem; height: .1rem; background-color: #9c9c9c;}
 .link_section .link_area a{float: left; width:33.3%; line-height: 3.4; font-size: 1.3rem; border: 1px solid #ccc; border-top: none; border-left: none; text-align: center;}
@@ -179,7 +179,7 @@
 .section_wrap{position: relative; min-height: 40%;}
 .present_sec{position: relative; width: 96vw; height: 100%; opacity:1; margin:0 auto 1.5rem; border:1px solid #ccc; border-radius: .3rem;}
 .present_sec .req_info{line-height: 1.8; padding:1rem 1.2rem; border-bottom: 1px solid #ccc;}
-.present_sec .row{position: relative; line-height: 4; padding:0 1.2rem; border-bottom: 1px solid #ccc;}
+.present_sec .row{position: relative; line-height: 3.8; padding:0 1.2rem; border-bottom: 1px solid #ccc;}
 .present_sec .offer_type{color: #1e1e1e;}
 .present_sec .date{position: absolute; top:1rem; right:1.2rem; font-size: 1.2rem; color: #646464;}
 .present_sec .row .cnt{color: #ff6161;}

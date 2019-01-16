@@ -36,8 +36,8 @@ textarea{resize: none;}
 /*공통 버튼*/
 .btn_perv{position: absolute; top:0; left:1.2rem; width:1.6rem; height:100%; background: url("../../images/common/ico_header_arr.png") no-repeat 0 1.5rem; background-size: 100%; }
 /*확인 팝업*/
-.layer_confirm{position: absolute; top:50%; left:50%; width:80vw; margin-left: -40%; transform: translateY(-50%); background-color: #fff; border-radius: .3rem; z-index: 110;}
-.layer_confirm .layer_inner{position: relative; width:80vw; height: 17.5rem; padding-top:20%; text-align: center;}
+.layer_confirm{position: absolute; top:35%; left:50%; width:80vw; margin-left: -40%; background-color: #fff; border-radius: .3rem; z-index: 110;}
+.layer_confirm .layer_inner{position: relative; width:80vw; height: 17.5rem; padding-top:5.4rem; text-align: center;}
 .layer_confirm .btn_submit{position: absolute; width:100%; bottom:0; left:0; line-height: 4.2; font-size: 1.2rem; color: #fff;}
 .layer_confirm .btn_submit .btn{line-height: 4.2; font-size: 1.2rem;}
 .layer_alarm{position: fixed; width:80%; left:50%; bottom:8%; margin-left: -40%; line-height: 3.2; color: #fff; border-radius: 3rem; z-index: 105; background-color: rgba(0,0,0,.7); text-align: center;}
