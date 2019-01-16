@@ -53,7 +53,7 @@ textarea{resize: none;}
 .search_input_area .search_box{position: relative; width:100%; height: 5.5rem; padding-left:3.5em; font-size: 1.6rem; color: #5f5f5f; background-color: #fff; border: 1px solid #ccc; border-radius: 5rem; box-shadow:3px 4px 3px -2px #d6d6d6; text-align: left;}
 .search_input_area .search_box:before{content: ""; position: absolute; top:2rem; left:2.8rem; width:2.2rem; height: 2.4rem; background:url("../../images/main/bg_search.png") no-repeat 0 0; background-size: 100%;}
 .main_container .main_cont{width: 96vw; margin:0 auto 3rem; border:1px solid #ccc; border-radius: .5rem;}
-.main_cont .content{padding: 1.4rem 6.4rem 1.2rem 1.2rem; line-height: 1.8; font-size: 1.3rem; font-weight: 500; color: #373737; background:url("../../images/main/bg_event.png") no-repeat 98% 2.3rem; background-size: 7.2rem; word-break: break-all;}
+.main_cont .content{padding: 1.4rem 6.4rem 1.2rem 1.2rem; line-height: 1.8; font-size: 1.3rem; font-weight: 500; color: #373737; background:url("../../images/main/bg_event.png") no-repeat 98% 2.3rem; background-size: 7.2rem; word-break: keep-all;}
 .main_cont .content.company_intro{background:url("../../images/main/bg_company_intro.png") no-repeat 99.5% 1rem; background-size: 7rem;}
 .main_cont .content .txt_red{font-size: 1.3rem;}
 .main_cont .content .tit{margin-bottom: .3em; font-size: 1.6rem; font-weight: 700; color: #0ec4bf;}
@@ -71,9 +71,9 @@ textarea{resize: none;}
 .splash .logo{position: fixed; bottom:3.8rem; left:50%; margin-left: -10%; width:6.2rem; height:1.3rem; }
 
 /*sub header*/
-.sub_header{position: fixed; top:0; left:0; width:100%; background-color:#fff; z-index: 100; }
+.sub_header{position: fixed; top:0; left:0; width:100%; background-color:#0ec4bf; z-index: 100; }
 .sub_header .header_inner{position: relative; line-height: 2.8; border-bottom: 1px solid #ccc; text-align: center;}
-.sub_header .tit{font-size: 1.6rem; font-weight: 700; color: #1e1e1e; }
+.sub_header .tit{font-size: 1.6rem; font-weight: 700; color: #fff; }
 .sub_container{padding-top:4.5rem;}
 .sub_container.type{margin-top:12%;}
 .sub_container.type_pd0{padding-top:0;}
@@ -120,7 +120,7 @@ textarea{resize: none;}
 .member_box .form_area label:first-of-type .member_input{border-top:1px solid #ccc; border-top-left-radius: .3rem; border-top-right-radius: .3rem;}
 .member_box .form_area .member_input{border: 1px solid #ccc; border-top:none;}
 .member_box .form_area.join label:last-of-type .member_input{border-bottom-right-radius: .3rem; border-bottom-left-radius: .3rem;}
-.member_box .member_info{position: relative; line-height: 3.9; padding:0 .8rem 0 .8rem; font-size: 1.3rem; background-color: #fffbfb; border:1px solid #ccc; border-top:none; border-bottom-left-radius: .3rem; border-bottom-right-radius: .3rem;}
+.member_box .member_info{position: relative; line-height: 2; padding:1.2rem .8rem 1.2rem 2.6rem; text-indent: -1.7rem; font-size: 1.3rem; background-color: #fffbfb; border:1px solid #ccc; border-top:none; border-bottom-left-radius: .3rem; border-bottom-right-radius: .3rem; word-break: keep-all;}
 .member_box .member_info .btn_member{position: absolute; top:17%; right:1rem;}
 .member_box .input_phone{padding-right: 12.6rem;}
 .member_box .input_phone + .delete{right: 10.5rem;}

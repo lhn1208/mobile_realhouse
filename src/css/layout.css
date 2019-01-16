@@ -48,13 +48,14 @@ button:focus{outline:none;}
 .link_select:after{display: inline-block; content:""; position: absolute; top:38%; right:6%; width:1.3rem; height:.8rem; background:url("../../images/common/bg_select_active.png") no-repeat; background-size: 100%;}
 .link_select.w_93{width:93%;}
 .link_select.w_100{width:100%;}
+.link_select.w_98{width:98%;}
 .link_select.phone{width:27%;}
 .link_select.off{color: #9c9c9c;}
 .link_select.off:after{background:url("../../images/common/bg_bottom_arr.png") no-repeat; background-size: 100%;}
 
 .input_text{line-height: 2.4; padding:0 .6rem; font-size: 1.3rem; border:1px solid #ccc; border-radius: .3rem;}
 /*아이콘*/
-.icon_type1{display: inline-block; margin-left: .5rem; padding:.3rem .8rem; min-width: 4rem; line-height: 1.2; font-weight: 400; color:#fff; border-radius: 3rem; font-size: .8rem; vertical-align: .2rem; text-align: center;}
+.icon_type1{display: inline-block; margin-left: .5rem; padding:.3rem .8rem; min-width: 4rem; line-height: 1.2; font-weight: 400; color:#fff; border-radius: 3rem; font-size: 1rem; vertical-align: .2rem; text-align: center;}
 .icon_type1.red{background-color: #ff6161;}
 .icon_type1.green,.icon_type2.green{background-color: #92d050;}
 .icon_type1.green2{background-color: #3ec729;}
@@ -133,7 +134,7 @@ button:focus{outline:none;}
 .content_intro .tit.blue{color: #378cff;}
 .content_intro .desc_area{position: relative; word-break: keep-all;}
 .content_intro .desc_area.btn_area{margin-right:12rem;}
-.content_intro .btn_intro{position: absolute; top:3rem; right:1.2rem;}
+.content_intro .btn_intro{position: absolute; top:3.4rem; right:1.2rem;}
 /*지도 확대/축소*/
 .all_offer_area{position: relative;}
 .map_control{position: absolute; /*top:46%;*/ top:6%; right:3%; background-color: #fff; border:1px solid #ccc; border-radius: .5rem; z-index: 90;;}
@@ -141,7 +142,7 @@ button:focus{outline:none;}
 .map_control .minus{position: relative; background-image: url("../../images/common/zoom_minus.png"); background-position-y: 1rem;}
 .map_control .minus:before{display: block; content:""; position: absolute; top:0; left:29%; width:1.7rem; height:.1rem; background-color: #e6e6e6;}
 
-.content_info{line-height: 3.8; padding:0 1.2rem; font-size: 1.3rem; color: #3c3c3c; background-color: #fffbfb; border-bottom: 1px solid #ccc;}
+.content_info{padding:1.5rem 1.2rem; font-size: 1.3rem; color: #3c3c3c; background-color: #fffbfb; border-bottom: 1px solid #ccc; word-break: break-all;}
 .content_info.border_top{border-top:1px solid #ccc;}
 
 /*슬라이드 박스*/
@@ -178,6 +179,7 @@ section:first-of-type.content_area .header,.content_area .header.border_none{bor
 .content_box .right_area{position: absolute; right:1.2rem; top:0;}
 .content_box .link_style:after{display: block; top:1.9rem;}
 .content_box .row.no_req{color: #ff6161; text-align: center;}
+.content_box .row.state_list{text-align: center;}
 .content_box .row.state_list .state{float: left; width:25%;}
 .content_box .row.state_list .state:first-of-type{margin-left: 0;}
 .content_box .row.state_list .state .cnt{color:#378cff;}
@@ -201,7 +203,7 @@ section:first-of-type.content_area .header,.content_area .header.border_none{bor
 .list_tb li{display: table-row; line-height: 4.2;}
 .list_tb li em, .list_tb li .detail{display: table-cell; padding:0 .6rem; border-bottom:1px solid #ccc;}
 .list_tb li:last-child em, .list_tb li:last-child .detail{border-bottom: none;}
-.list_tb li em{width:27%; font-size: 1.2rem; color: #9c9c9c; text-align: right;}
+.list_tb li em{width:28%; font-size: 1.2rem; color: #9c9c9c; text-align: right;}
 .list_tb li .detail{width:73%; text-align: left;}
 .list_tb li .detail.center{width:73%; text-align: center;}
 .list_tb .mark_ico .detail i{margin-left: 0;}
@@ -221,11 +223,8 @@ section:first-of-type.content_area .header,.content_area .header.border_none{bor
 .area_more.off .link_more{color: #9c9c9c;}
 
 /*info*/
-.info_box{padding:1.4rem 1.2rem; line-height: 2; background-color: #fffbfb; border-bottom: 1px solid #ccc;}
+.info_box{padding:1.4rem 1.2rem; line-height: 2; background-color: #fffbfb; border-bottom: 1px solid #ccc; word-break: break-all;}
 .info_list li{line-height: 2; text-indent: -1.4rem; padding-left: 1.4rem; word-break: keep-all;}
 .info_box .info_desc{text-indent: -1.4rem; padding-left: 1.4rem; word-break: keep-all;}
 .info_box .info_desc.indent_none{text-indent: 0; padding-left: 0;}
 
-@media screen and (min-width: 320px) and (max-width: 360px){
-  
-}
