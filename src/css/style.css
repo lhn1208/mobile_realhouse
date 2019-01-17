@@ -1,8 +1,10 @@
 @charset "utf-8";
 
-.header_inner .right_link{display: block; position: absolute; top:1.2rem; right:1.2rem; background-size: 100%; background-repeat: no-repeat;}
+.header_inner .right_link,.header2 .right_link{display: block; position: absolute; top:1.2rem; right:1.2rem; background-size: 100%; background-repeat: no-repeat;}
 .header_inner .ico_search{width:1.6rem; height:1.6rem; background-image: url("../../images/common/ico_search.png"); }
 .header_inner .ico_share{width:2.2rem; height:1.7rem; background-image: url("../../images/sub/ico_share.png"); }
+.header_inner .ico_set:before{display: inline-block; content:""; width:2rem; height:2.8rem; margin-right: .4rem; background: url("../../images/sub/ico_h_setting.png") no-repeat 0 .4rem; background-size: 100%; vertical-align: -.8rem;}
+.header_inner .ico_set{top:.3rem; right:1.2rem; color: #fff;}
 
 .filter_locate_box{padding:.6rem 0; background-color: #f9fcfd; border-bottom: 1px solid #ccc;}
 .filter_locate_box .locate{width: 96vw; margin:0 auto;}
@@ -94,6 +96,7 @@
 .offer_main .offer_mark dl{float: left; width:42%; padding-right:.7rem; line-height: 1.4; border-right:1px solid #e6e6e6;}
 .offer_main .offer_mark dl:nth-of-type(2){width:27%;}
 .offer_main .offer_mark dl:last-of-type{width:31%; border-right: none;}
+.offer_main .offer_mark .offer_ico{vertical-align: .2rem; }
 .offer_main .offer_mark dt{font-size:1.2rem; font-weight: 500; color:#9c9c9c;}
 .offer_main .offer_mark dd{font-size: 1.6rem; font-weight:700; color: #1e1e1e;}
 .offer_main .offer_mark dd .sub{font-size: 1.2rem;}
@@ -102,6 +105,7 @@
 .offer_info .info_head .tit{font-size: 1.4rem;}
 .offer_info .info_head .build_type{margin-right: 1.2rem;}
 .offer_info .explain_area{padding:1rem; line-height: 2; border:1px solid #ccc; border-radius: .3rem;}
+.offer_info .mark_ico .detail i{vertical-align: .2rem;}
 .all_offer .no_cont_date{padding: 10% 0; border-bottom: 1px solid #ccc; color: #9c9c9c; text-align: center;}
 .offer_main .amt_control{position: relative; width:96%; margin:0 auto 3.4rem; line-height: 4; border:1px solid #ccc; border-radius: .3rem;
 }
@@ -122,7 +126,7 @@
 .locate_box .map_btn_area .map_btn+ .map_btn:before{display: inline-block; content:""; position: absolute; top:25%; left:0; width:.1rem; height: 1.8rem; background-color: #ccc;}
 
 .visit_req_btn_area{width:100vw; background-color: #0ec4bf; text-align: center;}
-.visit_req_btn_area .btn_how_to_area{float: left; width:45%; line-height: 4.2rem; padding-left:1.2rem; text-align: left; background-color: #0ec4bf;}
+.visit_req_btn_area .btn_how_to_area{float: left; width:45%; line-height: 4.7rem; padding-left:1.2rem; text-align: left; background-color: #0ec4bf;}
 .visit_req_btn_area .btn_how_to{padding:.2rem 1.3rem; font-weight: 700; color: #fff; border:1px solid #fff; border-radius: 5rem;}
 .visit_req_btn_area .btn_favor{float: left; width:55%;  background-color: #0ec4bf;}
 .visit_req_btn_area .btn_favor .btn_wrap{float: left;  width:43%;  margin-left:7%; line-height: 3.6;  background-color: #0ec4bf;}
@@ -159,8 +163,7 @@
 .contract_cont .input_amt{width:88%; margin:0 .2rem; padding:0 .4rem; text-align: right;}
 .contract_cont .content_info{width:100%}
 /*알림*/
-.alarm {position: relative;}
-.alarm .header{line-height: 3.6; font-size: 1.6rem; font-weight: 700; border-bottom: 1px solid #ccc; text-align: center;}
+.alarm {position: relative; padding-top:.4rem;}
 .alarm .alarm_cont .row{padding:1.2rem; border-bottom: 1px solid #ccc;}
 .alarm_cont .cont_header{margin-bottom: .8rem; font-weight: 500;}
 .alarm_cont .cont_header .date{font-size: 1.2rem; color: #646464;}
@@ -173,7 +176,7 @@
 .alarm .alarm_login .inner{padding-top:calc(50% - 5rem); transform: translateY(26%); text-align: center;}
 .alarm .alarm_login .link{display:block; width:36%; margin:1rem auto; padding:.8rem 0; font-size: 1.2rem; font-weight: 700; color: #fff; border-radius:3rem; background-color: #ff6161;}
 .alarm .custom_tel{position: fixed; bottom:6.5rem; left:50%; color: #646464; transform: translateX(-50%);}
-.alarm_cont .no_items{padding-top:50%; transform: translateY(25%); color: #9c9c9c; text-align: center;}
+.alarm .no_inner{ transform: translateY(40%);}
 
 .req_resent{padding-top:1.2rem;}
 .section_wrap{position: relative; min-height: 40%;}
@@ -247,8 +250,8 @@
 .point_box .link_box{border:1px solid #ccc; border-bottom-left-radius:.5rem; border-bottom-right-radius: .5rem; border-top: none;}
 .point_box .link_box .box_inner{background-color: #fafafa;  border-bottom-left-radius:.5rem; border-bottom-right-radius: .5rem;}
 .point_box .link_box a{float: left; position: relative; width:33.3%; padding:1.5rem 1rem; font-size: 1.4rem; font-weight: 700; text-align: center;}
-.point_box .link_box a:first-of-type:before{background: none;}
-.point_box .link_box a:before{display: inline-block; content:""; position: absolute; top:38%; left:0; width:.1rem; height:1.2rem; background-color: #646464;}
+.point_box .link_box a:first-of-type:before{content:"";}
+.point_box .link_box a:before{display: inline-block; content:"|"; position: absolute; top:1.4rem; left:0; width:.1rem; height:1.2rem; color: #3c3c3c;}
 
 .notice .header{position: relative; line-height: 3.2; background-color: #f9fcff; border:1px solid #ccc; border-top-right-radius: .5rem; border-top-left-radius: .5rem;}
 .notice .header .tit{padding:0 1.2rem; font-weight: 700; font-size: 1.6rem; color: #1e1e1e;}
@@ -270,6 +273,7 @@
 .req_manage_sec .req_manage .header .tit{color: #ff6161;}
 .req_manage_sec .req_manage .header .tit.blue{color: #378cff;}
 .request_list .content_area{margin:.5rem 0;}
+.request_list .no_inner{transform: translateY(10%);}
 .point_sec .point_box{margin:.8rem auto; padding: 0 1.3rem; line-height: 3.3; font-size: 1.6rem;}
 .point_sec .point_box .tit{color: #3c3c3c;}
 
@@ -277,7 +281,7 @@
 .point_sec .point_area:last-of-type .cont{border-bottom:1px solid #ccc;}
 .point_sec .point_area .cont{position: relative; border-bottom:none;} 
 .point_sec .point_area .date{position: absolute; top:1.2rem; right: 1.2rem; font-size: 1.3rem; color: #646464;}
-.point_sec .point_area .no_items{padding-top:35%; transform: translateY(25%); color: #9c9c9c; text-align: center; border-bottom: none;}
+.point_sec .point_area .no_inner{transform: translateY(20%);}
 .fee_sec .agent_select .tit{font-weight: 700; color: #3c3c3c;}
 .fee_sec .agent_select .cont .right_area{top:1.4rem;}
 .fee_sec .agent_select .cont .btn{color: #3c3c3c;}
@@ -316,7 +320,17 @@
 .custom_sec .qna_list li a.on{background-color: #f9fcfd;}
 .qna_register .tit_area{border-bottom: 1px solid #ccc; background-color: #fcfcfc;}
 .qna_register .qna_textarea{color: #3c3c3c; background-color: #fcfcfc;}
+/*요청내역*/
+.request_history .rent_type{font-weight: 700;}
+.request_history .content_area .date{font-size: 1.4rem;}
+.request_history .content_area .link_style{margin-left: .6rem;}
+.agent_visit_req{margin-bottom: 10rem;}
+.agent_visit_req .content_area  .state{color: #ff6161;}
+.agent_visit_req .content_area .consult_finish{color: #378cff;}
+.agent_visit_req .content_area .visit_finish{color: #0ec4bf;}
 
+
+.my_purchase{padding-top:.4rem;}
 @media screen and (max-width: 320px){
     /* .act_btn+label, .btn_type1{min-width: 7.3rem;}
     .filter_area .deal_type_area .act_btn+label{min-width: 7.3rem; margin-left: 0;}
