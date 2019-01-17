@@ -26,11 +26,11 @@ button:focus{outline:none;}
 .label_btn+label:before{position: absolute; top:50%; right:0; transform: translateY(-50%);}
 
 /*하단 버튼*/
-.btn_submit .submit{width:100vw; line-height: 4; font-size: 1.3rem; font-weight: 700; color: #fff; text-align: center;}
+.btn_submit .submit{width:100vw; line-height: 4; font-size: 1.4rem; font-weight: 700; color: #fff; text-align: center;}
 .btn_submit .submit.off{opacity: .6;}
 .btn_submit{width:100vw; background-color: #0ec4bf; text-align: center;}
 .btn_submit:after{display: block; content: ""; clear: both;}
-.btn_submit .btn{position: relative; float: left; width:50%; line-height: 4; color: #fff; font-size: 1.3rem; font-weight: 700;}
+.btn_submit .btn{position: relative; float: left; width:50%; line-height: 3.6; color: #fff; font-size: 1.4rem; font-weight: 700;}
 .btn_submit .btn+.btn:before{display: inline-block; content:""; position: absolute; top:1.7rem; left:0; width:.2rem; height:1.7rem; background-color: #fff;}
 /* .btn_submit .btn:last-of-type:after{display: none;} */
 .btn_submit .next,.btn_submit .off{opacity: .6;}
@@ -52,10 +52,15 @@ button:focus{outline:none;}
 .link_select.phone{width:27%;}
 .link_select.off{color: #9c9c9c;}
 .link_select.off:after{background:url("../../images/common/bg_bottom_arr.png") no-repeat; background-size: 100%;}
-
-.input_text{line-height: 2.4; padding:0 .6rem; font-size: 1.3rem; border:1px solid #ccc; border-radius: .3rem;}
+/*textbox*/
+textarea::placeholder,input[type="textbox"]::placeholder{color: #9c9c9c;}
+.input_text{line-height: 2.4; padding:0 .6rem; font-size: 1.4rem; border:1px solid #ccc; border-radius: .3rem;}
+.full_input{width:100%; line-height: 3.8; padding:0 .6rem; border:none;}
+/*textarea*/
+textarea{font-family: "Noto Sans KR",sans-serif; font-size: 1.4rem; color: #3c3c3c;}
+.textarea{width:100%; height: 60vh; padding:1rem .6rem; overflow-y: scroll; border:none; outline:none;}
 /*아이콘*/
-.icon_type1{display: inline-block; margin-left: .5rem; padding:.3rem .8rem; min-width: 4rem; line-height: 1.3; color:#fff; border-radius: 3rem; font-size: 1rem; vertical-align: .2rem; text-align: center;}
+.icon_type1{display: inline-block; margin-left: .5rem; padding:.3rem .8rem; min-width: 4rem; line-height: 1.3; color:#fff; border-radius: 3rem; font-weight: 700; font-size: .8rem; vertical-align: 0; text-align: center;}
 .icon_type1.red{background-color: #ff6161;}
 .icon_type1.green,.icon_type2.green{background-color: #92d050;}
 .icon_type1.green2{background-color: #3ec729;}
@@ -78,7 +83,7 @@ button:focus{outline:none;}
 .swiper_list .swiper-wrapper .info{line-height: 1.8;}
 .swiper_list .swiper-wrapper .img_area{display: inline-block; margin-bottom: 0.4rem;}
 .swiper_list .swiper-wrapper .info .tit{display: block; font-size:1.6rem; font-weight: 700; color: #000;}
-.swiper_list .swiper-wrapper .info .desc{font-size: 1.3rem; color: #373737;}
+.swiper_list .swiper-wrapper .info .desc{font-size: 1.4rem; color: #373737;}
 
 .swiper_box{position: relative;}
 .swiper_box .pagination1{left:auto; right:1.2rem; width:4rem; line-height: 1.8; font-size: 1.2rem; color:#fff; background-color: rgba(0,0,0,.7); border-radius: 5rem;}
@@ -87,7 +92,7 @@ button:focus{outline:none;}
 .items_list li a,.items_list li .item_box{position: relative; padding:.85rem .75rem;}
 .items_list li a{width:100%;}
 .items_list li .img_area{position: absolute; width:12.7rem; left:1rem; top:.8rem;}
-.items_list .img_cover{position:absolute; bottom: 0; width: 100%; height:100%; padding-top:3.75rem; font-size: 1.5rem; font-weight:500; font-family: "Noto Sans KR",sans-serif; color:#fff; background:rgba(0,0,0,.5); text-align: center;}
+.items_list .img_cover{position:absolute; bottom: 0; width: 100%; height:100%; padding-top:3.75rem; font-size: 1.4rem; font-weight:500; font-family: "Noto Sans KR",sans-serif; color:#fff; background:rgba(0,0,0,.5); text-align: center;}
 .items_list .seen{position: absolute; bottom:0; width:100%; line-height: 2.5; font-size: 1.0rem; color: #fff200; background:rgba(0,0,0,.5); text-align: center;}
 .items_list .item_info{margin-left: 13.8rem; line-height: 1.6; font-size: 1.25rem; color: #646464;}
 .items_list .item_info .tit{display: block; margin-bottom: .2rem; font-size: 1.6rem; font-weight: 700; color: #1e1e1e;}
@@ -95,15 +100,15 @@ button:focus{outline:none;}
 .items_list .item_info .mark span:first-of-type{margin-left: 0;}
 .items_list .item_info .mark span{display: inline-block; margin-right: .25rem; padding:0 .5rem; font-size: 1.2rem;  border-radius: 1rem; color: #1e1e1e; background-color: #f0f0f0;}
 .items_list .item_info .mark span.type{background-color:#fdc689;}
-.items_list li .item_head{position: relative; padding:1.2rem; font-size: 1.3rem; font-weight: 700; color: #fff; background-color:#f7941d;}
+.items_list li .item_head{position: relative; padding:1.2rem; font-size: 1.4rem; font-weight: 700; color: #fff; background-color:#f7941d;}
 .items_list li .item_head .desc{position: absolute; top:1.2rem; right:1.2rem; font-size: 1.2rem; font-weight: 400; color: #fff;}
-.items_list li .chk_area{position: relative; padding-left: 1.2rem; line-height: 3.8; color: #3c3c3c; border-top:1px solid #ccc; background-color: #fafafa;}
-.items_list li .chk_area .right_area{position: absolute; top:1%; right:1.2rem;}
+.items_list li .chk_area{position: relative; padding-left: 1.2rem; line-height: 3.6; color: #3c3c3c; border-top:1px solid #ccc; background-color: #fafafa;}
+.items_list li .chk_area .right_area{position: absolute; top:.5rem; right:1.2rem;}
 .items_list li .chk_area .date{font-size: 1.1rem; color: #646464;}
-.items_list.header_type .item_header{padding:0 1.2rem; line-height: 4; background-color: #f9fcfd; border-bottom: 1px solid #ccc;}
+.items_list.header_type .item_header{padding:0 1.2rem; line-height: 3.6; background-color: #f9fcfd; border-bottom: 1px solid #ccc;}
 .items_list.header_type .item_header .cnt{margin-left: .2rem; color: #ff6161;}
 .all_offer .items_list.no_cont_date li{border-bottom: none;}
-.all_offer .no_items{line-height: 2; padding-top:50%; font-size: 1.3rem; color: #9c9c9c; text-align: center;}
+.all_offer .no_items{line-height: 2; padding-top:50%; font-size: 1.4rem; color: #9c9c9c; text-align: center;}
 .all_offer .no_items .desc{color:#646464;}
 .all_offer.add_visit_req .no_cont_date{border-bottom: none;}
 
@@ -112,22 +117,22 @@ button:focus{outline:none;}
 .sub_header.header_fix .header_section{height: 48%;}
 .sub_header.header_fix .search_add{font-size: 1.6rem; font-weight: 700; color: #1e1e1e;}
 .header_section .offer_info{float: left; width: 77%; height: 100%;} 
-.header_section .offer_info a{width:100%; height: 100%; padding:.8rem 3.2rem 1.2rem 1.2rem; font-size: 1.3rem; color: #1e1e1e; background: url("../../images/common/bg_select_active.png") no-repeat 96% 50%; background-size: 5%; text-overflow:ellipsis; white-space: nowrap; word-wrap: normal; overflow: hidden; border-right: 1px solid #ccc; }
-.header_section .filter{float: left; width: 23%; line-height: 3; font-size: 1.3rem; font-weight: 700; color: #1e1e1e;text-align: center;}
-.header_section .filter em{padding-left: .5rem; font-size: 1.3rem; font-weight: 700; color: #f15544;}
+.header_section .offer_info a{width:100%; height: 100%; padding:.8rem 3.2rem 1.2rem 1.2rem; font-size: 1.4rem; color: #1e1e1e; background: url("../../images/common/bg_select_active.png") no-repeat 96% 50%; background-size: 5%; text-overflow:ellipsis; white-space: nowrap; word-wrap: normal; overflow: hidden; border-right: 1px solid #ccc; }
+.header_section .filter{float: left; width: 23%; line-height: 3; font-size: 1.4rem; font-weight: 700; color: #1e1e1e;text-align: center;}
+.header_section .filter em{padding-left: .5rem; font-size: 1.4rem; font-weight: 700; color: #f15544;}
 .sub_header .h_process{padding-left: 3.6rem; text-align: left;}
 .h_process .process_idx{position: absolute; top:.3rem; right: 1.2rem;}
 .h_process .process_idx em{display: inline-block; padding:0 .64rem; margin-left: .3rem; line-height: 1.8; font-size: 1rem; color: #fff; border-radius:50%; background-color: #ccc;}
 .h_process .process_idx em.on{background-color: #f15544;}
 
 .sub_container .sub_cont{width: 96vw; margin:0 auto 2.4rem;}
-.sub_cont .content{padding: 1.2rem 1rem 1.2rem 1rem; line-height: 2; font-size: 1.3rem; font-weight: 500; color: #373737; 
+.sub_cont .content{padding: 1.2rem 1rem 1.2rem 1rem; line-height: 2; font-weight: 500; color: #373737; 
   border:1px solid #ccc; border-top-left-radius: .5rem; border-top-right-radius: .5rem; border-bottom:1px solid #ccc;; background:url("../../images/sub/bg_event.png") no-repeat 98% 2.3rem #fff;; background-size: 7.2rem; word-break: keep-all;}
 .sub_cont .content .cnt{color: #ff6161;}
 .sub_cont .content .tit{font-size: 1.6rem; font-weight: 700; color: #0ec4bf;}
 .sub_cont .content .tit.type{color: #1e1e1e;}
-.sub_cont .link_box{padding:1.4rem 1.2rem; background-color: #fafafa; border:1px solid #ccc; border-top:none; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;}
-.sub_cont .link_box a{font-size: 1.3rem; font-weight: 700;}
+.sub_cont .link_box{padding:1.5rem 1.2rem; background-color: #fafafa; border:1px solid #ccc; border-top:none; border-bottom-right-radius: .5rem; border-bottom-left-radius: .5rem;}
+.sub_cont .link_box a{font-size: 1.4rem; font-weight: 700;}
 
 /*content intro*/
 .content_intro{position: relative; line-height: 1.6; padding:1.2rem; background-color:#f9fcfd; border-bottom: 1px solid #ccc;}
@@ -143,7 +148,7 @@ button:focus{outline:none;}
 .map_control .minus{position: relative; background-image: url("../../images/common/zoom_minus.png"); background-position-y: 1rem;}
 .map_control .minus:before{display: block; content:""; position: absolute; top:0; left:29%; width:1.7rem; height:.1rem; background-color: #e6e6e6;}
 
-.content_info{padding:1.5rem 1.2rem; font-size: 1.3rem; color: #3c3c3c; background-color: #fffbfb; border-bottom: 1px solid #ccc; word-break: keep-all;}
+.content_info{padding:1.5rem 1.2rem; font-size: 1.4rem; color: #3c3c3c; background-color: #fffbfb; border-bottom: 1px solid #ccc; word-break: keep-all;}
 .content_info.border_top{border-top:1px solid #ccc;}
 
 /*슬라이드 박스*/
@@ -155,15 +160,15 @@ button:focus{outline:none;}
 
 .content_area{position: relative;}
 section:first-of-type.content_area .header,.content_area .header.border_none{border-top:none;}
-.content_area .header{position: relative; padding:0 1.2rem; line-height: 3.7; font-weight: 700; background-color: #f9fcfd; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
+.content_area .header{position: relative; padding:0 1.2rem; line-height: 3.2; font-weight: 700; background-color: #f9fcfd; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;}
 .content_area .header.bg_none{background: none;}
 .content_area .header.border_t_none{border-top: none;}
 .content_area .header .right_area{position: absolute; top:12%; right: 1.2rem;}
-.content_area .header .tit{font-size: 1.3rem;}
+.content_area .header .tit{font-size: 1.4rem;}
 .content_area .left{float: left;}
 .content_area .right{float: right;}
 .content_area .offer_type{float: left; color: #1e1e1e;}
-.content_area .header .date{float: right; color:#646464;}
+.content_area .header .date{float: right; padding-top:.4rem; color:#646464; font-weight: 500; font-size: 1.2rem;}
 .content_area .header .ico{vertical-align: -.2rem;} 
 
 /*한줄 이상*/
@@ -174,7 +179,7 @@ section:first-of-type.content_area .header,.content_area .header.border_none{bor
 
 /*한줄 라인*/
 .content_box .row:after{display: block; content:""; clear: both;}
-.content_box .row{position: relative; line-height: 3.8; padding:0 1.2rem; border-bottom: 1px solid #ccc;}
+.content_box .row{position: relative; line-height: 3.6; padding:0 1.2rem; border-bottom: 1px solid #ccc;}
 .content_box .row.line_type{line-height: 2.4;}
 .content_box .row .tit{font-weight: 700;}
 .content_box .right_area{position: absolute; right:1.2rem; top:0;}
@@ -201,7 +206,7 @@ section:first-of-type.content_area .header,.content_area .header.border_none{bor
 
 /*table 스타일 리스트*/
 .list_tb ul{display: table; width:100%; border:1px solid #ccc; border-radius: .3rem;}
-.list_tb li{display: table-row; line-height: 4.2;}
+.list_tb li{display: table-row; line-height: 3.6;}
 .list_tb li em, .list_tb li .detail{display: table-cell; padding:0 .6rem; border-bottom:1px solid #ccc;}
 .list_tb li:last-child em, .list_tb li:last-child .detail{border-bottom: none;}
 .list_tb li em{width:28%; font-size: 1.2rem; color: #9c9c9c; text-align: right;}

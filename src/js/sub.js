@@ -58,7 +58,6 @@ $(document).ready(function(){
     //         $('.section_wrap').removeAttr('style');
     //     }
     // });
-
                  
     //평점
     $('.star_grade span').on('click', function(){
@@ -66,4 +65,37 @@ $(document).ready(function(){
     $(this).addClass('on').prevAll('span').addClass('on');
         return false;
     });
+
+     //1대1문의,일정관리 슬라이드
+     var targetArea= $(".open_cont");
+     var speed=300;
+     targetArea.hide();
+     var cont_link= $(".custom_sec li a");
+    
+    //일정관리
+    $(".schedule_box").find(cont_link).click(function(){
+        var $reqArea=$(this).next(targetArea);
+        if(!$(this).hasClass('on')){
+            $reqArea.slideDown(speed);
+            $(this).addClass('on');
+        }else{
+            $reqArea.slideUp(speed);
+            $(this).removeClass('on');
+        }
+        return false;
+    })
+    //1대1문의
+    $(".qna_list").find(cont_link).click(function(){
+        var $reqArea=$(this).next(targetArea);
+        if(!$(this).hasClass('on')){
+            $(this).addClass('on').parent().siblings().find('a').removeClass('on');
+            $reqArea.slideDown(speed);
+        }else{
+            $reqArea.slideUp(speed);
+            $(this).removeClass('on');
+        }
+        cont_link.not(this).next(".request_area").slideUp(500);
+        return false;
+    })
+
 });
