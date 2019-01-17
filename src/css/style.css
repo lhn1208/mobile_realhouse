@@ -249,7 +249,7 @@
 .point_box .link_box a:first-of-type:before{background: none;}
 .point_box .link_box a:before{display: inline-block; content:""; position: absolute; top:38%; left:0; width:.1rem; height:1.2rem; background-color: #646464;}
 
-.notice .header{position: relative; line-height: 3.2; background-color: #f9fcff; border:1px solid #ccc; border-top-right-radius: .5rem; border-top-left-radius: .5rem;}
+.notice .header{position: relative; line-height: 3.2; background-color:skyblue; border:1px solid #ccc; border-top-right-radius: .5rem; border-top-left-radius: .5rem;}
 .notice .header .tit{padding:0 1.2rem; font-weight: 700; font-size: 1.6rem; color: #1e1e1e;}
 
 .notice .header .link{position: absolute; top:5%; right:1.2rem; font-weight: 700;}
