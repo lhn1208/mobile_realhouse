@@ -10,7 +10,7 @@
 .filter_locate_box .locate{width: 96vw; margin:0 auto;}
 .filter_locate_box .locate:after{display: block; content:""; clear: both;}
 .filter_locate_box .locate dt{margin-left: 0;}
-.filter_locate_box .area{float: left; width:32.6%; height:3.2rem; line-height: 2.3; margin-left: 1%; padding:0 .75rem; font-size: 1.4rem; font-weight: 500; color: #1e1e1e; border:none; background-image:url("../../images/common/bg_select_active.png"); background-repeat: no-repeat; background-color: #fff; background-position: 88% 50%; background-size: 1.5rem; border:1px solid #e6e6e6; border-radius: .3rem; text-align: left;}
+.filter_locate_box .area{float: left; width:32.6%; height:3.2rem; line-height: 2.3; margin-left: 1%; padding:0 .75rem; font-size: 1.4rem; font-weight: 500; color: #1e1e1e; border:none; background-image:url("../../images/common/bg_select_active.png"); background-repeat: no-repeat; background-color: #fff; background-position: 88% 50%; background-size: 1.5rem; border:1px solid #e6e6e6; border-radius: .5rem; text-align: left;}
 .filter_locate_box .area.no_data{position: relative; line-height: 3; background-color: #fafafa; background-image:url("../../images/common/bg_bottom_arr.png");}
 .filter_locate_box .area.no_data::before{display: block; content: ""; position: absolute; top:50%; left: .75rem; width:.35rem; height: .1rem; background-color: #9c9c9c;}
 .link_section .link_area a{float: left; width:33.3%; line-height: 3.4; font-size: 1.4rem; border: 1px solid #ccc; border-top: none; border-left: none; text-align: center;}
@@ -104,9 +104,9 @@
 .offer_info .info_head{margin:0 1.2rem 1rem; font-size: 1.4rem;}
 .offer_info .info_head .tit{font-size: 1.4rem;}
 .offer_info .info_head .build_type{margin-right: 1.2rem;}
-.offer_info .explain_area{padding:1rem; line-height: 2; border:1px solid #ccc; border-radius: .3rem;}
+.offer_info .explain_area{padding:1rem; line-height: 2; border:1px solid #ccc; border-radius: .5rem;}
 .offer_info .mark_ico .detail i{vertical-align: .2rem;}
-.offer_main .amt_control{position: relative; width:96%; margin:0 auto 3.4rem; line-height: 4; border:1px solid #ccc; border-radius: .3rem;
+.offer_main .amt_control{position: relative; width:96%; margin:0 auto 3.4rem; line-height: 4; border:1px solid #ccc; border-radius: .5rem;
 }
 .offer_main .amt_control dt:before,.offer_main .amt_control dt:after{display: block; content:""; position: absolute; right:-.5rem; height: 2.2rem; border:1px solid #ccc;}
 .offer_main .amt_control dt:before{top:0; transform: skewX(16deg)}
@@ -117,7 +117,7 @@
 .favoer_cover{position: absolute;}
 .favoer_cover .deal_complete{position: absolute; top:8%; left:50%; width:68%; margin-left: -34%; padding:1rem 0 1rem; line-height: 1.4; font-size: 1.6rem; border-radius: 5rem; background-color: #fff; text-align: center;}
 
-.locate_box {border:1px solid #ccc;border-radius: .3rem;;}
+.locate_box {border:1px solid #ccc;border-radius: .5rem;;}
 .locate_box .locate_header{padding:0 1.2rem; line-height: 3.6; border-bottom: 1px solid #ccc;}
 .locate_box .map{position: relative; border-bottom: 1px solid #ccc;}
 .locate_box .map .ico_area{position: absolute; top:7rem; left:15rem; width:5rem; height:5rem; line-height: 4.4; font-size: 1.2rem; color: #fff; background:url("../../images/sub/ico_map_location.png") no-repeat; background-size: 100%; text-align: center;}
@@ -179,7 +179,7 @@
 
 .req_resent{padding-top:1.2rem;}
 .section_wrap{position: relative; min-height: 40%;}
-.present_sec{position: relative; width: 96vw; height: 100%; opacity:1; margin:0 auto 1.5rem; border:1px solid #ccc; border-radius: .3rem;}
+.present_sec{position: relative; width: 96vw; height: 100%; opacity:1; margin:0 auto 1.5rem; border:1px solid #ccc; border-radius: .5rem;}
 .present_sec .req_info{line-height: 1.8; padding:1rem 1.2rem; border-bottom: 1px solid #ccc;}
 .present_sec .row{position: relative; line-height: 3.8; padding:0 1.2rem; border-bottom: 1px solid #ccc;}
 .present_sec .offer_type{color: #1e1e1e;}
