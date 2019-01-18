@@ -10,7 +10,7 @@
 .filter_locate_box .locate{width: 96vw; margin:0 auto;}
 .filter_locate_box .locate:after{display: block; content:""; clear: both;}
 .filter_locate_box .locate dt{margin-left: 0;}
-.filter_locate_box .area{float: left; width:32.6%; height:3.2rem; line-height: 2.3; margin-left: 1%; padding:0 .75rem; font-size: 1.4rem; font-weight: 500; color: #1e1e1e; border:none; background-image:url("../../images/common/bg_select_active.png"); background-repeat: no-repeat; background-color: #fff; background-position: 88% 50%; background-size: 1.5rem; border:1px solid #e6e6e6; border-radius: .5rem; text-align: left;}
+.filter_locate_box .area{float: left; width:32.6%; height:3.2rem; line-height: 2.3; margin-left: 1%; padding:0 .75rem; font-size: 1.4rem; font-weight: 500; color: #1e1e1e; border:none; background-image:url("../../images/common/bg_select_active.png"); background-repeat: no-repeat; background-color: #fff; background-position: 88% 50%; background-size: 1.5rem; border:1px solid #e6e6e6; border-radius: .3rem; text-align: left;}
 .filter_locate_box .area.no_data{position: relative; line-height: 3; background-color: #fafafa; background-image:url("../../images/common/bg_bottom_arr.png");}
 .filter_locate_box .area.no_data::before{display: block; content: ""; position: absolute; top:50%; left: .75rem; width:.35rem; height: .1rem; background-color: #9c9c9c;}
 .link_section .link_area a{float: left; width:33.3%; line-height: 3.4; font-size: 1.4rem; border: 1px solid #ccc; border-top: none; border-left: none; text-align: center;}
@@ -42,7 +42,7 @@
 .agent_select .cont .link_style{margin-left: 1rem; font-size: 1.2rem;}
 .agent_select .cont .link_style:after{width:.6rem; right: 0;;}
 .agent_select .cont .distance{position: absolute; top:1.2rem; right:1.2rem;}
-.agent_select .cont .right_btn + label{position:absolute; bottom:1.2rem;; right: 1.2rem;}
+.agent_select .cont .right_btn + label{position:absolute; bottom:2rem;; right: 1.2rem;}
 .agent_select .cont .address{padding-top:0.6rem;}
 .agent_select_area .content_area .header{border-top:none;}
 .new_request .select_area{padding: 1.7rem 1.2rem;}
@@ -106,7 +106,6 @@
 .offer_info .info_head .build_type{margin-right: 1.2rem;}
 .offer_info .explain_area{padding:1rem; line-height: 2; border:1px solid #ccc; border-radius: .3rem;}
 .offer_info .mark_ico .detail i{vertical-align: .2rem;}
-.all_offer .no_cont_date{padding: 10% 0; border-bottom: 1px solid #ccc; color: #9c9c9c; text-align: center;}
 .offer_main .amt_control{position: relative; width:96%; margin:0 auto 3.4rem; line-height: 4; border:1px solid #ccc; border-radius: .3rem;
 }
 .offer_main .amt_control dt:before,.offer_main .amt_control dt:after{display: block; content:""; position: absolute; right:-.5rem; height: 2.2rem; border:1px solid #ccc;}
@@ -272,8 +271,6 @@
 .req_manage_sec .req_manage{margin-bottom: .5rem;}
 .req_manage_sec .req_manage .header .tit{color: #ff6161;}
 .req_manage_sec .req_manage .header .tit.blue{color: #378cff;}
-.request_list .content_area{margin:.5rem 0;}
-.request_list .no_inner{transform: translateY(10%);}
 .point_sec .point_box{margin:.8rem auto; padding: 0 1.3rem; line-height: 3.3; font-size: 1.6rem;}
 .point_sec .point_box .tit{color: #3c3c3c;}
 
@@ -328,7 +325,11 @@
 .agent_visit_req .content_area  .state{color: #ff6161;}
 .agent_visit_req .content_area .consult_finish{color: #378cff;}
 .agent_visit_req .content_area .visit_finish{color: #0ec4bf;}
-
+.request_list .content_area{margin:.5rem 0;}
+.request_list .content_area.mar_type{margin:0;}
+.request_list .no_inner{transform: translateY(10%);}
+.request_list .content_box .row.bottom_area .visit_chg{top:0;}
+.request_list .content_box .cont_close{width:1.8rem; height: 1.8rem; background: url("../../images/sub/cont_close.png") no-repeat; background-size: 100%;}
 
 .my_purchase{padding-top:.4rem;}
 @media screen and (max-width: 320px){
