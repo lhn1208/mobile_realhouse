@@ -68,7 +68,7 @@ textarea{resize: none;}
 .checkbox[disabled] +label:before{background-color: #dedede;}
 
 .splash{position:relative; width:100%; padding-bottom: 100%; height: auto; font-size: 1.6rem; color:#0ec4bf; overflow: hidden;}
-.splash .inner{padding-top:50%; text-align: center; transform: translateY(25%);}
+.splash .inner{padding-top:50%; text-align: center; transform: translateY(18%);}
 .splash .tit{font-size: 2em; font-weight: 700;}
 .splash .user_logo{position: fixed; bottom:4.6rem; width:100%; }
 .splash .user_logo .logo_inner{text-align: center}
