@@ -34,7 +34,7 @@ textarea{resize: none;}
 .clearfix:after{display: block; content:""; clear: both;}
 
 /*공통 버튼*/
-.btn_perv{position: absolute; top:0; left:1.2rem; width:1.6rem; height:100%; background: url("../../images/common/ico_header_arr.png") no-repeat 0 1.5rem; background-size: 100%; }
+.btn_perv{position: absolute; top:4px; left:1.2rem; width:2.2rem; height:100%; background: url("../../images/common/ico_header_arr.png") no-repeat 0 1.5rem; background-size: 100%; }
 /*확인 팝업*/
 .layer_confirm{position: absolute; top:35%; left:50%; width:80vw; margin-left: -40%; background-color: #fff; border-radius: .5rem; z-index: 110;}
 .layer_confirm .layer_inner{position: relative; width:80vw; height: 18.5rem; padding-top:5.6rem; text-align: center; font-size: 1.5rem;}
@@ -44,7 +44,7 @@ textarea{resize: none;}
 
 .wrapper.type{height: 100%;}
 .wrapper{position: relative; width:100%; height: calc(100% - 3.6rem);}
-.container_inner{padding-bottom: 7rem;}
+/* .container_inner{padding-bottom: 7rem;} */
 .bg_white{background-color: #fff;}
 .main_container .intro{padding-top:5.2rem; margin-bottom: 1.4em; font-size: 2rem; font-weight: 500; color: #646464; text-align: center;}
 .main_container .intro strong{display: block; font-size: 2.2rem; font-weight: 500; color: #1e1e1e;}
@@ -76,10 +76,10 @@ textarea{resize: none;}
 .splash .agent_tit{color: #3c3c3c; font-size: 1.4rem;}
 /*sub header*/
 .sub_header{position: fixed; top:0; left:0; width:100%; background-color:#0ec4bf; z-index: 100; }
-.sub_header .header_inner{position: relative; line-height: 3.2;text-align: center;}
+.sub_header .header_inner{position: relative; height: 6.1rem; line-height: 3.4;text-align: center;}
 .sub_header .header2{line-height: 3.1; font-size: 1.6rem; font-weight: 700;text-align: center;}
-.sub_header .tit{font-size: 1.4rem; font-weight: 700; color: #fff; }
-.sub_container{padding-top:4.5rem;}
+.sub_header .tit{font-size: 1.8rem; font-weight: 700; color: #fff; }
+.sub_container{padding-top:6.1rem;}
 .sub_container.type{margin-top:12%;}
 .sub_container.type_pd0{padding-top:0;}
 /*footer*/

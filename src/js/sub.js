@@ -22,6 +22,7 @@ $(document).ready(function(){
     //pop
     var $layerPop=$('.layer_pop');
     var pop_h=$layerPop.outerHeight();
+    $layerPop.css('bottom',-pop_h);
     $('.slide_link').click(function(){
         up_num='0'
          $layerPop.stop().animate({bottom:up_num},speed);       
@@ -70,7 +71,7 @@ $(document).ready(function(){
      var targetArea= $(".open_cont");
      var speed=300;
      targetArea.hide();
-     var cont_link= $(".custom_sec li a");
+     var cont_link= $(".list li a");
     
     //일정관리
     $(".schedule_box").find(cont_link).click(function(){
@@ -85,7 +86,7 @@ $(document).ready(function(){
         return false;
     })
     //1대1문의
-    $(".qna_list").find(cont_link).click(function(){
+    $(".qna_box").find(cont_link).click(function(){
         var $reqArea=$(this).next(targetArea);
         if(!$(this).hasClass('on')){
             $(this).addClass('on').parent().siblings().find('a').removeClass('on');
