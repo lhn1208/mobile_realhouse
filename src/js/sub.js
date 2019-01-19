@@ -20,17 +20,17 @@ $(document).ready(function(){
     })
  
     //pop
-    var $layerPop=$('.layer_pop');
-    var pop_h=$layerPop.outerHeight();
-    $layerPop.css('bottom',-pop_h);
+    var $slidePop=$('.slide_pop');
+    var pop_h=$slidePop.outerHeight();
+    $slidePop.css('bottom',-pop_h);
     $('.slide_link').click(function(){
         up_num='0'
-         $layerPop.stop().animate({bottom:up_num},speed);       
+         $slidePop.stop().animate({bottom:up_num},speed);       
         pop_set('y');
     })
-    $('.layer_pop .close').click(function(){
+    $('.slide_pop .close').click(function(){
         reset_num=-pop_h;
-         $layerPop.stop().animate({bottom:reset_num},speed);       
+         $slidePop.stop().animate({bottom:reset_num},speed);       
         pop_set('n');
     })
 
