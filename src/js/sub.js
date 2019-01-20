@@ -12,14 +12,12 @@ $(document).ready(function(){
         }else{
             $Slidebox.removeClass('animate_h_up')
             $Slidebox.addClass('animate_h_down');
-            $body.removeClass('scroll_hidden');
         }
     })
     $Slidebox.on('touchstart',function(){
         if(!($Slidebox.hasClass('animate_h_up'))){
             $Slidebox.removeClass('animate_h_down')
             $Slidebox.addClass('animate_h_up');
-            $body.addClass('scroll_hidden');
         }
     });
  
