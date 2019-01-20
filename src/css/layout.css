@@ -266,9 +266,9 @@ section:first-of-type.content_area .header,.content_area .header.border_none{bor
 .filter_scroll_bar{position: relative; width:100%; height:.6rem; background:#378cff;}
 .filter_scroll_bar .handler{position: absolute; top:-1.2rem; left:0; width:3rem; height: 3rem; background:#fff; border-radius: 5rem; border:1px solid #dedede; box-shadow: 3px 3px 5px #dedede;}
 .filter_scroll_bar .handler.max{left:100%;}
-.filter_amt{position: absolute; top:5rem; left:0; margin-top:.4rem; font-size: 1.2rem; color: #ccc; }
+.filter_amt{position: absolute; top:5rem; left:0; width:100%; margin-top:.4rem; font-size: 1.2rem; color: #ccc; }
 .filter_amt span{ display: inline-block; position: absolute; left:1.4rem; width: 3.6rem;}
-.filter_amt span:nth-child(2){position: absolute; left:15.6rem;}
-.filter_amt span:nth-child(3){position: absolute; left:33.3rem;}
+.filter_amt span:nth-child(2){position: absolute; left:47%;}
+.filter_amt span:nth-child(3){position: absolute; left:93%;}
 .filter_amt span:before{display: block; content:""; position: absolute; top:-1rem; left:1.1rem; width:.2rem; height: .8rem; background-color: #dedede;}
 .filter_amt span:first-of-type:before{left:.2rem;}

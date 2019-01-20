@@ -24,6 +24,11 @@
 .filter_area .offer_type_area .act_btn+label{width:32%; margin-bottom: .8rem;}
 .filter_area .offer_type_area .act_btn+label:nth-of-type(3n+1){margin-left: 0;}
 .content_head .filter_desc{position: absolute; top:2rem; right:1rem; color: #378cff;}
+
+.filter_area .offer_type_area.type{border:1px solid #dedede; border-top:none; border-radius: .5rem;}
+.filter_area .offer_type_area.type .act_btn+label{float: left; width: 25%; margin: 0; border:none; border-top:1px solid #dedede; border-left:1px solid #dedede; border-radius: 0;}
+.filter_area .offer_type_area.type .act_btn:nth-of-type(4n+1)+label{border-left: none;}
+
 /*매물지도*/
 .option .dis_ico{display: none;}
 .header_section{background-color: #fff;}
