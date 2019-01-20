@@ -9,11 +9,11 @@ $(document).ready(function(){
         if(!($Slidebox.hasClass('animate_h_up'))){
             $Slidebox.removeClass('animate_h_down')
             $Slidebox.addClass('animate_h_up');
-           
-           // $body.addClass('scroll_hidden');
+            $(this).addClass('bg_change')
         }else{
             $Slidebox.removeClass('animate_h_up')
             $Slidebox.addClass('animate_h_down');
+            $(this).removeClass('bg_change');
         }
 
     })
