@@ -6,10 +6,10 @@ $(document).ready(function(){
     var $area_offer=$('.slide_box.area_offer');//지역매물
     var $area_offer_ani=$('.area_offer.animate_h_up');//지역매물
     $all_offer.find('.header').click(function(){
-        if(!($Slidebox.hasClass('animate_h_up'))){
-            $Slidebox.removeClass('animate_h_down').addClass('animated').addClass('animate_h_up')
+        if(!($all_offer.hasClass('animate_h_up'))){
+            $all_offer.removeClass('animate_h_down').addClass('animated').addClass('animate_h_up')
         }else{
-            $Slidebox.removeClass('animate_h_up').addClass('animate_h_down');
+            $all_offer.removeClass('animate_h_up').addClass('animate_h_down');
         }
     })
 
