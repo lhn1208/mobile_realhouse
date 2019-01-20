@@ -3,7 +3,8 @@ $(document).ready(function(){
     //전체매물 slideup
     var $Slidebox=$('.slide_box');
     var $all_offer=$('.slide_box.slide_offer');//전체매물
-    var $area_offer=$('.slide_box.area_offer.basic');//지역매물
+    var $area_offer=$('.basic');//지역매물
+    var $noBasic=$('.slide_box');//지역매물
     $all_offer.find('.header').click(function(){
         if(!($all_offer.hasClass('animate_h_up'))){
             $all_offer.removeClass('animate_h_down').addClass('animated').addClass('animate_h_up');
@@ -13,16 +14,18 @@ $(document).ready(function(){
     })
 
     //지역매물
-    $area_offer.on('touchstart',function(){
-        if(!($area_offer.hasClass('animate_h_up'))){
+    $area_offer.on('touchmove',function(){
+        if($area_offer.hasClass('basic')){
              $area_offer.removeClass('animate_h_down').addClass('animated').addClass('animate_h_up');
-             $area_offer.removeClass('basic')
+             $area_offer.removeClass('basic').addClass('no_basic');
         }
     });
 
-    $('.slide_box.area_offer .header').click(function(){
+    $noBasic.on('click',function(e){
+        if($area_offer.hasClass('no_basic')){
             $area_offer.removeClass('animate_h_up').addClass('animate_h_down');
-            $area_offer.addClass('basic')
+            $area_offer.removeClass('no_basic').addClass('basic');
+        }
     });
  
  
