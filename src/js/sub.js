@@ -17,6 +17,16 @@ $(document).ready(function(){
         }
 
     })
+
+    $('.slide_box .all_offer').scroll(function() {
+        var swiper_sct=$('.slide_box .all_offer').scrollTop();
+        console.log(swiper_sct);
+        if(swiper_sct >0){
+            $Slidebox.removeClass('animate_h_down')
+            $Slidebox.addClass('animate_h_up');
+            $(this).addClass('bg_change')
+        }
+    });
  
     //pop
     var $slidePop=$('.slide_pop');
