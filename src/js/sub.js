@@ -13,19 +13,9 @@ $(document).ready(function(){
             $Slidebox.removeClass('animate_h_up')
             $Slidebox.addClass('animate_h_down');
         }
-
     })
-
-    $('.slide_box.area_offer').scroll(function() {
-        var swiper_sct=$('.slide_box.area_offer').scrollTop();
-        console.log(swiper_sct);
-        if(swiper_sct >0){
-            $Slidebox.removeClass('animate_h_down')
-            $Slidebox.addClass('animate_h_up');
-            $(' .slide_box .all_offer').delay(700).queue(function(next){
-                $(this).css('overflow-y','scroll');
-            })
-        }
+    $Slidebox.on('touchstart',function(){
+        $Slidebox.addClass('animate_h_up');
     });
  
     //pop

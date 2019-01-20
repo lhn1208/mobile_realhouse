@@ -42,8 +42,7 @@
 .offer_map .ico_offer_aera .cnt.on{position: relative; color: #ff6161; background-color: #fff;}
 .offer_map .ico_offer_aera .cnt.on:after{display: block; content:""; position: absolute; top:0; left:0; width:100%; height:100%; box-shadow: 0 0 0 .25rem #ff5050; border-radius: 5rem;}
 .offer_map .map_control{top:50%; transform: translateY(-50%);}
-.slide_box.area_offer{height: 27rem; overflow-y: scroll;}
-.area_offer.animate_h_up{overflow-y: hidden;}
+.slide_box.area_offer{height: 27rem;}
 .area_offer .animate_h_up{animation-name: heightUp; -webkit-animation-name: heightUp; animation-duration: .6s; -webkit-animation-duration: .6s; animation-fill-mode:both; -webkit-animation-fill-mode: both;}
 .area_offer .animate_h_down{animation-name: heightDown; -webkit-animation-name: heightDown; animation-duration: .6s; -webkit-animation-duration: .6s; animation-fill-mode:both; -webkit-animation-fill-mode: both;}
 @keyframes heightUp {
