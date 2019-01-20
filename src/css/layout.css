@@ -152,18 +152,9 @@ textarea{font-family: "Noto Sans KR",sans-serif; font-size: 1.4rem; color: #3c3c
 .slide_box{position: fixed; bottom:0; width:100vw; height: 5rem; z-index: 130; background-color: #fff; border-top:1px solid #dedede; overflow: hidden;}
 .slide_box .header{padding-left: 1.2rem; line-height: 3.2;font-size: 1.6rem; font-weight: 700; color:#1e1e1e; background-image:url("../../images/common/bg_slide_close.png"); background-repeat: no-repeat;; background-position: 96% 50%; background-size: 5%; background-color: #fff;}
 .slide_box .header .cnt{font-size: 1.6rem; font-weight: 700; color: #f15544;}
-.slide_box .all_offer{display: block; height: 92%; border-top: 1px solid #dedede; overflow-y: scroll;}
+.slide_box .all_offer{height: 92%; border-top: 1px solid #dedede; overflow-y: scroll;}
 .slide_box.animate_h_up .header{background-image:url("../../images/common/bg_select_active.png");}
-.animate_h_up{animation-name: heightUp; -webkit-animation-name: heightUp; animation-duration: .6s; -webkit-animation-duration: .6s; animation-fill-mode:both; -webkit-animation-fill-mode: both;}
-.animate_h_down{animation-name: heightDown; -webkit-animation-name: heightDown; animation-duration: .6s; -webkit-animation-duration: .6s; animation-fill-mode:both; -webkit-animation-fill-mode: both;}
-@keyframes heightUp {
-  0% {height:5rem;}
-  100% {height:calc(100% - 9.3rem);}
-}
-@keyframes heightDown {
-  0% {height:calc(100% - 9.3rem);}
-  100% {height:5rem;}
-}
+.animated{animation-duration: .6s; -webkit-animation-duration: .6s; animation-fill-mode:both; -webkit-animation-fill-mode: both;}
 
 .content_area{position: relative;}
 section:first-of-type.content_area .header,.content_area .header.border_none{border-top:none;}
