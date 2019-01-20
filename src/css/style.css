@@ -34,9 +34,9 @@
 /*매물지도*/
 .option .dis_ico{display: none;}
 .offer_map{position: relative;}
-.offer_map .ico_offer_aera{position: absolute; height:2.2rem; background-color: #fff; border-radius: 5rem; z-index: 80; }
-.offer_map .ico_offer_aera .cnt{display: inline-block; padding:3px 10px 5px; margin-top:-.4rem; font-weight: 700; font-size: 1.4rem; color:#fff; background-color:#ff6161; border-radius: 5rem;}
-.offer_map .ico_offer_aera .address{display: inline-block; line-height: 1.6; padding:0 1.2rem 0 .5rem; font-size: 1.2rem; color:#1e1e1e;}
+.offer_map .ico_offer_aera{position: absolute; height:2.6rem; background-color: #fff; border-radius: 5rem; z-index: 80; }
+.offer_map .ico_offer_aera .cnt{display: inline-block; padding:4px 12px 6px; margin-top:-.2rem; font-weight: 700; font-size: 1.4rem; color:#fff; background-color:#ff6161; border-radius: 5rem;}
+.offer_map .ico_offer_aera .address{display: inline-block;padding:0 1.2rem 0 .5rem; font-size: 1.3rem; color:#1e1e1e;}
 .offer_map .ico_offer_aera.position1{top:2%; left:40%; }
 .offer_map .ico_offer_aera.position2{top:15%; left:10%; }
 .offer_map .ico_offer_aera.position3{top:30%; right:10%; }
