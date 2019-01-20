@@ -149,7 +149,7 @@ textarea{font-family: "Noto Sans KR",sans-serif; font-size: 1.4rem; color: #3c3c
 .content_info.border_top{border-top:1px solid #dedede;}
 
 /*슬라이드 박스*/
-.slide_box{position: fixed; bottom:0; width:100vw; height: 5rem; z-index: 130; background-color: #fff; border-top:1px solid #dedede; overflow: hidden;}
+.slide_box{position: fixed; bottom:0; width:100vw; z-index: 130; background-color: #fff; border-top:1px solid #dedede; overflow: hidden;}
 .slide_box .header{padding-left: 1.2rem; line-height: 3.2;font-size: 1.6rem; font-weight: 700; color:#1e1e1e; background-image:url("../../images/common/bg_slide_close.png"); background-repeat: no-repeat;; background-position: 96% 50%; background-size: 5%; background-color: #fff;}
 .slide_box .header .cnt{font-size: 1.6rem; font-weight: 700; color: #f15544;}
 .slide_box .all_offer{height: 92%; border-top: 1px solid #dedede; overflow-y: scroll;}
