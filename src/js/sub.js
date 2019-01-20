@@ -20,11 +20,7 @@ $(document).ready(function(){
         }
     });
 
-    $area_offer_ani.find('.header').click(function(){
-        if($area_offer.hasClass('animate_h_up')){
-             $area_offer.removeClass('animate_h_up').addClass('animate_h_down');
-        }
-    });
+ 
  
     //pop
     var $slidePop=$('.slide_pop');
