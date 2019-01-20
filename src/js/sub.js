@@ -6,17 +6,16 @@ $(document).ready(function(){
     var speed=500;
     var up_num, reset_num;
     $Slidebox.find('.header').click(function(){
-        var up_num='88.2%';
-        reset_num='7%';
-        if(!($Slidebox.hasClass('open'))){
-            $Slidebox.stop().animate({height:up_num},speed);
-            $Slidebox.addClass('open');
-            pop_set('y');
+        if(!($Slidebox.hasClass('animate_h_up'))){
+            $Slidebox.removeClass('animate_h_down')
+            $Slidebox.addClass('animate_h_up');
+           
+           // $body.addClass('scroll_hidden');
         }else{
-            $Slidebox.stop().animate({height:reset_num},speed);
-            $Slidebox.removeClass('open');
-            pop_set('y');
+            $Slidebox.removeClass('animate_h_up')
+            $Slidebox.addClass('animate_h_down');
         }
+
     })
  
     //pop

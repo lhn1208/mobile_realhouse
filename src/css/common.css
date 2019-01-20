@@ -45,7 +45,7 @@ textarea{resize: none;}
 .wrapper.type{height: 100%;}
 .wrapper{position: relative; width:100%; height: calc(100% - 3.6rem);}
 .container_inner{margin-bottom: 7rem;}
-.bg_white{background-color: #fff;}
+.bg_white{background-color: #fff; width:100vw; height:100vh;}
 .main_container .intro{padding-top:5.2rem; margin-bottom: 1.4em; font-size: 2rem; font-weight: 500; color: #646464; text-align: center;}
 .main_container .intro strong{display: block; font-size: 2.2rem; font-weight: 500; color: #1e1e1e;}
 .main_container .intro .sub_tit{font-size: 2.1rem;}
@@ -81,7 +81,6 @@ textarea{resize: none;}
 .sub_header .header2{line-height: 3.1; font-size: 1.6rem; font-weight: 700;text-align: center;}
 .sub_header .tit{font-size: 1.6rem; font-weight: 700; color: #fff; }
 .sub_container{padding-top:4.8rem;}
-.sub_container.type{margin-top:12%;}
 .sub_container.type_pd0{padding-top:0;}
 /*footer*/
 #footer_nav_section{height:4.8rem; padding:.7rem 0 .7rem 0; background-color: #f9fcff; border-top:1px solid #dedede; z-index: 9999;}
