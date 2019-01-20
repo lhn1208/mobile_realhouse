@@ -9,22 +9,22 @@ $(document).ready(function(){
         if(!($Slidebox.hasClass('animate_h_up'))){
             $Slidebox.removeClass('animate_h_down')
             $Slidebox.addClass('animate_h_up');
-            $(this).addClass('bg_change')
         }else{
             $Slidebox.removeClass('animate_h_up')
             $Slidebox.addClass('animate_h_down');
-            $(this).removeClass('bg_change');
         }
 
     })
 
-    $('.slide_box .all_offer').scroll(function() {
-        var swiper_sct=$('.slide_box .all_offer').scrollTop();
+    $('.slide_box.area_offer').scroll(function() {
+        var swiper_sct=$('.slide_box.area_offer').scrollTop();
         console.log(swiper_sct);
         if(swiper_sct >0){
             $Slidebox.removeClass('animate_h_down')
             $Slidebox.addClass('animate_h_up');
-            $(this).addClass('bg_change')
+            $(' .slide_box .all_offer').delay(700).queue(function(next){
+                $(this).css('overflow-y','scroll');
+            })
         }
     });
  
