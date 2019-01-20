@@ -20,6 +20,9 @@ $(document).ready(function(){
         }
     });
 
+    $area_offer_ani.find('.header').click(function(){
+            $area_offer.removeClass('animate_h_up').addClass('animate_h_down')
+    });
  
  
     //pop
