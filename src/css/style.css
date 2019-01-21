@@ -10,10 +10,10 @@
 .filter_locate_box .locate{width: 96vw; margin:0 auto;}
 .filter_locate_box .locate:after{display: block; content:""; clear: both;}
 .filter_locate_box .locate dt{margin-left: 0;}
-.filter_locate_box .area{float: left; width:32.6%; height:4.4rem; line-height: 2.7; margin-left: 1%; padding:0 .75rem; font-size: 1.5rem; font-weight: 500; color: #1e1e1e; border:none; background-image:url("../../images/common/bg_select_active.png"); background-repeat: no-repeat; background-color: #fff; background-position: 88% 50%; background-size: 1.5rem; border:1px solid #e6e6e6; border-radius: .5rem; text-align: left;}
+.filter_locate_box .area{float: left; width:32.6%; height:3.7rem; line-height: 2.7; margin-left: 1%; padding:0 .75rem; font-weight: 500; color: #1e1e1e; border:none; background-image:url("../../images/common/bg_select_active.png"); background-repeat: no-repeat; background-color: #fff; background-position: 88% 50%; background-size: 1.5rem; border:1px solid #e6e6e6; border-radius: .5rem; text-align: left;}
 .filter_locate_box .area.no_data{position: relative; line-height: 3; background-color: #fafafa; background-image:url("../../images/common/bg_bottom_arr.png");}
 .filter_locate_box .area.no_data::before{display: block; content: ""; position: absolute; top:50%; left: .75rem; width:.35rem; height: .1rem; background-color: #9c9c9c;}
-.link_section .link_area a{float: left; width:33.3%; line-height: 3.3; font-size: 1.5rem; border: 1px solid #dedede; border-top: none; border-left: none; background-color: #fff; text-align: center;}
+.link_section .link_area a{float: left; width:33.3%; line-height: 3.6; border: 1px solid #dedede; border-top: none; border-left: none; background-color: #fff; text-align: center;}
 .link_section .link_area a:nth-of-type(3n+1){border-left: 0;}
 .link_section .link_area a:nth-of-type(3n){border-right: 0;}
 .link_section .link_area a.active{color: #fff; background-color: #92d050;}
@@ -25,10 +25,31 @@
 .filter_area .offer_type_area .act_btn+label:nth-of-type(3n+1){margin-left: 0;}
 .content_head .filter_desc{position: absolute; top:2rem; right:1rem; color: #378cff;}
 
-.filter_area .offer_type_area.type{border:1px solid #dedede; border-top:none; border-radius: .5rem;}
-.filter_area .offer_type_area.type .act_btn+label{float: left; width: 25%; margin: 0; border:none; border-top:1px solid #dedede; border-left:1px solid #dedede; border-radius: 0;}
-.filter_area .offer_type_area.type .act_btn:nth-of-type(4n+1)+label{border-left: none;}
-
+.offer_type_area .filter_btn_list{border:1px solid #ccc; border-radius: .5rem; background-color: #fff;}
+.offer_type_area .filter_btn_list li{display: block; border-top:1px solid #ccc;}
+.offer_type_area .filter_btn_list li:first-child{border-top:none;}
+.offer_type_area .filter_btn_list li:after{display: block; content:""; clear: both;}
+.offer_type_area .filter_btn_list .act_btn+label{float: left; width: 25%; margin: 0; background-color: transparent; border:none; border-left:1px solid #ccc; border-radius: 0;}
+.offer_type_area .filter_btn_list li .act_btn:first-of-type+label{border-left: none;}
+.offer_type_area .filter_btn_list .act_btn:checked+label{background-color: #92d050;}
+.offer_type_area .filter_btn_list li:first-child .act_btn:first-of-type:checked+label{border-top-left-radius: .5rem;}
+.offer_type_area .filter_btn_list li:first-child .act_btn:last-of-type:checked+label{border-top-right-radius: .5rem;}
+.offer_type_area .filter_btn_list li:last-child .act_btn:first-of-type:checked+label{border-bottom-left-radius: .5rem;}
+.offer_type_area .filter_btn_list li:last-child .act_btn:last-of-type:checked+label{border-bottom-right-radius: .5rem;}
+.filter_area .visit_chk+label{position: absolute; top:2rem; left:5.2rem;}
+.offer_submit .btn{width:67%;}
+.offer_submit .btn:first-of-type{width:33%;}
+.control_area{position: relative; width:96vw; margin:0 auto; padding-top: 4rem;}
+.control_area:before{display: block; content:""; position: absolute; top:5.4rem; left: 50%; margin-left:-.7rem;  width:1.4rem; height: .4rem; background:url("../../images/sub/bg_filter.png") no-repeat; background-size: 100%;}
+.control_area .control{float:left;}
+.control_area .control.max{float: right;}
+.control_area .control:after{display: block; content:""; clear: both;}
+.control_area .control button{float: left; width:3.3rem; height:3.3rem; background-color:#fafafa; border:1px solid #dedede;}
+.control_area .control button:before{display: inline-block; content:""; background-repeat: no-repeat; background-size: 100%; text-align: center;}
+.control_area .control .minus:before{width:1.6rem; height: .2rem; vertical-align: .4rem; background-image: url("../../images/sub/bg_minus.png");}
+.control_area .control .plus:before{width:1.6rem; height:1.6rem; background-image: url("../../images/sub/bg_plus.png");}
+.control_area .control label{display: inline-block; float: left; height: 3.3rem; border-top:1px solid #dedede; border-bottom: 1px solid #dedede}
+.control_area .control .input_control{float: left; width:9.5rem; height: 3rem; border:none; text-align: center;}
 /*매물지도*/
 .option .dis_ico{display: none;}
 .header_section{background-color: #fff;}
@@ -218,7 +239,8 @@
 
 .req_resent{padding-top:1.2rem;}
 .section_wrap{position: relative; min-height: 40%;}
-.present_sec{position: relative; width: 96vw; height: 100%; opacity:1; margin:0 auto 1.5rem; border:1px solid #dedede; border-radius: .5rem;}
+.section_wrap .slide_line{position: absolute; bottom:0; left:0; display: block; width:100%; height:2.2rem; padding-top:.8rem; z-index: 25;}
+.present_sec{position: relative; display: block; width: 96vw; height: 100%; opacity:1; margin:0 auto 1.5rem; border:1px solid #dedede; border-radius: .5rem;}
 .present_sec .req_info{line-height: 1.8; padding:1rem 1.2rem; border-bottom: 1px solid #dedede;}
 .present_sec .row{position: relative; line-height: 3.8; padding:0 1.2rem; border-bottom: 1px solid #dedede;}
 .present_sec .offer_type{color: #1e1e1e;}
@@ -416,7 +438,8 @@
 .offer_pic .offer_row .pagination1{position: fixed; bottom:2.6rem;}
 .pic_row_wrap{background-color: #000; width:100vw; height:100vh;}
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 374px){
     .act_btn+label, .btn_type1{min-width: 7.3rem;}
     html{font-size: 8px;}
+    .search_input_area .search_box{padding-left: 6rem;}
 }

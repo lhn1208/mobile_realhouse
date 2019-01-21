@@ -51,12 +51,14 @@ $(document).ready(function(){
     //     var ev_cont=$('.present_cont').scrollTop();
     //     if(sct>ev_cont){ 
     //         console.log('ev_cont->'+ev_cont);
-    //         console.log(sct);
-    //         $('.present_sec').stop().animate({'height':'0','opacity':'0'},speed);
+    //         console.log( $('.slide_line').offset().top);
+    //         var slideLine=$('.slide_line').offset().top;
+    //         $('.present_sec').css({'display':'none'},speed);
     //        // $('.section_wrap').css('padding-top','24%')
+    //        $('html, body').stop().animate({'scrollTop' : $('.slide_line').offset().top}, 100);
     //     }else{
-    //         $('.present_sec').stop().animate({'height':'100%','opacity':'1'},speed);
-    //         $('.section_wrap').removeAttr('style');
+    //         $('.present_sec').css({'display':'block'},speed);
+    //        // $('.section_wrap').removeAttr('style');
     //     }
     // });
                  
