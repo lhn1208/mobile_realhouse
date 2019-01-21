@@ -318,12 +318,12 @@
 .point_box .link_box a:before{display: inline-block; content:"|"; position: absolute; top:1.4rem; left:0; width:.1rem; height:1.2rem; color: #3c3c3c;}
 
 .notice .header{position: relative; line-height: 3.2; background-color: #f9fcff; border:1px solid #dedede; border-top-right-radius: .5rem; border-top-left-radius: .5rem;}
-.notice .header .tit{padding:0 1.2rem; font-weight: 700; font-size: 1.6rem; color: #1e1e1e;}
+.notice .header .tit{height: 5rem; padding:0 1.2rem; font-weight: 700; font-size: 1.6rem; color: #1e1e1e;}
 .notice .header .link{position: absolute; top:5%; right:1.2rem; font-weight: 700;}
 .notice .header .link:after{top:1.6rem; }
 .notice .notice_list{border:1px solid #dedede; border-bottom-right-radius: .5rem; border-bottom-left-radius: .5rem; border-top:none;}
 .notice .notice_list li:first-child{border-top: none;}
-.notice .notice_list li{padding:0 1.2rem; line-height: 3.6; border-top:1px solid #dedede;}
+.notice .notice_list li{height: 5rem; padding:0 1.2rem; line-height: 3.6; border-top:1px solid #dedede;}
 .notice .notice_list li:after{display: block; content:""; clear: both;}
 .notice .notice_list li .link{float: left;}
 .notice .notice_list li .new{min-width: 2.6rem; padding:.2rem .4rem;}
