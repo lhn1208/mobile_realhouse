@@ -144,7 +144,7 @@
 .visit_request .link_select{display: block; margin: 0 auto;}
 .visit_request .agent_info{border-bottom: 1px solid #dedede;}
 .visit_request .agent_info.no_items{padding:.4rem 1.6rem 3.1rem; line-height: 2; color: #6b6b6b;}
-.purch_pop{height: 54vh;}
+.purch_pop{height: 43.8rem;}
 .purch_pop .company{color: #1e1e1e;}
 
 /*매물상세*/
@@ -255,7 +255,7 @@
 .present_cont .state dl:first-of-type{margin-left: 0;}
 .present_cont .state dl{float: left; width:20%;}
 .present_cont .state dd{font-size: 1.6rem; font-weight: 700; color: #378cff;}
-.my_present .present_manage{width:96vw; margin:0 auto; padding-top:2.5rem;}
+.my_present .present_manage{width:96%; margin:0 auto; padding-top:2.5rem;}
 .present_manage li{position: relative; height: 8.4rem;}
 .present_manage li:before{display: block; content:""; position: absolute; top:3.2rem; left:1.2rem; width:.6rem; height: 5rem; background-color: #e6e6e6;}
 .present_manage li:last-child:before{background: none;}
@@ -267,15 +267,14 @@
 .present_manage .build_address:after{display: block; content:""; position: absolute; top:.4rem; right:-1.2rem; width:.7rem; height:1.2rem; background: url("../../images/common/arr_link.png") no-repeat; background-size: 100%;}
 .present_manage li:first-child .build_address{color: #1e1e1e;}
 .present_manage li:first-child .build_address:after{background:none;}
-.present_manage li .state{font-weight: 400;}
-.present_manage li.no_consult .head{background-color: #acacac;}
-.present_manage li.no_consult .state{color: #acacac;}
-.present_manage li.consult_finish .head{background-color: #378cff;}
-.present_manage li.consult_finish .state{color: #378cff;}
-.present_manage li.visit_finish .head{background-color: #0ec4bf;}
-.present_manage li.visit_finish .state{color: #0ec4bf;}
-.present_manage li.red .head{background-color: #ff6161;}
-.present_manage li.red .state{color: #ff6161;}
+.present_manage .no_consult .head{background-color: #acacac;}
+.present_manage .no_consult .state{color: #acacac;}
+.present_manage .consult_finish .head{background-color: #378cff;}
+.present_manage .consult_finish .state{color: #378cff;}
+.present_manage .visit_finish .head{background-color: #0ec4bf;}
+.present_manage .visit_finish .state{color: #0ec4bf;}
+.present_manage .red .head{background-color: #ff6161;}
+.present_manage .red .state{color: #ff6161;}
 .present_cont .info_box{border-top:1px solid #dedede;}
 .my_present .client_manage{position: relative;}
 .my_present .client_manage .right_area{top:24%;}
@@ -296,6 +295,22 @@
 .my_present .purchase_manage .header{font-weight: 500; color: #3c3c3c;}
 .my_present .purchase_manage .info_box{border-top:none;}
 .my_present .purchase_manage .visit_list li{color: #3c3c3c;}
+
+.purch_info{height: 30.8rem;}
+.purch_info .tit{display: inline-block; margin-left: .8rem;}
+.purch_info .content_box .row:last-of-type,.phone_pop .content_box li:last-of-type{border-bottom: none;}
+.purch_info .purch_btn{width:14.6rem; right:.3rem;}
+.purch_info .purch_btn .inner{position: relative;}
+.purch_info .purch_btn .btn_type1{display: inline-block; min-width:7rem}
+.phone_pop{height:30.2rem;}
+.phone_pop .phone_num +label{font-weight: 700; color: #1e1e1e;}
+.sale_present .present_manage{width:100%; padding-top:0;}
+.sale_present .present_manage .left{margin-left: 0;}
+.sale_present .content_area{margin:.5rem 0;}
+.sale_present .header .tit{font-weight: 700;}
+.sale_present .offer_desc{line-height: 2; padding:1.2rem; border-top:1px solid #dedede; border-bottom: 1px solid #dedede; background-color: #fffbfb;}
+.sale_present .offer_desc li{height: auto;}
+.sale_present .offer_desc li:before{display: none;}
 /*더보기*/
 .more_sec{background-color: #fff;}
 .more_sec .more_intro{position: relative; padding:3rem 5rem 3rem 2.4rem;}

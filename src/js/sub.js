@@ -14,7 +14,6 @@ $(document).ready(function(){
     //지역매물
     $area_offer.on('touchmove',function(){
         if(!($area_offer.hasClass('animate_h_up'))){
-            console.log('aaaa');
              $area_offer.removeClass('animate_h_down').addClass('animated').addClass('animate_h_up');
         }
     });
@@ -27,11 +26,13 @@ $(document).ready(function(){
         up_num='0'
          $slidePop.stop().animate({bottom:up_num},speed);       
         pop_set('y');
+        return false;
     })
     $('.slide_pop .close').click(function(){
         reset_num=-pop_h;
          $slidePop.stop().animate({bottom:reset_num},speed);       
         pop_set('n');
+        return false;
     })
 
     function pop_set(hide_yn){
