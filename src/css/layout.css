@@ -138,7 +138,7 @@ textarea{font-family: "Noto Sans KR",sans-serif; font-size: 1.4rem; color: #3c3c
 .content_intro .tit.blue{color: #378cff;}
 .content_intro .desc_area{position: relative; word-break: keep-all;}
 .content_intro .desc_area.btn_area{margin-right:12rem;}
-.content_intro .btn_intro{position: absolute; top:3.4rem; right:1.2rem; font-weight: 700;}
+.content_intro .btn_intro{position: absolute; top:3.4rem; right:1.2rem; font-weight: 900;}
 /*지도 확대/축소*/
 .map_control{position: absolute; /*top:46%;*/ top:6%; right:3%; background-color: #fff; border:1px solid #dedede; border-radius: .5rem; z-index: 90;;}
 .map_control button{display: block; width:4rem; height:3.7rem; background-image: url("../../images/common/zoom_plus.png"); background-repeat: no-repeat; background-position: 48% 1rem; background-size: 40%;}
