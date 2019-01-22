@@ -169,7 +169,7 @@
 .offer_main .amt_control dt:after{display: block; content:""; position: absolute; top:0; right:.5rem; width: .1rem; height: 6.3rem; /*background:url("../../images/sub/bg_amt_control.jpg") no-repeat;*/ background-color: #dedede; background-size: 100%;}
 .offer_main .amt_control dt{position: absolute; top:0; left:.8rem; width: 6.6rem; font-size: 1.4rem; color: #ff6161;}
 .offer_main .amt_control dd{float: left; margin-left: 1rem; line-height: 4.6; font-weight: 700; font-size: 1.3rem;}
-.offer_main .amt_control dd:first-of-type{margin-left: 7.8rem;}
+.offer_main .amt_control dd:first-of-type{margin-left: 7.6rem;}
 .favoer_cover{position: absolute;}
 .favoer_cover .deal_complete{position: absolute; top:8%; left:50%; width:68%; margin-left: -34%; padding:1rem 0 1rem; line-height: 1.4; font-size: 1.6rem; border-radius: 5rem; background-color: #fff; text-align: center;}
 
