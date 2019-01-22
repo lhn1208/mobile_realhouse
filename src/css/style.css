@@ -212,7 +212,7 @@
 .my_req_cont .info_area{width:96%; margin:0 auto; background-color: #fff; border:1px solid #dedede; border-radius: 0; word-break: keep-all;}
 .my_req_cont .info_area .header{position: relative; height: 5.7rem; line-height: 4; padding:0 1.2rem;border:none; border-bottom: 1px solid #dedede; background-color: #f9fcfd;}
 .my_req_cont .info_area .header .tit{font-weight: 700; font-size: 1.4rem; color: #3c3c3c; }
-.my_req_cont .info_area .header .close{position: absolute; top:34%; right:1.2rem; width:1.4rem; height:1.4rem; background:url("../../images/common/close.png") no-repeat; background-size: 100%;}
+.my_req_cont .info_area .header .close{position: absolute; top:34%; right:1.2rem; width:1.5rem; height:1.5rem; background:url("../../images/common/close.png") no-repeat; background-size: 100%;}
 .my_req_cont .info_area .info_cont{border:none;}
 
 /*계약관리*/
