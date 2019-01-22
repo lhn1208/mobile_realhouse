@@ -36,14 +36,14 @@ textarea{resize: none;}
 /*공통 버튼*/
 .btn_perv{position: absolute; top:.1rem; left:1.2rem; width:1.6rem; height:100%; background: url("../../images/common/ico_header_arr.png") no-repeat 0 1.5rem; background-size: 100%; }
 /*확인 팝업*/
-.layer_confirm{position: absolute; top:35%; left:50%; width:80vw; margin-left: -40%; background-color: #fff; border-radius: .5rem; z-index: 110;}
-.layer_confirm .layer_inner{position: relative; width:80vw; height: 20.2rem; padding-top:6.5rem; text-align: center;}
+.layer_confirm{position: absolute; top:42%; left:50%; width:80%; margin-left: -40%; background-color: #fff; border-radius: .5rem; z-index: 110;}
+.layer_confirm .layer_inner{position: relative; width:100%; height: 20.2rem; padding-top:6.5rem; text-align: center;}
 .layer_confirm .btn_submit{position: absolute; width:100%; bottom:0; left:0; line-height: 4.2; font-size: 1.4rem; color: #fff; border-bottom-left-radius: .3rem; border-bottom-right-radius: .3rem;}
 .layer_confirm .btn_submit .btn{line-height: 4.1; font-size: 1.4rem;}
 .layer_alarm{position: fixed; width:80%; left:50%; bottom:8%; margin-left: -40%; line-height: 3.2; color: #fff; border-radius: 3rem; z-index: 105; background-color: rgba(0,0,0,.7); text-align: center;}
 
 .wrapper.type{height: 100%;}
-.wrapper{position: relative; width:100%; height: calc(100% - 3.6rem);}
+.wrapper{position: relative; width:100%; height: calc(100% - 4.6rem);}
 .container_inner{margin-bottom: 7rem;}
 .bg_white{background-color: #fff; width:100%; height:100vh;}
 .main_container .intro{padding-top:5.2rem; margin-bottom: 1.4em; font-size: 2rem; font-weight: 500; color: #646464; text-align: center;}
@@ -112,7 +112,7 @@ textarea{resize: none;}
 .member_box_area .logo{padding-top:1.2rem;}
 .member_box_area .tit{margin-bottom: 4.7rem; font-size: 2.2rem; font-weight: 700; color: #9c9c9c; text-align: center;}
 .member_box_area .close{position: absolute; top:1.7rem; right:1.2rem; width:1.4rem; height:1.4rem; background:url("../../images/common/close.png") no-repeat; background-size:100%;}
-.member_box{width:96vw; margin:0 auto 2.4rem;}
+.member_box{width:96%; margin:0 auto 2.4rem;}
 .member_box .member_form{position: relative; }
 .member_box .member_form label{position: relative; width:100%; display: inline-block;}
 .member_form .member_input{width:100%; line-height: 3.5; padding:0 4.2rem 0 .8rem; font-size: 1.4rem;}
@@ -121,7 +121,7 @@ textarea{resize: none;}
 .member_box .member_sch{width:100%; color: #646464; text-align: right;}
 .member_box .pw_input{line-height: 0; font-size: 2.8rem; line-height: 1.7;}
 .member_box .placeholder{position: absolute; top:0; left:0; padding: 0 1rem; line-height: 3.6; font-size: 1.4rem; color: #9c9c9c;}
-.login_btn_area{width:96vw; margin:0 auto 1.6rem;}
+.login_btn_area{width:96%; margin:0 auto 1.6rem;}
 .login_btn_area .btn{line-height: 3.8; width:49%; font-weight: 700; border-radius: .5rem;}
 .login_btn_area .btn_login{width:100%; margin-bottom: .8rem; color: #fff; background-color: #ff6161;}
 .login_btn_area .btn_kakao{float: left; color: #3c3c3c; background-color: #f7e506;}
@@ -137,7 +137,7 @@ textarea{resize: none;}
 .member_box .input_phone + .delete{right: 10.5rem;}
 .member_box .btn_certify{position: absolute; top:17%; right:1rem; background-color: #fafafa;}
 .member_box .time{position: absolute; top:26%; right:10.5rem; font-size: 1.4rem; color: #646464;}
-.member_box_area .agree_box{width:96vw; margin:0 auto; border:1px solid #dedede; border-radius: .5rem;}
+.member_box_area .agree_box{width:96%; margin:0 auto; border:1px solid #dedede; border-radius: .5rem;}
 .member_box_area .agree_box li{position: relative; padding:0 .8rem; line-height: 4.2; color: #3c3c3c; border-top:1px solid #dedede;}
 .member_box_area .agree_box li em{position: relative;}
 .member_box_area .agree_box li em:after{display: block; content:""; position: absolute; bottom:-.4rem; left:0; width:100%; height:.1rem; background-color: #3c3c3c;}
