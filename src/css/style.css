@@ -196,9 +196,10 @@
 .visit_req_btn_area .btn_favor.agent .pick:after{top:1.4rem; left:14.6rem;}
 /*매수,매도 리스트*/
 .request_swiper .tab_list_box{border:none;}
-.request_swiper .swiper_menu li.active:after{background-color: #1e1e1e;}
-.request_swiper .swiper_menu li a{color: #9c9c9c}
-.request_swiper .swiper_menu li.active a{color: #1e1e1e;}
+.request_swiper .swiper_menu li{height:4.8rem; background-color:#0ec4bf;}
+.request_swiper .swiper_menu li.active:after{background-color: #fff;}
+.request_swiper .swiper_menu li a{color: #50d8d4}
+.request_swiper .swiper_menu li.active a{color: #fff;}
 .request_swiper .swiper_menu li+li:before{background: none;}
 .no_items .sub_desc{margin:.6rem 0; color: #3c3c3c;}
 .my_req_cont .no_items{padding-top: 10%; text-align: center; color: #9c9c9c;}

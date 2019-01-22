@@ -103,7 +103,7 @@ textarea{resize: none;}
 
 .footer_nav li a{position: relative; font-size: 1rem; color: #353d46;}
 .footer_nav li.on a{color:#378cff;}
-.footer_nav li a:before{display: block; content:""; width: 4.8rem; height: 2rem; background-size:82%; background-repeat: no-repeat; background-position-x: .4rem; text-align: center;}
+.footer_nav li a:before{display: block; content:""; width: 4.5rem; height: 2rem; background-size:82%; background-repeat: no-repeat; background-position-x: .4rem; text-align: center;}
 .footer_nav li a .ico_alarm{position: absolute; top:0; right:1rem; width:1.5rem; height:1.5rem; font-size: .9rem; color: #fff; background-color: #f15544; border-radius: 50%;}
 
 /*회원가입*/
