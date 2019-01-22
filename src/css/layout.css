@@ -97,10 +97,10 @@ textarea{font-family: "Noto Sans KR",sans-serif; font-size: 1.4rem; color: #3c3c
 .items_list li{position: relative; border-bottom: 1px solid #dedede; background-color: #fff;}
 .items_list li a,.items_list li .item_box{position: relative; padding:1rem .4rem;}
 .items_list li a{width:100%;}
-.items_list li .img_area{position: absolute; width:14.7rem; left:.2rem; top:.6rem;}
+.items_list li .img_area{position: absolute; width:14.7rem; left:0; top:.6rem;}
 .items_list .img_cover{position:absolute; bottom: 0; width: 100%; height:100%; padding-top:3.75rem; font-size: 1.6rem; font-weight:700; font-family: "Noto Sans KR",sans-serif; color:#fff; background:rgba(0,0,0,.5); text-align: center;}
 .items_list .seen{position: absolute; bottom:0; width:100%; line-height: 2.5; font-size: 1.0rem; font-weight: 700; color: #fff200; background:rgba(0,0,0,.5); text-align: center;}
-.items_list .item_info{margin-left: 15.3rem; line-height: 1.6; font-size: 1.4rem; color: #646464;}
+.items_list .item_info{margin-left: 15rem; line-height: 1.6; font-size: 1.4rem; color: #646464;}
 .items_list .item_info .tit{display: block; margin-bottom: .2rem; font-size: 1.7rem; font-weight: 700; color: #1e1e1e;}
 .items_list .item_info .mark{overflow: hidden; padding:.2rem;}
 .items_list .item_info .mark span:first-of-type{margin-left: 0;}
