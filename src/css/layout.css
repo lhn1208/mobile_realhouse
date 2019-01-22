@@ -137,8 +137,9 @@ textarea{font-family: "Noto Sans KR",sans-serif; font-size: 1.4rem; color: #3c3c
 .content_intro{position: relative; line-height: 1.6; padding:1.2rem; background-color:#f9fcfd; border-bottom: 1px solid #dedede;}
 .content_intro .tit{margin-bottom: .6rem; font-size: 1.6rem; font-weight: 700; color: #ff6161;}
 .content_intro .tit.blue{color: #378cff;}
-.content_intro .desc_area{position: relative; word-break: keep-all;}
+.content_intro .desc_area{position: relative;}
 .content_intro .desc_area.btn_area{margin-right:12rem;}
+.content_intro .desc_area .desc{word-break: keep-all;}
 .content_intro .btn_intro{position: absolute; top:3.4rem; right:1.2rem; font-weight: 700;}
 /*지도 확대/축소*/
 .map_control{position: absolute; /*top:46%;*/ top:6%; right:3%; background-color: #fff; border:1px solid #dedede; border-radius: .5rem; z-index: 90;;}
@@ -245,7 +246,7 @@ section:first-of-type.content_area .header,.content_area .header.border_none{bor
 .area_more.off .link_more{color: #9c9c9c;}
 
 /*info*/
-.info_box{padding:1.1rem 1.2rem; line-height: 2; background-color: #fffbfb; border-bottom: 1px solid #dedede; word-break: keep-all;}
+.info_box{min-height: 5.7rem; padding:1.4rem 1.2rem; line-height: 2; background-color: #fffbfb; border-bottom: 1px solid #dedede; word-break: keep-all;}
 .info_box.center{text-align: center;}
 .info_list li{line-height: 1.8; text-indent: -1.4rem; padding-left: 1.4rem; word-break: keep-all;}
 .info_box .info_desc{text-indent: -1.4rem; padding-left: 1.4rem; word-break: keep-all;}
