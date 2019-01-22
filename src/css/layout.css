@@ -158,7 +158,7 @@ textarea{font-family: "Noto Sans KR",sans-serif; font-size: 1.4rem; color: #3c3c
 
 .content_area{position: relative;}
 section:first-of-type.content_area .header,.content_area .header.border_none{border-top:none;}
-.content_area .header{position: relative; padding:0 1.2rem; line-height: 3.5; font-weight: 700; background-color: #f9fcfd; border-top: 1px solid #dedede; border-bottom: 1px solid #dedede;}
+.content_area .header{position: relative; height:5.7rem; padding:0 1.2rem; line-height: 3.5; font-weight: 700; font-size: 1.6rem; background-color: #f9fcfd; border-top: 1px solid #dedede; border-bottom: 1px solid #dedede;}
 .content_area .header.bg_none{background: none;}
 .content_area .header.border_t_none{border-top: none;}
 .content_area .header:after{display: block; content:""; clear: both;}
@@ -170,14 +170,14 @@ section:first-of-type.content_area .header,.content_area .header.border_none{bor
 .content_area .right{float: right;}
 .content_area .offer_type{color: #1e1e1e;}
 .content_area .date{float: right; padding-top:.3rem; color:#646464; font-weight: 500; font-size: 1.3rem;}
-.content_area .header .tit{font-weight: 700;} 
+.content_area .header .tit{font-weight: 700; font-size: 1.6rem;} 
 .content_area .header .ico{vertical-align: -.2rem;} 
 .content_area.mar_type{margin:0}
 .content_area.mar_type .header{border-top:none}
 .content_area .content_box .btn,.content_area .content_box .right_area.btn{top:.6em !important;}
 .offer_type em:after{display: inline-block; content:"|"; margin:0 .2rem; color: #1e1e1e; vertical-align: .1rem;}
 /*한줄 이상*/
-.content_box .cont,.content_box .list li{position: relative; padding:1.2rem; line-height: 1.8; border-bottom: 1px solid #dedede;}
+.content_box .cont,.content_box .list li{position: relative; padding:1.2rem; line-height: 1.8; border-bottom: 1px solid #dedede; background-color: #fff;}
 .content_box .cont .offer_type, .content_box .cont .offer_type em{color: #3c3c3c;}
 .content_box .cont.border_none{border-bottom: none;}
 .content_box .cont .tit{display: inline-block; margin-bottom: .4rem;}
@@ -188,7 +188,6 @@ section:first-of-type.content_area .header,.content_area .header.border_none{bor
 .content_box .row:after{display: block; content:""; clear: both;}
 .content_box .row{position: relative; line-height: 3.6; padding:0 1.2rem; border-bottom: 1px solid #dedede;}
 .content_box .row:after{display: block; content:""; clear: both;}
-/* .content_box .row.line_type{line-height: 2.4;} */
 .content_box .row .tit{font-weight: 700;}
 .content_box .right_area{position: absolute; right:1.2rem; top:0;}
 .content_box .link_style:after{display: block; top:1.9rem;}
@@ -213,7 +212,7 @@ section:first-of-type.content_area .header,.content_area .header.border_none{bor
 .no_cont_date{padding: 10% 0; border-bottom: 1px solid #dedede; color: #9c9c9c; text-align: center;}
 /*레이어*/
 .slide_pop{position: fixed; left:0; right:0; width:100%; ; max-height: 100%; background-color: #fff;z-index: 130; overflow-y: scroll;}
-.slide_pop .close{position: absolute; top:50%; right:1.2rem; transform: translateY(-50%); width:1.3rem; height:1.3rem; background:url("../../images/common/close.png") no-repeat; background-size: 100%;}
+.slide_pop .close{position: absolute; top:50%; right:1.2rem; transform: translateY(-50%); width:1.5rem; height:1.5rem; background:url("../../images/common/close.png") no-repeat; background-size: 100%;}
 .layer_pop .close{position: absolute; top:1.7rem; right:1.2rem; width:1.8rem; height:1.8rem; background-image:url("../../images/common/close.png"); background-repeat: no-repeat; background-size:100%; z-index: 50;;}
 .layer_pop .close.white{background-image:url("../../images/sub/close_white.png")}
 
@@ -225,6 +224,7 @@ section:first-of-type.content_area .header,.content_area .header.border_none{bor
 .list_tb li em{width:28%; font-size: 1.2rem; color: #9c9c9c; text-align: right;}
 .list_tb li .detail{width:73%; text-align: left;}
 .list_tb li .detail.center{width:73%; text-align: center;}
+.list_tb .mark_ico .detail{padding-top:.3rem}
 .list_tb .mark_ico .detail i{margin-left: 0;}
 .list_tb li .detail .desc{font-size: 1.1rem;}
 /*탭리스트*/

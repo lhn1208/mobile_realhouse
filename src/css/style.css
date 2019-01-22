@@ -140,12 +140,12 @@
 .star_grade_eval .star_grade span{display: inline-block; width:2.8rem; height: 2.6rem; margin-left:2.5rem; background: url("../../images/sub/grade_star.png") no-repeat; background-size: 100%;}
 .star_grade_eval .star_grade span.on{background: url("../../images/sub/grade_star_on.png") no-repeat;  background-size: 100%;}
 
-.visit_request{padding-top:2rem;}
+.visit_request{padding-top:2rem; background-color: #fff;}
 .visit_request .link_select{display: block; margin: 0 auto;}
 .visit_request .agent_info{border-bottom: 1px solid #dedede;}
 .visit_request .agent_info.no_items{padding:.4rem 1.6rem 3.1rem; line-height: 2; color: #6b6b6b;}
 .purch_pop{height: 43.8rem;}
-.purch_pop .company{color: #1e1e1e;}
+.purch_pop .company{color: #1e1e1e; font-weight: 500;}
 
 /*매물상세*/
 .offer_main .offer_mark_area{padding-top:3.2rem; margin:0 .4rem 2.8rem;}
@@ -189,7 +189,7 @@
 .visit_req_btn_area .btn_favor .btn{position: relative; display: inline-block; font-weight: 700; font-size: 1.4rem; color: #fff;}
 .visit_req_btn_area .btn_favor .btn:after,.visit_req_btn_area .btn_favor .pick:after{display: inline-block; content:""; position: absolute; top:-.2rem; left:-2rem; width:1.8rem; height:2.4rem; background-image: url("../../images/sub/ico_btn_locate.png"); background-repeat: no-repeat; background-size: 100%;}
 .visit_req_btn_area .btn_favor .pick:after{top:0rem; background-image: url("../../images/sub/ico_btn_favor.png"); background-size: 100%;}
-.visit_req_btn_area .btn_favor:before{display: inline-block; content:""; position: absolute; top:1.9rem; left:49.5%; width:.2rem; height:1.7rem; background-color: #fff;}
+.visit_req_btn_area .btn_favor:before{display: inline-block; content:""; position: absolute; top:1.9rem; left:48%; width:.2rem; height:1.7rem; background-color: #fff;}
 .visit_req_btn_area .btn_favor .btn.on:after{background-image: url("../../images/sub/ico_btn_locate_on.png");}
 .visit_req_btn_area .btn_favor .pick.on:after,.visit_req_btn_area .btn_favor .pick.on:after{background-image: url("../../images/sub/ico_btn_favor_on.png");}
 .visit_req_btn_area .btn_favor.agent .pick{padding-left:1.8rem;}
