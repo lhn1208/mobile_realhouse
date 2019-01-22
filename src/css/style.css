@@ -183,13 +183,13 @@
 
 .visit_req_btn_area{width:100%; background-color: #0ec4bf; text-align: center;}
 .visit_req_btn_area .btn_how_to_area{float: left; width:45%; line-height: 4.7rem; padding-left:1.2rem; text-align: left; background-color: #0ec4bf;}
-.visit_req_btn_area .btn_how_to{padding:.2rem 1.3rem; font-weight: 700; color: #fff; border:1px solid #fff; border-radius: 5rem;}
+.visit_req_btn_area .btn_how_to{height: 2.8rem; padding:.2rem 1.3rem; font-weight: 700; font-size: 1.2rem; color: #fff; border:1px solid #fff; border-radius: 5rem;}
 .visit_req_btn_area .btn_favor{float: left; width:55%;  background-color: #0ec4bf;}
 .visit_req_btn_area .btn_favor .btn_wrap{float: left;  width:43%;  margin-left:7%; line-height: 3.6;  background-color: #0ec4bf;}
-.visit_req_btn_area .btn_favor .btn{position: relative; display: inline-block; font-weight: 700; color: #fff;}
-.visit_req_btn_area .btn_favor .btn:after,.visit_req_btn_area .btn_favor .pick:after{display: inline-block; content:""; position: absolute; top:-.1rem; left:-2rem; width:1.7rem; height:2.3rem; background-image: url("../../images/sub/ico_btn_locate.png"); background-repeat: no-repeat; background-size: 100%;}
-.visit_req_btn_area .btn_favor .pick:after{top:.1rem; background-image: url("../../images/sub/ico_btn_favor.png"); background-size: 100%;}
-.visit_req_btn_area .btn_favor .pick:before{display: inline-block; content:""; position: absolute; top:0; left:-3.7rem; width:.2rem; height:1.7rem; background-color: #fff;}
+.visit_req_btn_area .btn_favor .btn{position: relative; display: inline-block; font-weight: 700; font-size: 1.4rem; color: #fff;}
+.visit_req_btn_area .btn_favor .btn:after,.visit_req_btn_area .btn_favor .pick:after{display: inline-block; content:""; position: absolute; top:-.2rem; left:-2rem; width:1.8rem; height:2.4rem; background-image: url("../../images/sub/ico_btn_locate.png"); background-repeat: no-repeat; background-size: 100%;}
+.visit_req_btn_area .btn_favor .pick:after{top:0rem; background-image: url("../../images/sub/ico_btn_favor.png"); background-size: 100%;}
+.visit_req_btn_area .btn_favor .pick:before{display: inline-block; content:""; position: absolute; top:.1rem; left:-4.1rem; width:.2rem; height:1.7rem; background-color: #fff;}
 .visit_req_btn_area .btn_favor .btn.on:after{background-image: url("../../images/sub/ico_btn_locate_on.png");}
 .visit_req_btn_area .btn_favor .pick.on:after,.visit_req_btn_area .btn_favor .pick.on:after{background-image: url("../../images/sub/ico_btn_favor_on.png");}
 .visit_req_btn_area .btn_favor.agent .pick{padding-left:1.8rem;}
