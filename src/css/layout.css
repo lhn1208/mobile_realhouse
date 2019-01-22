@@ -219,7 +219,7 @@ section:first-of-type.content_area .header,.content_area .header.border_none{bor
 
 /*table 스타일 리스트*/
 .list_tb ul{display: table; width:100%; border:1px solid #dedede; border-radius: .5rem;}
-.list_tb li{display: table-row; line-height: 3.6;}
+.list_tb li{display: table-row; height: 5.7rem; line-height: 3.8;}
 .list_tb li em, .list_tb li .detail{display: table-cell; padding:0 .6rem; border-bottom:1px solid #dedede;}
 .list_tb li:last-child em, .list_tb li:last-child .detail{border-bottom: none;}
 .list_tb li em{width:28%; font-size: 1.2rem; color: #9c9c9c; text-align: right;}
