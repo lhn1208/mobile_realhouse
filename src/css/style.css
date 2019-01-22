@@ -189,7 +189,7 @@
 .visit_req_btn_area .btn_favor .btn{position: relative; display: inline-block; font-weight: 700; font-size: 1.4rem; color: #fff;}
 .visit_req_btn_area .btn_favor .btn:after,.visit_req_btn_area .btn_favor .pick:after{display: inline-block; content:""; position: absolute; top:-.2rem; left:-2rem; width:1.8rem; height:2.4rem; background-image: url("../../images/sub/ico_btn_locate.png"); background-repeat: no-repeat; background-size: 100%;}
 .visit_req_btn_area .btn_favor .pick:after{top:0rem; background-image: url("../../images/sub/ico_btn_favor.png"); background-size: 100%;}
-.visit_req_btn_area .btn_favor:before{display: inline-block; content:""; position: absolute; top:1.9rem; left:50%; width:.2rem; height:1.7rem; background-color: #fff;}
+.visit_req_btn_area .btn_favor:before{display: inline-block; content:""; position: absolute; top:1.9rem; left:49.5%; width:.2rem; height:1.7rem; background-color: #fff;}
 .visit_req_btn_area .btn_favor .btn.on:after{background-image: url("../../images/sub/ico_btn_locate_on.png");}
 .visit_req_btn_area .btn_favor .pick.on:after,.visit_req_btn_area .btn_favor .pick.on:after{background-image: url("../../images/sub/ico_btn_favor_on.png");}
 .visit_req_btn_area .btn_favor.agent .pick{padding-left:1.8rem;}
