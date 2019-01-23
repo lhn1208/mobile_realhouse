@@ -149,27 +149,28 @@
 .purch_pop .company{color: #1e1e1e; font-weight: 500;}
 
 /*매물상세*/
+.offer_main{background-color: #fff;}
 .offer_main .offer_mark_area{padding-top:3.2rem; margin:0 .4rem 2.8rem;}
-.offer_main .offer_mark{width: 100%; float: right; text-align: right;}
+.offer_main .offer_mark{width: 100%; text-align: right}
 .offer_main .offer_mark:after{display: block; content:""; clear: both;}
-.offer_main .offer_mark dl{float: left; width:42%; padding-right:.7rem; line-height: 1.4; border-right:1px solid #e6e6e6;}
-.offer_main .offer_mark dl:nth-of-type(2){width:27%;}
-.offer_main .offer_mark dl:last-of-type{width:31%; border-right: none;}
+.offer_main .offer_mark dl{display: inline-block;  padding:0 .7rem 0 1.6rem; line-height: 1.4; border-left:1px solid #e6e6e6;}
+.offer_main .offer_mark dl:first-of-type {border-left: none;}
 .offer_main .offer_mark .offer_ico{vertical-align: .2rem; }
 .offer_main .offer_mark dt{font-size:1.2rem; font-weight: 500; color:#9c9c9c;}
-.offer_main .offer_mark dl:first-of-type dd{font-size: 1.7rem;}
+.offer_main .offer_mark dl:first-of-type dd{font-size: 1.9rem;}
 .offer_main .offer_mark dd{font-size: 1.6rem; font-weight:700; color: #1e1e1e;}
 .offer_main .offer_mark dd .sub{font-size: 1.2rem;}
 .offer_main .offer_mark .offer_ico{margin-left: 0;}
-.offer_info .info_head{margin:0 1.2rem 1rem; font-size: 1.4rem;}
+.offer_info{padding-top: 3.4rem; background-color: #fff;}
+.offer_info .info_head{margin:0 1.2rem 1.1rem; font-size: 1.4rem;}
 .offer_info .info_head .tit{font-size: 1.4rem;}
 .offer_info .info_head .build_type{margin-right: 1.2rem; font-weight: 700;}
 .offer_info .explain_area{padding:1rem; line-height: 2; border:1px solid #dedede; border-radius: .5rem;}
-.offer_info .mark_ico .detail i{height:2.3rem; margin-left: 0; line-height: 1.3; font-size: 1.2rem; vertical-align: 0;}
+.offer_info .mark_ico .detail i{height:2.8rem; margin-left: 0; line-height: 1.3; font-size: 1.5rem; vertical-align: 0;}
 .list_tb li .detail .desc{font-size: 1.1rem;}
-.offer_main .amt_control{position: relative; width:96%; height: 6.3rem; margin:0 auto 3.4rem; line-height: 4.4; border:1px solid #dedede; border-radius: .5rem; background-color:#fff;}
-.offer_main .amt_control dt:after{display: block; content:""; position: absolute; top:0; right:.5rem; width: .1rem; height: 6.3rem; /*background:url("../../images/sub/bg_amt_control.jpg") no-repeat;*/ background-color: #dedede; background-size: 100%;}
-.offer_main .amt_control dt{position: absolute; top:0; left:.8rem; width: 7rem; font-size: 1.4rem; color: #ff6161;}
+.offer_main .amt_control{position: relative; width:96%; height: 6.3rem; margin:0 auto; line-height: 4.4; border:1px solid #dedede; border-radius: .5rem; background-color:#fff;}
+.offer_main .amt_control dt:after{display: block; content:""; position: absolute; top:0; right:.5rem; width: .1rem; height: 6.1rem; /*background:url("../../images/sub/bg_amt_control.jpg") no-repeat;*/ background-color: #dedede; background-size: 100%;}
+.offer_main .amt_control dt{position: absolute; top:0; left:.8rem; width: 6.8rem; font-size: 1.4rem; color: #ff6161;}
 .offer_main .amt_control dd{float: left; margin-left: 1rem; line-height: 4.6; font-weight: 700; font-size: 1.3rem;}
 .offer_main .amt_control dd:first-of-type{margin-left: 8.2rem;}
 .favoer_cover{position: absolute;}
@@ -189,8 +190,8 @@
 .visit_req_btn_area .btn_favor{position: relative; float: left; width:55%;  background-color: #0ec4bf;}
 .visit_req_btn_area .btn_favor .btn_wrap{float: left;  width:43%;  margin-left:7%; line-height: 3.6;  background-color: #0ec4bf;}
 .visit_req_btn_area .btn_favor .btn{position: relative; display: inline-block; font-weight: 700; font-size: 1.4rem; color: #fff;}
-.visit_req_btn_area .btn_favor .btn:after,.visit_req_btn_area .btn_favor .pick:after{display: inline-block; content:""; position: absolute; top:-.2rem; left:-2rem; width:1.8rem; height:2.4rem; background-image: url("../../images/sub/ico_btn_locate.png"); background-repeat: no-repeat; background-size: 100%;}
-.visit_req_btn_area .btn_favor .pick:after{top:0rem; background-image: url("../../images/sub/ico_btn_favor.png"); background-size: 100%;}
+.visit_req_btn_area .btn_favor .btn:after,.visit_req_btn_area .btn_favor .pick:after{display: inline-block; content:""; position: absolute; top:-.2rem; left:-2.2rem; width:1.8rem; height:2.4rem; background-image: url("../../images/sub/ico_btn_locate.png"); background-repeat: no-repeat; background-size: 100%;}
+.visit_req_btn_area .btn_favor .pick:after{top:0rem; width:1.9rem; background-image: url("../../images/sub/ico_btn_favor.png"); background-size: 100%;}
 .visit_req_btn_area .btn_favor:before{display: inline-block; content:""; position: absolute; top:1.9rem; left:48%; width:.2rem; height:1.7rem; background-color: #fff;}
 .visit_req_btn_area .btn_favor .btn.on:after{background-image: url("../../images/sub/ico_btn_locate_on.png");}
 .visit_req_btn_area .btn_favor .pick.on:after,.visit_req_btn_area .btn_favor .pick.on:after{background-image: url("../../images/sub/ico_btn_favor_on.png");}
@@ -258,6 +259,7 @@
 .present_sec .row.bottom{background-color: #f9fcfd; border-bottom-left-radius: .5rem; border-bottom-right-radius: .5rem;}
 .present_sec .row.bottom .btn{color: #3c3c3c; background-color: #fff;}
 .present_sec .row.bottom.btn_area{padding:1rem;}
+.request_offer .offer_req_btn{margin-top:2rem;}
 
 .present_cont .swiper_box{border-top:1px solid #dedede;}
 .present_cont .swiper_box .swiper_menu li{width: 33.3%;}
@@ -310,12 +312,20 @@
 .my_present .purchase_manage .visit_list li{color: #3c3c3c;}
 .my_present .purchase_manage .right_area.type {width:16.6rem;}
 
-.purch_info{height: 30.8rem;}
+.purch_info{height: 34.4rem;}
+.purch_info.sale{height: 40rem;}
 .purch_info .tit{display: inline-block; margin-left: .8rem;}
 .purch_info .content_box .row:last-of-type,.phone_pop .content_box li:last-of-type{border-bottom: none;}
+.purch_info .content_area .content_box .right_area.btn{top:1rem;}
 .purch_info .purch_btn{width:14.6rem; right:.3rem;}
 .purch_info .purch_btn .inner{position: relative;}
 .purch_info .purch_btn .btn_type1{display: inline-block; min-width:7rem}
+.purch_info .content_area .compay{display: inline-block; width:15.8rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; word-wrap: normal; overflow: hidden; vertical-align: -2.2rem}
+.purch_info.sale .client_visit .btn{min-width: 5.2rem; color: #3c3c3c; vertical-align: .1rem; background-color: #fff;}
+.purch_info.sale .client_visit .btn.off{color: #9c9c9c;background-color: #fafafa;}
+.purch_info.sale .client_visit .visit_set_row{background-color: #fafafa;}
+.purch_info.sale .client_visit .list{border-top:1px solid #dedede;}
+.purch_info.sale .client_visit .list li{padding:1.5rem 1.2rem;}
 .phone_pop{height:30.2rem;}
 .phone_pop .phone_num +label{font-weight: 700; color: #1e1e1e;}
 .sale_present .present_manage{width:100%; padding-top:0;}
@@ -352,7 +362,7 @@
 .notice .header .link:after{top:1.6rem; }
 .notice .notice_list{border:1px solid #dedede; border-bottom-right-radius: .5rem; border-bottom-left-radius: .5rem; border-top:none;}
 .notice .notice_list li:first-child{border-top: none;}
-.notice .notice_list li{height: 5rem; padding:0 1.2rem; line-height: 3.6; border-top:1px solid #dedede;}
+.notice .notice_list li{height: 5rem; padding:0 1.2rem; line-height: 3.6; border-top:1px solid #dedede; text-overflow: ellipsis; white-space: nowrap; word-wrap: normal; overflow: hidden;}
 .notice .notice_list li:after{display: block; content:""; clear: both;}
 .notice .notice_list li .link{float: left;}
 .notice .notice_list li .new{min-width: 2.6rem; padding:.2rem .4rem;}
@@ -418,6 +428,8 @@
 .agent_visit_req .content_area  .state{color: #ff6161;}
 .agent_visit_req .content_area .consult_finish{color: #378cff;}
 .agent_visit_req .content_area .visit_finish{color: #0ec4bf;}
+.request_list_header .swiper_menu li a{height: 4.8rem;}
+.request_list_header .swiper_menu li:after{position: absolute; bottom:0; left:21%; width:54%;}
 .request_list .content_area{margin:.5rem 0;}
 .request_list .content_area.mar_type{margin:0;}
 .request_list .no_inner{transform: translateY(10%);}
@@ -484,6 +496,8 @@
   .main_cont .content,  .main_cont .content .txt_red{font-size: 1.3rem;}
   .swiper_list .swiper-wrapper .info .desc{font-size: 1.2rem;}
   /*금액조절*/
+  .offer_main .offer_mark dl:first-of-type dd{font-size: 1.8rem;}
+  .offer_main .offer_mark dl dd{font-size: 1.5rem;}
   .offer_main .amt_control dd{line-height: 4.8; font-size: 1.2rem;}
   /*중개사 평점*/
   .agent_info .info_detal{font-size: 1.3rem;}
