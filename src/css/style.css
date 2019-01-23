@@ -100,7 +100,8 @@
 .agent_select .cont .link_style{margin-left: 1rem;}
 .agent_select .cont .link_style:after{width:.6rem; right: 0;;}
 .agent_select .cont .distance{position: absolute; top:1.2rem; right:1.2rem;}
-.agent_select .cont .right_btn + label{position:absolute; bottom:2rem;; right: 1.2rem;}
+.agent_select .cont .right_btn+label{position:absolute; bottom:2rem;; right: 1.2rem; color: #646464;}
+.agent_select .cont .right_btn:checked+label{color: #fff;}
 .agent_select .cont .address{padding-top:0.6rem;}
 .agent_select_area .content_area .header{border-top:none;}
 .new_request .select_area{padding: 1.7rem 1.2rem; background-color: #fff;}
@@ -220,7 +221,7 @@
 .content_header{line-height: 2; padding:.6rem 1.2rem .6rem; background-color:#f9fcfd; border-bottom: 1px solid #dedede;}
 .content_header .tit{font-weight: 700; font-size: 1.6rem;}
 .contract_cont{display: table; width:100%;}
-.contract_cont .row{display: table-row; height: 5.7rem;}
+.contract_cont .row{display: table-row; height: 5.7rem; background-color: #fff;}
 .contract_cont .col{display: table-cell; width:82%; min-height: 5.7rem; line-height: 3.6; padding:0 1.2rem; border-bottom:1px solid #dedede;}
 .contract_cont .th.col{width:19%; padding:0 .2rem; text-align: right;}
 .contract_cont .deal_type_area .act_btn+label{width:24%; min-width: 6.5rem; margin-left: 0;}
@@ -491,12 +492,13 @@
   .act_btn+label, .btn_type1{min-width: 7.3rem;}
   .search_input_area .search_box{padding-left: 6rem;}
 }
-@media screen and (max-width: 376px){
+@media screen and (min-width: 375px) and (max-width: 376px){
   /*메인*/
   .main_cont .content,  .main_cont .content .txt_red{font-size: 1.3rem;}
   .swiper_list .swiper-wrapper .info .desc{font-size: 1.2rem;}
   /*금액조절*/
   .offer_main .offer_mark dl:first-of-type dd{font-size: 1.8rem;}
+  .offer_main .offer_mark dl{padding-left:1.2rem;}
   .offer_main .offer_mark dl dd{font-size: 1.5rem;}
   .offer_main .amt_control dd{line-height: 4.8; font-size: 1.2rem;}
   /*중개사 평점*/
