@@ -37,7 +37,7 @@ button:focus{outline:none;}
 .btn_submit .next,.btn_submit .off{opacity: .6;}
 .btn_submit .prev{ background-size: 4%;}
 
-.process::after{display: inline-block; content:""; position: absolute; top:2rem; left:50%; width:.8rem; height:3.6rem; margin-right:.4rem; background-repeat:no-repeat; background-size: 100%; }
+.process::after{display: inline-block; content:""; position: absolute; top:1.8rem; left:50%; width:.86rem; height:4.6rem; margin-right:.4rem; background-repeat:no-repeat; background-size: 100%; }
 
 .btn_submit .prev:after{ content:"";  margin-left:-2.3rem; background-image:url("../../images/common/bg_prev_btn_active.png");}
 .btn_submit .next:after{ content:""; margin-left:2.3rem;  background-image:url("../../images/common/bg_next_btn_active.png");}
@@ -165,7 +165,7 @@ section:first-of-type.content_area .header,.content_area .header.border_none{bor
 .content_area .header.bg_none{background: #fff;}
 .content_area .header.border_t_none{border-top: none;}
 .content_area .header:after{display: block; content:""; clear: both;}
-.content_area .header .right_area{position: absolute; top:-.2rem; right: 1.2rem;}
+.content_area .header .right_area{position: absolute; top:.8rem; right: 1.2rem;}
 .content_area .header .tit{font-size: 1.4rem;}
 .content_area .cnt{color: #ff6161;}
 .content_area .header .btn{min-width: 7.5rem;}
@@ -177,7 +177,7 @@ section:first-of-type.content_area .header,.content_area .header.border_none{bor
 .content_area .header .ico{vertical-align: -.2rem;} 
 .content_area.mar_type{margin:0}
 .content_area.mar_type .header{border-top:none}
-.content_area .content_box .btn,.content_area .content_box .right_area.btn{top:0 !important;}
+.content_area .content_box .btn,.content_area .content_box .right_area.btn{top:0;}
 .offer_type em:after{display: inline-block; content:"|"; margin:0 .2rem; color: #1e1e1e; vertical-align: .1rem;}
 /*한줄 이상*/
 .content_box .cont,.content_box .list li{position: relative; padding:1.2rem; line-height: 1.8; border-bottom: 1px solid #dedede; background-color: #fff;}

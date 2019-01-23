@@ -289,7 +289,8 @@
 .present_cont .info_box{border-top:1px solid #dedede;}
 .present_cont .info_box.border_t_non{border-top:none;}
 .my_present .client_manage{position: relative;}
-.my_present .client_manage .right_area{top:24%;}
+.my_present .client_manage .content_box .right_area.btn{top:24%;}
+
 .my_present .client_manage .btn.txt_color{color: #3c3c3c;}
 .my_present .client_register{margin:2rem 0;}
 .client_register .register_list li{padding:1.2rem; border-top:1px solid #dedede;}
