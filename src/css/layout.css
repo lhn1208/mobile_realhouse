@@ -37,7 +37,7 @@ button:focus{outline:none;}
 .btn_submit .next,.btn_submit .off{opacity: .6;}
 .btn_submit .prev{ background-size: 4%;}
 
-.process::after{display: inline-block; content:""; position: absolute; top:1.9rem; left:50%; width:.8rem; height:3.6rem; margin-right:.4rem; background-repeat:no-repeat; background-size: 100%; }
+.process::after{display: inline-block; content:""; position: absolute; top:1.8rem; left:50%; width:.8rem; height:3.6rem; margin-right:.4rem; background-repeat:no-repeat; background-size: 100%; }
 
 .btn_submit .prev:after{ content:"";  margin-left:-2.3rem; background-image:url("../../images/common/bg_prev_btn_active.png");}
 .btn_submit .next:after{ content:""; margin-left:2.3rem;  background-image:url("../../images/common/bg_next_btn_active.png");}

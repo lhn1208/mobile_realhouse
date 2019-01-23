@@ -241,15 +241,17 @@
 .req_resent{padding-top:1.2rem;}
 .section_wrap{position: relative; min-height: 40%;}
 .section_wrap .slide_line{position: absolute; bottom:0; left:0; display: block; width:100%; height:2.2rem; padding-top:.8rem; z-index: 25;}
-.present_sec{position: relative; display: block; width: 96%; height: 100%; opacity:1; margin:0 auto 1.5rem; border:1px solid #dedede; border-radius: .5rem;}
-.present_sec .req_info{line-height: 1.8; padding:1rem 1.2rem; border-bottom: 1px solid #dedede;}
-.present_sec .row{position: relative; line-height: 3.8; padding:0 1.2rem; border-bottom: 1px solid #dedede;}
+.present_sec{position: relative; display: block; width: 96%; height: 100%; opacity:1; margin:0 auto 1.5rem; background-color:#fff;;}
+.present_sec .req_info{line-height: 1.8; padding:1rem 1.2rem; border:1px solid #dedede; border-top-left-radius: .5rem; border-top-right-radius: .5rem;  }
+.present_sec .row{position: relative; height: 5.7rem; line-height: 4; padding:0 1.2rem; border-bottom: 1px solid #dedede; border-left:1px solid #dedede; border-right: 1px solid #dedede;}
 .present_sec .offer_type{color: #1e1e1e;}
-.present_sec .date{position: absolute; top:1rem; right:1.2rem; font-size: 1.2rem; color: #646464;}
+.present_sec .date{position: absolute; top:1rem; right:1.2rem; font-size: 1.3rem; color: #646464;}
 .present_sec .row .cnt{color: #ff6161;}
 .present_sec .row .btn{position: absolute; top:.8rem; right:1.2rem}
-.present_sec .row.bottom{background-color: #f9fcfd; border-bottom: none;}
+.present_sec .row.bottom{background-color: #f9fcfd; border-bottom-left-radius: .5rem; border-bottom-right-radius: .5rem;}
 .present_sec .row.bottom .btn{color: #3c3c3c; background-color: #fff;}
+.present_sec .row.bottom.btn_area{padding:1rem;}
+
 .present_cont .swiper_box{border-top:1px solid #dedede;}
 .present_cont .swiper_box .swiper_menu li{width: 33.3%;}
 .present_cont .state{text-align: center;}
