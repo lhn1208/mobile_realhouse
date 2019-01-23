@@ -53,7 +53,7 @@ textarea{resize: none;}
 .main_container .intro .sub_tit{font-size: 2.1rem;}
 .main_container .intro .logo{width: 12.5rem; margin:0 auto 3rem;}
 .search_input_area{width: 96%; margin:0 auto 3rem; padding-bottom:.5rem;}
-.search_input_area .search_box{position: relative; width:100%; height: 6.1rem; padding-left:4.2em; font-size: 1.6rem; color: #5f5f5f; background-color: #fff; border: 1px solid #ccc; border-radius: 5rem; box-shadow:3px 4px 3px -2px #d6d6d6; text-align: left;}
+.search_input_area .search_box{position: relative; width:100%; height: 6.1rem; padding-left:4rem; font-size: 1.6rem; color: #5f5f5f; background-color: #fff; border: 1px solid #ccc; border-radius: 5rem; box-shadow:3px 4px 3px -2px #d6d6d6; text-align: left;}
 .search_input_area .search_box:before{content: ""; position: absolute; top:2rem; left:2.8rem; width:2.6rem; height: 2.4rem; background:url("../../images/main/bg_search.png") no-repeat 0 0; background-size: 100%;}
 .main_container .main_cont{width: 96%; margin:0 auto 3rem;}
 .main_cont .content{padding: 1.4rem 6.4rem 1.2rem 1.2rem; line-height: 1.8; font-size: 1.4rem; font-weight: 500; color: #373737; background:url("../../images/main/bg_event.png") no-repeat 98% 2.3rem #fff; background-size: 7.2rem; border:1px solid #dedede; border-top-left-radius: .5rem; border-top-right-radius: .5rem; word-break: keep-all;}
@@ -64,10 +64,10 @@ textarea{resize: none;}
 .main_cont .link_box{height: 4.9rem; padding:1.3rem 1.2rem; background-color: #fafafa; border:1px solid #dedede; border-bottom-right-radius: .5rem; border-bottom-left-radius: .5rem; border-top:none;}
 .main_cont .link_box a{font-size: 1.4rem; font-weight: 700;}
 /*checkbox*/
-.checkbox+label{font-size: 1.4rem; font-weight: 700; background-color: #fff;}
-.checkbox+label:before{display: inline-block; content:""; width:2.2rem; height: 2.2rem; margin-right:.6rem; border:2px solid #dedede; border-radius: .5rem; vertical-align: -6px; box-sizing: border-box;}
+.checkbox+label{font-size: 1.4rem; font-weight: 700;}
+.checkbox+label:before{display: inline-block; content:""; width:2.1rem; height: 2.1rem; margin-right:.6rem; border:2px solid #ccc; border-radius: .5rem; vertical-align: -6px; box-sizing: border-box; background-color: #fff;}
 .checkbox:checked+label:before{border:none; background: url("../../images/common/bg_check.png") #378cff no-repeat center; background-size: 72%;}
-.checkbox[disabled]+label:before{background-color: #dedede;}
+.checkbox[disabled]+label:before{background-color: #ccc;}
 
 .splash{position:relative; width:100%; padding-bottom: 100%; height: auto; font-size: 1.6rem; color:#0ec4bf; overflow: hidden;}
 .splash .inner{padding-top:50%; text-align: center; transform: translateY(26%);}
