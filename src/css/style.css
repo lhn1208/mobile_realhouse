@@ -53,8 +53,8 @@
 /*매물지도*/
 .option .dis_ico{display: none;}
 .header_section{background-color: #fff;}
-.header_section .offer_info{float: left; width: 77%; height: 4.8rem; border-right: 1px solid #dedede;} 
-.header_section .offer_info a{width:100%; height: 100%; padding:1.2rem 3.2rem 1rem 1.2rem; font-size: 1.4rem; color: #1e1e1e; background: url("../../images/common/bg_select_active.png") no-repeat 96% 50%; background-size: 5%; text-overflow:ellipsis; white-space: nowrap; word-wrap: normal; overflow: hidden;}
+.header_section .offer_info_header{float: left; width: 77%; height: 4.8rem; border-right: 1px solid #dedede;} 
+.header_section .offer_info_header a{width:100%; height: 100%; padding:1.2rem 3.2rem 1rem 1.2rem; font-size: 1.4rem; color: #1e1e1e; background: url("../../images/common/bg_select_active.png") no-repeat 96% 50%; background-size: 5%; text-overflow:ellipsis; white-space: nowrap; word-wrap: normal; overflow: hidden;}
 .header_section .filter{float: left; width: 23%; line-height: 3.2; font-size: 1.4rem; font-weight: 700; color: #1e1e1e;text-align: center;}
 .header_section .filter em{padding-left: .5rem; font-size: 1.4rem; font-weight: 700; color: #f15544;}
 .all_offer_area{position: relative; padding-top:4.8rem;}
@@ -174,7 +174,10 @@
 .offer_main .amt_control dt{position: absolute; top:0; left:.8rem; width: 6.8rem; font-size: 1.4rem; color: #ff6161;}
 .offer_main .amt_control dd{float: left; margin-left: 1rem; line-height: 4.6; font-weight: 700; font-size: 1.3rem;}
 .offer_main .amt_control dd:first-of-type{margin-left: 8.2rem;}
+.offer_info .swiper_box .swiper_menu{border:1px solid #dedede; border-top-left-radius: .5rem; border-top-right-radius: .5rem;}
 .favoer_cover{position: absolute;}
+.offer_info .swiper_box .items_list li{border-left:1px solid #dedede; border-right:1px solid #dedede;}
+
 .favoer_cover .deal_complete{position: absolute; top:8%; left:50%; width:68%; margin-left: -34%; padding:1rem 0 1rem; line-height: 1.4; font-size: 1.6rem; border-radius: 5rem; background-color: #fff; text-align: center;}
 
 .locate_box {border:1px solid #dedede;border-radius: .5rem;;}
@@ -247,20 +250,22 @@
 .alarm .no_inner{ transform: translateY(40%);}
 
 .req_resent{padding-top:1.2rem;}
+.req_resent .present_sec .btn{position: absolute; right:1.2rem; top:.8rem;}
 .section_wrap{position: relative; min-height: 40%;}
 .section_wrap .slide_line{position: absolute; bottom:0; left:0; display: block; width:100%; height:2.2rem; padding-top:.8rem; z-index: 25;}
 
 .present_sec{position: relative; display: block; width: 96%; height: 100%; opacity:1; margin:0 auto 1.5rem; background-color:#fff;;}
 .present_sec .req_info{line-height: 1.8; padding:1rem 1.2rem; border:1px solid #dedede; border-top-left-radius: .5rem; border-top-right-radius: .5rem;  }
 .present_sec .row{position: relative; height: 5.7rem; line-height: 4; padding:0 1.2rem; border-bottom: 1px solid #dedede; border-left:1px solid #dedede; border-right: 1px solid #dedede;}
-.present_sec .offer_type{color: #1e1e1e;}
+.present_sec .offer_type{color: #1e1e1e; font-size: 1.4rem; font-weight: 700;}
 .present_sec .date{position: absolute; top:1rem; right:1.2rem; font-size: 1.3rem; color: #646464;}
 .present_sec .row .cnt{color: #ff6161;}
-.present_sec .row .btn{position: absolute; top:.8rem; right:1.2rem}
+.present_sec .row .right_area.btn{position: absolute; top:.8rem; right:1.2rem}
 .present_sec .row.bottom{background-color: #f9fcfd; border-bottom-left-radius: .5rem; border-bottom-right-radius: .5rem;}
-.present_sec .row.bottom .btn{color: #3c3c3c; background-color: #fff;}
+.present_sec .row.bottom .btn{color: #3c3c3c; background-color: #fff; vertical-align: .2rem;}
 .present_sec .row.bottom.btn_area{padding:1rem;}
 .request_offer .offer_req_btn{margin-top:2rem;}
+.req_resent .present_cont .info_box li{color: #464646;}
 
 .present_cont .swiper_box{border-top:1px solid #dedede;}
 .present_cont .swiper_box .swiper_menu li{width: 33.3%;}
@@ -272,9 +277,9 @@
 .present_manage li{position: relative; height: 8.4rem;}
 .present_manage li:before{display: block; content:""; position: absolute; top:3.2rem; left:1.2rem; width:.6rem; height: 5rem; background-color: #e6e6e6;}
 .present_manage li:last-child:before{background: none;}
-.present_manage li .head{position: absolute; top:0; left:0; width:3rem; height:3rem; line-height: 2; font-size: 1.6rem; font-weight: 700; color: #fff; background-color: #f7941d; border-radius: 5rem; text-align: center;} 
-.present_manage .content_inner{padding-top:.6rem;}
-.present_manage .left{float:left;margin-left: 3.6rem;}
+.present_manage li .head{position: absolute; top:0; left:0; width:3.3rem; height:3.3rem; line-height: 2; font-size: 1.6rem; font-weight: 700; color: #fff; background-color: #f7941d; border-radius: 5rem; text-align: center;} 
+.present_manage .content_inner{padding-top:.5rem;}
+.present_manage .left{float:left;margin-left: 3.8rem;}
 .present_manage .right{float:right; text-align: right;}
 .present_manage .build_address{position: relative; font-weight: 700; color: #378cff;}
 .present_manage .build_address:after{display: block; content:""; position: absolute; top:.4rem; right:-1.2rem; width:.7rem; height:1.2rem; background: url("../../images/common/arr_link.png") no-repeat; background-size: 100%;}
@@ -312,8 +317,12 @@
 .my_present .purchase_manage .info_box{border-top:none;}
 .my_present .purchase_manage .visit_list li{color: #3c3c3c;}
 .my_present .purchase_manage .right_area.type {width:16.6rem;}
+.my_present .purchase_manage .header .right_area.type {top:-.2rem;}
+.my_present .purchase_manage .info_list li{color: #373737; line-height: 2;}
+.my_present.sale_present .no_cont_date{border-bottom: none; padding:12% 0;}
 
 .purch_info{height: 34.4rem;}
+.purch_info .header i{margin-left:0;}
 .purch_info.sale{height: 40rem;}
 .purch_info .tit{display: inline-block; margin-left: .8rem;}
 .purch_info .content_box .row:last-of-type,.phone_pop .content_box li:last-of-type{border-bottom: none;}
@@ -331,11 +340,15 @@
 .phone_pop .phone_num +label{font-weight: 700; color: #1e1e1e;}
 .sale_present .present_manage{width:100%; padding-top:0;}
 .sale_present .present_manage .left{margin-left: 0;}
+.sale_present .present_manage .content_box .row.bottom_area .right_area.btn{top:.8rem;}
 .sale_present .content_area{margin:.5rem 0;}
-.sale_present .header .tit{font-weight: 700;}
+.sale_present .header .tit{font-weight: 700; color: #1e1e1e;}
 .sale_present .offer_desc{line-height: 2; padding:1.2rem; border-top:1px solid #dedede; border-bottom: 1px solid #dedede; background-color: #fffbfb;}
-.sale_present .offer_desc li{height: auto;}
+.sale_present .offer_desc li{height: auto; text-indent: -1.4rem; padding-left: 1.4rem; word-break: keep-all;}
 .sale_present .offer_desc li:before{display: none;}
+.sale_present .right_area.btn_width{width:40%;}
+.sale_present .right_area .btn_inner{position: relative;}
+.sale_present .content_box .row.bottom_area .right_area.txt{top:.1rem;}
 /*더보기*/
 .more_sec{background-color: #fff;}
 .more_sec .more_intro{position: relative; padding:3rem 5rem 3rem 2.4rem;}
@@ -421,6 +434,7 @@
 .custom_sec .list li .reply_cont_head .date{position: absolute; top:.3rem; right:1.2rem; color:#646464;}
 .custom_sec .list li a.on{background-color: #f9fcfd;}
 .qna_register .tit_area{border-bottom: 1px solid #dedede; background-color: #fcfcfc;}
+.custom_sec.memo li .date{color: #646464;}
 /*요청내역*/
 .request_history .rent_type{font-weight: 700;}
 .request_history .content_area .date{font-size: 1.4rem;}
@@ -448,7 +462,6 @@
 .schedule_box .content_box .bottom_area{border-bottom: none;}
 .schedule_box .content_box .row.bottom_area .btn{top:.8rem; color: #3c3c3c;}
 /* .schedule_box .swiper-container-autoheight, .schedule_box .swiper-container-autoheight .swiper-slide{height: 100vh !important;} */
-.schedule_box .no_date{ color: #3c3c3c;}
 .set_visit_area .link_select:first-of-type{margin-left: .4rem;}
 
 .sub_container .ev_result .intro{margin:6.2rem 0 8rem;}
@@ -480,13 +493,18 @@
 .offer_pic .offer_row .pagination1{position: fixed; bottom:2.6rem;}
 .pic_row_wrap{background-color: #000; width:100%; height:100vh;}
 
-.set_date .content_box{display: table; width: 100%;}
-.set_date .content_box .row{display: table-row;}
-.set_date .content_box .row .th,.set_date .content_box .row .td{display: table-cell; padding:0 1.2rem; border-bottom: 1px solid #dedede;}  
-.set_date .content_box .row .th{width:20%; text-align: right;}
-.set_date .content_box .row .td{width:80%;}
-.set_date .content_box .row .btn{color: #646464;}
-.set_date .content_box .row .filter_scroll_bar{width:60%;}
+/*매물 중개 현황*/
+.present_cont.offer_present .swiper_box .swiper_menu li{width:50%;}
+.present_cont.offer_present .state dl{width:20%}
+.present_cont.offer_present .state dl:nth-of-type(3),.present_cont.offer_present .state dl:nth-of-type(4){width: 30%;}
+.set_alarm .content_box{display: table; width: 100%;}
+.set_alarm .content_box .row{display: table-row;}
+.set_alarm .content_box .row .th,.set_alarm .content_box .row .td{display: table-cell; padding:0 1.2rem; border-bottom: 1px solid #dedede;}  
+.set_alarm .content_box .row .th{width:20%; text-align: right;}
+.set_alarm .content_box .row .td{width:80%;}
+.set_alarm .content_box .row .btn{color: #646464;}
+.set_alarm .content_box .row .filter_scroll_bar{width:60%;}
+.set_alarm .content_box .row .right_area.btn{top:.8rem;}
 @media screen and (max-width: 374px){
   html{font-size: 8px;}
   .act_btn+label, .btn_type1{min-width: 7.3rem;}
