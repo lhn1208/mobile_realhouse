@@ -34,7 +34,7 @@ textarea{resize: none;}
 .clearfix:after{display: block; content:""; clear: both;}
 .clearfix .f_left{float: left;}
 .clearfix .f_right{float: right;}
-
+.text_center{text-align: center;}
 /*공통 버튼*/
 .btn_perv{position: absolute; top:.1rem; left:1.2rem; width:1.6rem; height:100%; background: url("../../images/common/ico_header_arr.png") no-repeat 0 1.5rem; background-size: 100%; }
 /*확인 팝업*/
@@ -78,8 +78,8 @@ textarea{resize: none;}
 .splash .user_logo{position: fixed; bottom:4rem; width:100%; }
 .splash .user_logo .logo_inner{text-align: center}
 .splash .user_logo .img_logo{display: inline-block; width:10.8rem;}
-.splash .agent_logo{width:14rem; margin:0 auto .8rem;}
-.splash .agent_tit{color: #3c3c3c; font-size: 1.4rem;}
+.splash .agent_logo{width:15rem; margin:0 auto .8rem;}
+.splash .agent_tit{color: #3c3c3c; font-size: 1.6rem;}
 /*sub header*/
 .sub_header{position: fixed; top:0; left:0; width:100%; background-color:#0ec4bf; z-index: 100; }
 .sub_header .header_inner{position: relative; height: 4.8rem; line-height: 3;text-align: center;}
