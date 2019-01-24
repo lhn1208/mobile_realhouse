@@ -298,11 +298,12 @@
 .client_register .register_list .manager .btn.on:before{background-image: url("../../images/common/bg_btn_check.png");}
 .client_register .register_list .manager .btn.off{color: #9c9c9c;}
 .client_register .register_list .manager .btn.off::before{background-image: url("../../images/common/bg_bottom_arr.png");}
-.register_list .input_label{display: inline-block; width:64.8%; margin-left: 2.2rem;  border:1px solid #dedede; border-radius: .5rem}
-.register_list .input{width:100%; border:none;}
+.register_list .input_label{display: inline-block; width:64.8%; height: 3.8rem; margin-left: 2.2rem; border:1px solid #dedede; border-radius: .5rem; vertical-align: .2rem;}
+.register_list .input_label.phone{margin-left: 0;}
+.register_list .input{width:100%; height: 100%; padding:2px 1.2rem; border:none; border-radius: .5rem;}
 .register_list .input.off{color: #9c9c9c;}
 .register_list .phone .input{margin-left: 0;}
-.register_list .phone .hipen{margin:.7rem;}
+.register_list .phone .hipen{margin:.7rem; vertical-align: .4rem;}
 .my_present .purchase_manage{padding-bottom: 20rem;}
 .my_present .purchase_manage .header{font-weight: 500; color: #3c3c3c;}
 .my_present .purchase_manage .info_box{border-top:none;}
