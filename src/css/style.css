@@ -299,7 +299,7 @@
 .client_register .register_list .manager .btn.off{color: #9c9c9c;}
 .client_register .register_list .manager .btn.off::before{background-image: url("../../images/common/bg_bottom_arr.png");}
 .register_list .input_label{display: inline-block; width:64.8%; margin-left: 2.2rem;  border:1px solid #dedede; border-radius: .5rem}
-.register_list .input{border:none;}
+.register_list .input{width:100%; border:none;}
 .register_list .input.off{color: #9c9c9c;}
 .register_list .phone .input{margin-left: 0;}
 .register_list .phone .hipen{margin:.7rem;}
