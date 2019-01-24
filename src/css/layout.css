@@ -56,7 +56,7 @@ button:focus{outline:none;}
 .link_select.off{color: #9c9c9c;}
 .link_select.off:after{background:url("../../images/common/bg_bottom_arr.png") no-repeat; background-size: 100%;}
 /*textbox*/
-textarea::placeholder,input[type="textbox"]::placeholder{color: #9c9c9c;}
+textarea::placeholder,input[type="text"]::placeholder{color: #9c9c9c; font-size: 1.4rem; font-family: "Noto Sans KR",sans-serif,"돋움","Dotum";}
 .input_text{line-height: 2.4; padding:0 .6rem; font-size: 1.4rem; border:1px solid #dedede; border-radius: .5rem;}
 .full_input{width:100%; line-height: 3.8; padding:0 .6rem; border:none; color: #3c3c3c;}
 /*textarea*/
