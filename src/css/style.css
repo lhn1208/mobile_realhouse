@@ -454,13 +454,15 @@
 .visit_pop .link_select{margin:0 .2rem;}
 .visit_pop .btn{height: 3.8rem; vertical-align: .1rem}
 .visit_pop .info_box{border-bottom: none;}
-.schedule_box .tab_list_box{border:none;}
+/*일정관리*/
+/* .schedule_box{height: calc(100% - 10.5rem);} */
+.schedule_box .tab_list_box{height: 5.7rem; border:none;}
 .schedule_box .swiper_menu li.active a{color: #1e1e1e;}
 .schedule_box .swiper_menu li.active:after{background-color: #1e1e1e;}
 .schedule_box .custom_sec .sub_txt{color: #3c3c3c;}
 .schedule_box .content_box .bottom_area{border-bottom: none;}
 .schedule_box .content_box .row.bottom_area .btn{top:.8rem; color: #3c3c3c;}
-/* .schedule_box .swiper-container-autoheight, .schedule_box .swiper-container-autoheight .swiper-slide{height: 100vh !important;} */
+.schedule_box .swiper-wrapper{height: 80% !important;}
 .set_visit_area .link_select:first-of-type{margin-left: .4rem;}
 /*오픈 이벤트 추천확인*/
 .sub_container .ev_result .intro{margin:6.2rem 0 8rem;}
