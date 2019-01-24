@@ -291,14 +291,14 @@
 .my_present .client_manage .content_box .right_area.btn{top:24%;}
 
 .my_present .client_register{margin:2rem 0;}
-.client_register .register_list li{padding:1.2rem; border-top:1px solid #dedede; background-color: #fff;}
+.client_register .register_list li{padding:1.2rem; width:100%; border-top:1px solid #dedede; background-color: #fff;}
 .client_register .register_list .manager .btn{position: relative; min-width:27%; color: #646464;}
 .client_register .register_list .manager .btn.bg_type:before{display: inline-block; content:""; margin-right: .4rem; width:1.2rem; height: .8rem; background-repeat: no-repeat; background-size: 100%;;}
 .client_register .register_list .manager .btn.on{color: #fff; background-color: #92d050;}
 .client_register .register_list .manager .btn.on:before{background-image: url("../../images/common/bg_btn_check.png");}
 .client_register .register_list .manager .btn.off{color: #9c9c9c;}
 .client_register .register_list .manager .btn.off::before{background-image: url("../../images/common/bg_bottom_arr.png");}
-.register_list .input_label{display: inline-block; width:64.8%; margin-left: 2.2rem;  border:1px solid #dedede; border-radius: .5rem}
+.register_list .input_label{display: inline-block; width:64%; margin-left: 2.2rem;  border:1px solid #dedede; border-radius: .5rem}
 .register_list .input{width:100%; border:none;}
 .register_list .input.off{color: #9c9c9c;}
 .register_list .phone .input{margin-left: 0;}
