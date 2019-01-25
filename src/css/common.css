@@ -112,17 +112,23 @@ textarea{resize: none;}
 .footer_nav li a .ico_alarm{position: absolute; top:0; right:1rem; width:1.5rem; height:1.5rem; font-size: .9rem; color: #fff; background-color: #f15544; border-radius: 50%;}
 
 /*회원가입*/
-.pop_container .logo{width: 10.6rem; margin:0 auto 5.4rem;}
+.pop_container .logo{width: 12.5rem; margin:0 auto 5.4rem;}
 .member_box_area{position: relative; padding-top:5rem;}
 .member_box_area .logo{padding-top:1.2rem;}
 .member_box_area .tit{margin-bottom: 4.7rem; font-size: 2.2rem; font-weight: 700; color: #9c9c9c; text-align: center;}
 .member_box_area .close{position: absolute; top:1.7rem; right:1.2rem; width:1.4rem; height:1.4rem; background:url("../../images/common/close.png") no-repeat; background-size:100%;}
 .member_box{width:96%; margin:0 auto 2.4rem;}
 .member_box .member_form{position: relative; }
-.member_box .member_form label{position: relative; width:100%; display: inline-block;}
-.member_form .member_input{width:100%; line-height: 3.5; padding:0 4.2rem 0 .8rem; font-size: 1.4rem;}
+/* .member_box .member_form label{position: relative; width:100%; display: inline-block;}
+.member_form .member_input{width:100%; line-height: 3.5; padding:0 4.2rem 0 .8rem; font-size: 1.4rem;} */
+
+.member_box .member_form .input_form{display: inline-block; width:100%; height:5.7rem;}
+.member_box .member_form .member_input{width:100%; height: 100%; padding:0 1.2rem; font-size: 1.4rem; color: #3c3c3c; border:none; background-color: #fff;}
+.member_box .member_form .member_input.off{color: #9c9c9c;}
+
 .member_box .login_form{margin-bottom: .8rem; }
-.member_box .login_form .member_input{border:1px solid #dedede; border-radius: .5rem;}
+.member_box .login_form .input_form{border:1px solid #dedede; border-radius: .5rem;}
+
 .member_box .member_sch{width:100%; color: #646464; text-align: right;}
 .member_box .pw_input{line-height: 0; font-size: 2.8rem; line-height: 1.7;}
 .member_box .placeholder{position: absolute; top:0; left:0; padding: 0 1rem; line-height: 3.6; font-size: 1.4rem; color: #9c9c9c;}
@@ -133,10 +139,13 @@ textarea{resize: none;}
 .login_btn_area .btn_email{float: right; color: #fff; background-color: #0070c0;}
 .member_box_area .member_desc{font-size: 1.2rem; text-align: center;}
 .member_form .delete{display: none; position: absolute; top:1.7rem; right:1.4rem; width:1.3rem; height:1.3rem; background:url("../../images/common/close.png") no-repeat; background-size:100%;}
-.member_box .form_area label:first-of-type .member_input{border-top:1px solid #dedede; border-top-left-radius: .3rem; border-top-right-radius: .3rem;}
-.member_box .form_area .member_input{border: 1px solid #dedede; border-top:none;}
-.member_box .form_area.join label:last-of-type .member_input{border-bottom-right-radius: .3rem; border-bottom-left-radius: .3rem;}
-.member_box .member_info{position: relative; line-height: 2; padding:1.2rem .8rem 1.2rem 2.6rem; text-indent: -1.7rem; font-size: 1.4rem; background-color: #fffbfb; border:1px solid #dedede; border-top:none; border-bottom-left-radius: .3rem; border-bottom-right-radius: .3rem; word-break: keep-all;}
+
+.member_box .form_area .input_form{position: relative; border: 1px solid #dedede; border-top:none;}
+.member_box .form_area .input_form:first-of-type{border-top:1px solid #dedede; border-top-left-radius: .5rem; border-top-right-radius: .5rem;}
+.member_box .form_area .input_form:first-of-type .member_input{border-top-left-radius: .5rem; border-top-right-radius: .5rem;}
+.member_box .form_area.join .input_form:last-of-type, .member_box .form_area.join .input_form:last-of-type .member_input{border-bottom-right-radius: .5rem; border-bottom-left-radius: .5rem;}
+
+.member_box .member_info{position: relative; line-height: 2; padding:1.2rem .8rem 1.2rem 2.6rem; text-indent: -1.7rem; font-size: 1.4rem; background-color: #fffbfb; border:1px solid #dedede; border-top:none; border-bottom-left-radius: .5rem; border-bottom-right-radius: .5rem; word-break: keep-all;}
 .member_box .member_info .btn_member{position: absolute; top:17%; right:1rem; padding-left:1.7rem;}
 .member_box .input_phone{padding-right: 12.6rem;}
 .member_box .input_phone + .delete{right: 10.5rem;}
