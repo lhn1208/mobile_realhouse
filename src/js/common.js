@@ -14,7 +14,8 @@ $(document).ready(function(){
     }
     var $pw_input=$('.member_form .pw_input')
     var $placeholder;
-    $pw_input.on('input',function(e){
+    $('.pw_input').keyup(function(){
+        alert();
         $placeholder= $(this).siblings('.placeholder');
         $placeholder.css('display','none')
         if($(this).val()==""){
