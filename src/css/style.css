@@ -199,8 +199,7 @@
 .visit_req_btn_area .btn_favor .pick:after{top:0rem; width:1.9rem; background-image: url("../../images/sub/ico_btn_favor.png"); background-size: 100%;}
 .visit_req_btn_area .btn_favor:before{display: inline-block; content:""; position: absolute; top:1.9rem; left:48%; width:.2rem; height:1.7rem; background-color: #fff;}
 .visit_req_btn_area .btn_favor .btn.on:after{background-image: url("../../images/sub/ico_btn_locate_on.png");}
-.visit_req_btn_area .btn_favor .pick.on:after,.visit_req_btn_area .btn_favor .pick.on:after{background-image: url("../../images/sub/ico_btn_favor_on.png");}
-.visit_req_btn_area .btn_favor.agent .pick{padding-left:1.8rem;}
+.visit_req_btn_area .btn_favor .pick.on:after,.visit_req_btn_area .agent_visit_req_btn .btn_favor .pick.on:after{background-image: url("../../images/sub/ico_btn_favor_on.png");}
 .visit_req_btn_area .agent_visit_req_btn .btn_favor{width:100%;}
 .visit_req_btn_area .agent_visit_req_btn .btn_favor:before{display: none;}
 .visit_req_btn_area .agent_visit_req_btn .btn_favor .pick:after{top:1.2rem; left:15.4rem;}
@@ -351,7 +350,7 @@
 .more_sec .more_intro{position: relative; padding:3rem 5rem 3rem 2.4rem;}
 .more_sec .more_intro .tit{font-size: 2.1rem; color: #1e1e1e;}
 .more_sec .more_intro .email{color: #646464;}
-.more_sec .more_intro:after{display: inline-block; content:""; position: absolute; top:3.8rem; right:2.5rem;; width:24px; height: 24px; background: url("../../images/sub/bg_setting.png") no-repeat; background-size: 100%;}
+.more_sec .more_intro:after{display: inline-block; content:""; position: absolute; top:3.8rem; right:2.5rem;; width:2.6rem; height: 2.6rem; background: url("../../images/sub/bg_setting.png") no-repeat; background-size: 100%;}
 .more_sec.agent .agent_img{top:2.7rem;}
 .more_sec.agent .agent_info{margin-left: 6.6rem;}
 .more_sec.agent .custom_tel{padding-top: 4.2rem;}
@@ -376,7 +375,6 @@
 .notice .notice_list li{height: 5rem; padding:0 1.2rem; line-height: 3.6; border-top:1px solid #dedede; text-overflow: ellipsis; white-space: nowrap; word-wrap: normal; overflow: hidden;}
 .notice .notice_list li:after{display: block; content:""; clear: both;}
 .notice .notice_list li .link{float: left;}
-.notice .notice_list li .new{min-width: 2.6rem; padding:.2rem .4rem;}
 .notice .notice_list li .date{float: right; color: #9c9c9c;}
 .more_sec .share_area{position: relative; line-height: 3.6; padding:0 .8rem; border-top:1px solid #dedede; border-bottom: 1px solid #dedede;}
 .more_sec .share_area>a{float: left; margin:0 .3rem; color: #9c9c9c;}
