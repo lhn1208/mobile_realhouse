@@ -29,7 +29,7 @@
 .offer_type_area .filter_btn_list li{display: block; border-top:1px solid #ccc;}
 .offer_type_area .filter_btn_list li:first-child{border-top:none;}
 .offer_type_area .filter_btn_list li:after{display: block; content:""; clear: both;}
-.offer_type_area .filter_btn_list .act_btn+label{float: left; width: 25%; margin: 0; background-color: transparent; border:none; border-left:1px solid #ccc; border-radius: 0;}
+.offer_type_area .filter_btn_list .act_btn+label{float: left; width: 25%; margin: 0; background-color: transparent; border:none; border-left:1px solid #ccc; border-radius: 0; background-color: #fff;}
 .offer_type_area .filter_btn_list li .act_btn:first-of-type+label{border-left: none;}
 .offer_type_area .filter_btn_list .act_btn:checked+label{background-color: #92d050;}
 .offer_type_area .filter_btn_list li:first-child .act_btn:first-of-type:checked+label{border-top-left-radius: .5rem;}
@@ -50,6 +50,8 @@
 .control_area .control .plus:before{width:1.6rem; height:1.6rem; background-image: url("../../images/sub/bg_plus.png");}
 .control_area .control label{display: inline-block; float: left; height: 3.3rem; border-top:1px solid #dedede; border-bottom: 1px solid #dedede}
 .control_area .control .input_control{float: left; width:9.5rem; height: 3rem; border:none; text-align: center;}
+/*회원탈퇴*/
+.info_area .withdrawal_tit{font-size: 1.6rem; font-weight: 700;}
 /*매물지도*/
 .option .dis_ico{display: none;}
 .header_section{background-color: #fff;}
@@ -404,12 +406,12 @@
 .agent_select .no_items{padding-top:24%; line-height:2; text-align: center; color: #9c9c9c;}
 /*설정*/
 .member_set{padding-top:.5rem;}
-.member_set_list{display: table; width:100%; border-top:1px solid #dedede; border-bottom:1px solid #dedede;}
-.member_set_list li{display: table-row; position: relative; line-height: 4.1;}
+.member_set_list{display: table; width:100%; border-top:1px solid #dedede; border-bottom:1px solid #dedede; background-color: #fff;}
+.member_set_list li{display: table-row; position: relative; height:5.7rem; line-height: 4;}
 .member_set_list li:first-child{border-top:none;}
 .member_set_list li .col{display: table-cell; padding:0 1.2rem; font-size: 1.4rem; border-top:1px solid #dedede;}
-.member_set_list li .member_tit{width:20%; color: #9c9c9c;}
-.member_set_list li .member_cont{width:80%; position: relative;}
+.member_set_list li .member_tit{width:23%; color: #9c9c9c;}
+.member_set_list li .member_cont{width:77%; position: relative;}
 .member_set_list li .member_cont .btn_setting{position: absolute; top:16%; right:1.5rem; color: #646464;}
 .member_set_list li .member_pw{width:50%; font-size: 2.8rem; border:none; background: none;}
 .member_set_list li .pw_area{position: absolute; top:-.5rem; left:1.2rem;}
