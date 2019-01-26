@@ -181,7 +181,7 @@ section:first-of-type.content_area .header,.content_area .header.border_none{bor
 .content_area .header .ico{vertical-align: -.2rem;} 
 .content_area.mar_type{margin:0}
 .content_area.mar_type .header{border-top:none}
-.content_area .content_box .btn,.content_area .content_box .right_area.btn{top:0;}
+.content_area .content_box .right_area.btn{top:0;}
 .offer_type em:after{display: inline-block; content:"|"; margin:0 .2rem; color: #1e1e1e; vertical-align: .1rem;}
 /*한줄 이상*/
 .content_box .cont,.content_box .list li{position: relative; min-height: 5.7rem; padding:1.2rem; line-height: 1.8; border-bottom: 1px solid #dedede; background-color: #fff;}
@@ -244,7 +244,7 @@ section:first-of-type.content_area .header,.content_area .header.border_none{bor
 .swiper_box .swiper_menu li.active:after{display: block; content:""; bottom:0; width:68%; height: .16rem; margin:0 auto; background-color:#ff6161; }
 .swiper_box .swiper_menu li+li:before{display: inline-block; content:""; position: absolute; top:1.8rem; left:0; width:.1rem; height: 1.8rem;; background-color: #dedede;}
 /*더보기*/
-.area_more{height: 5.7rem; line-height: 4.4; font-weight: 700; font-size: 1.2rem; color: #378cff; border: 1px solid #dedede; border-bottom-left-radius: .5rem; border-bottom-right-radius: .5rem; border-top:none; text-align: center; background-color: #fff;}
+.area_more{height: 5.7rem; line-height: 4.4; font-weight: 700; font-size: 1.2rem; color: #378cff; border-bottom: 1px solid #dedede;  border-top:none; text-align: center; background-color: #fff;}
 .area_more .link_more{width:100%; color: #378cff; font-size: 1.3rem;}
 .area_more .link_more:after{display: inline-block; content:""; width:1.1rem; height:.6rem; margin-left: .3rem; background:url("../../images/common/bg_link_more.png") no-repeat; background-size: 100%;}
 .area_more.off .link_more:after{background:url("../../images/common/bg_bottom_arr.png") no-repeat; background-size: 100%;}

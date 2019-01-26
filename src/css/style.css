@@ -178,7 +178,7 @@
 .offer_info .swiper_box .swiper_menu{border:1px solid #dedede; border-top-left-radius: .5rem; border-top-right-radius: .5rem;}
 .favoer_cover{position: absolute;}
 .offer_info .swiper_box .items_list li{border-left:1px solid #dedede; border-right:1px solid #dedede;}
-
+.offer_info .area_more{border: 1px solid #dedede; border-bottom-left-radius: .5rem; border-bottom-right-radius: .5rem; border-top:none;}
 .favoer_cover .deal_complete{position: absolute; top:8%; left:50%; width:68%; margin-left: -34%; padding:1rem 0 1rem; line-height: 1.4; font-size: 1.6rem; border-radius: 5rem; background-color: #fff; text-align: center;}
 
 .locate_box {border:1px solid #dedede;border-radius: .5rem;;}
@@ -258,7 +258,6 @@
 .present_sec .content_area .content_box .row.bottom_area{ border-bottom-left-radius: .5rem; border-bottom-right-radius: .5rem;}
 .req_resent .content_area .right_area.btn{top:.9rem; min-width: 8.6rem;}
 .present_sec .content_area .content_box .btn_area{padding-top:.8rem;}
-
 .req_resent .present_cont .info_box li{color: #464646;}
 .present_cont .swiper_box{border-top:1px solid #dedede;}
 .present_cont .swiper_box .swiper_menu li{width: 33.3%;}
@@ -496,15 +495,15 @@
 .set_date .content_box .row{line-height: 4.2;}
 .set_date .content_area .header .tit{font-weight: 500;}
 .set_date .link_area a{color: #3c3c3c;}
-.other_client .content_area .btn{color: #646464;}
+.other_client .content_area .right_area.btn{top:.8rem; color: #646464;}
 .offer_notify .content_area .header .tit,.offer_notify .content_area .checkbox+label em{color: #3c3c3c; font-weight: 500;}
-.offer_pic .swiper-container{ width: 100%; height: 100vh; margin-left: auto; margin-right: auto;}
+.offer_pic .swiper-container{ width: 100%; height: 100%; position: fixed; top:0; left:0; right:0; bottom:0;}
+.pic_row_wrap .offer_pic .swiper-container{position: absolute;}
 .offer_pic .swiper-slide{ background-size: cover;}
+.offer_pic .pagination1{position: fixed; left:0; bottom:4rem; font-size: 1.6rem; font-weight: 700; color: #fff; background-color: transparent; border-radius: 0; text-align: center; z-index:20;}
+.offer_pic .offer_row{margin-top:50%;}
 .offer_pic .offer_row .swiper-container{height: 25rem;}
-.offer_pic .pagination1{left:50%; margin-left: -2rem; bottom:2.4rem; font-size: 1.6rem; font-weight: 700; color: #fff; background-color: transparent; border-radius: 0; text-align: center;}
-.offer_pic .offer_row{padding-top:50%;}
-.offer_pic .offer_row .pagination1{position: fixed; bottom:2.6rem;}
-.pic_row_wrap{background-color: #000; width:100%; height:100vh;}
+.pic_row_wrap{background-color: #000; width:100%; height:100%; position: absolute; top:0; left:0; right:0; bottom:0;}
 
 /*매물 중개 현황*/
 .present_cont.offer_present .swiper_box .swiper_menu li{width:50%;}
@@ -517,6 +516,24 @@
 .set_alarm .content_box .row .btn{color: #646464;}
 .set_alarm .content_box .row .filter_scroll_bar{width:60%;}
 .set_alarm .content_box .row .right_area.btn{top:.8rem;}
+/*오픈추천 이벤트*/
+.open_event_box .event_recomm{min-height: 8.4rem; line-height: 6; margin-top:.5rem; padding:0 1.2rem; background-color: #fff; border:1px solid #dedede; border-top-left-radius: .5rem; border-top-right-radius: .5rem; text-align: right;}
+.open_event_box .event_recomm li{font-weight: 700; display: inline-block; width:28%; margin-left: 1rem;}
+.open_event_box .event_recomm li:first-child{position: absolute; top:-2.3rem; left:0; width:38%; margin-left: 0; font-size: 1.6rem;}
+.open_event_box .event_recomm li:first-child .txt_red{font-size: 2.1rem;}
+.open_event_box .event_recomm li:nth-child(2){margin-left:34%;}
+.open_event_box .event_state{height: 4.9rem; line-height: 3.6; padding:0 1.2rem; border:1px solid #dedede; border-top: none; border-bottom-right-radius: .5rem; border-bottom-left-radius: .5rem; background-color: #f9fcfd;}
+.event_state_area{border-top:1px solid #dedede;}
+.event_state_area .content_area .header .tit{font-weight: 700; color: #1e1e1e;}
+.event_state_area .content_area .header .right_area{top:0; font-weight: 500;}
+.event_state_area .swiper_box .swiper_menu li{width:25%;}
+.event_state_area .table_type .content_box{display: table;width:100%;}
+.event_state_area .table_type .row{display: table-row;}
+.event_state_area .table_type .col{display: table-cell; width:50%; padding:0 1.2rem; border-bottom: 1px solid #dedede; text-align: right;}
+.event_state_area .table_type .col:first-of-type{text-align: left;}
+.event_state_area .table_type .col .txt_red.type{font-weight: 700;}
+.event_state_area .table_type .col .ev_date{color: #646464;}
+.event_state_area .recomm_area .no_inner{transform: translateY(-20%);}
 @media screen and (max-width: 374px){
   html{font-size: 8px;}
   .act_btn+label, .btn_type1{min-width: 7.3rem;}
