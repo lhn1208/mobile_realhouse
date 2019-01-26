@@ -548,16 +548,19 @@
   .search_input_area .search_box{padding-left: 6rem;}
 }
 @media screen and (min-width: 375px) and (max-width: 376px){
+  html{font-size: 9px;}
   /*메인*/
-  .main_cont .content,  .main_cont .content .txt_red{font-size: 1.3rem;}
-  .swiper_list .swiper-wrapper .info .desc{font-size: 1.2rem;}
+  /* .main_cont .content,  .main_cont .content .txt_red{font-size: 1.3rem;}
+  .swiper_list .swiper-wrapper .info .desc{font-size: 1.2rem;} */
   /*금액조절*/
-  .offer_main .offer_mark dl:first-of-type dd{font-size: 1.8rem;}
+  /* .offer_main .offer_mark dl:first-of-type dd{font-size: 1.8rem;}
   .offer_main .offer_mark dl{padding-left:1.2rem;}
   .offer_main .offer_mark dl dd{font-size: 1.5rem;}
-  .offer_main .amt_control dd{line-height: 4.8; font-size: 1.2rem;}
+  .offer_main .amt_control dd{line-height: 4.8; font-size: 1.2rem;} */
   /*중개사 평점*/
-  .agent_info .info_detal{font-size: 1.3rem;}
+  /* .agent_info .info_detal{font-size: 1.3rem;}
   .grade_list_area .grade_list li em{font-size: 1.3rem;}
-  .grade_list_area .grade_list .star_grade span{width:1.1rem; height: 1.1rem;}
+  .grade_list_area .grade_list .star_grade span{width:1.1rem; height: 1.1rem;} */
+  /*매물 중개현황*/
+  /* .sale_present .present_manage .btn_type1{min-width:7rem;} */
 }
