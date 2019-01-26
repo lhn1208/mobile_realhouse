@@ -50,8 +50,7 @@
 .control_area .control .plus:before{width:1.6rem; height:1.6rem; background-image: url("../../images/sub/bg_plus.png");}
 .control_area .control label{display: inline-block; float: left; height: 3.3rem; border-top:1px solid #dedede; border-bottom: 1px solid #dedede}
 .control_area .control .input_control{float: left; width:9.5rem; height: 3rem; border:none; text-align: center;}
-/*회원탈퇴*/
-.info_area .withdrawal_tit{font-size: 1.6rem; font-weight: 700;}
+
 /*매물지도*/
 .option .dis_ico{display: none;}
 .header_section{background-color: #fff;}
