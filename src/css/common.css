@@ -128,12 +128,13 @@ textarea{resize: none;}
 
 .member_box .login_form{margin-bottom: .8rem; }
 .member_box .login_form .input_form{border:1px solid #dedede; border-radius: .5rem;}
+.member_box .login_form .input_form .member_input{border-radius: .5rem;}
 
 .member_box .member_sch{width:100%; color: #646464; text-align: right;}
 .member_box .member_form .pw_input{line-height: 0; font-size: 2.6rem; line-height: 1.7;}
-.member_box .placeholder{position: absolute; top:0; left:0; padding: 0 1rem; line-height: 3.6; font-size: 1.4rem; color: #9c9c9c;}
+.member_box .placeholder{position: absolute; top:0; left:0; padding: 0 1rem; line-height: 4; font-size: 1.4rem; color: #9c9c9c;}
 .login_btn_area{width:96%; margin:0 auto 1.6rem;}
-.login_btn_area .btn{line-height: 3.8; width:49%; font-weight: 700; border-radius: .5rem;}
+.login_btn_area .btn{line-height: 3.8; width:49%; height: 5.7rem; font-size: 1.4rem; font-weight: 700; border-radius: .5rem;}
 .login_btn_area .btn_login{width:100%; margin-bottom: .8rem; color: #fff; background-color: #ff6161;}
 .login_btn_area .btn_kakao{float: left; color: #3c3c3c; background-color: #f7e506;}
 .login_btn_area .btn_email{float: right; color: #fff; background-color: #0070c0;}
