@@ -393,7 +393,7 @@
 .point_sec .point_area:last-of-type .cont{border-bottom:1px solid #dedede;}
 .point_sec .point_area .cont{position: relative; border-bottom:none;} 
 .point_sec .point_area .date{position: absolute; top:1.2rem; right: 1.2rem; font-size: 1.3rem; color: #646464;}
-.point_sec .point_area .no_inner{transform: translateY(20%);}
+.point_sec .point_area .no_inner{transform: translateY(0%);}
 /*중개수수료 결제*/
 .fee_sec .agent_select .tit{font-weight: 700; color: #3c3c3c;}
 .fee_sec .agent_select .header{border-top: none;}
