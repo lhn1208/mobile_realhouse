@@ -58,6 +58,7 @@ textarea{resize: none;}
 .main_container .main_cont{width: 96%; margin:0 auto 3rem;}
 .main_cont .content{padding: 1.4rem 6.4rem 1.2rem 1.2rem; line-height: 1.8; font-size: 1.4rem; font-weight: 500; color: #373737; background:url("../../images/main/bg_event.png") no-repeat 98% 2.3rem #fff; background-size: 7.2rem; border:1px solid #dedede; border-top-left-radius: .5rem; border-top-right-radius: .5rem; word-break: keep-all;}
 .main_cont .content.company_intro{background:url("../../images/main/bg_company_intro.png") no-repeat 99.5% 1rem #fff;; background-size: 7rem;}
+.main_cont .content.req_history{background: none;}
 .main_cont .content .txt_red{font-size: 1.4rem;}
 .main_cont .content .tit{margin-bottom: .3em; font-size: 1.6rem; font-weight: 700; color: #0ec4bf;}
 .main_cont .content .tit.type{color: #1e1e1e;}
@@ -170,10 +171,12 @@ textarea{resize: none;}
 .agent_login .logout .link{font-size: 1.6rem;}
 .agent_login .logout .link:after{top:.5rem;}
 .agent_main .intro{margin-bottom: 0; padding-top:4.2rem;}
-.agent_main .sch_content{line-height: 4.4; padding:0;  text-align: center; background: none;}
-.agent_main .today_sch li{position: relative; display: inline-block; width:32%; font-size: 1.6rem;}
+.agent_main .sch_content{min-height: 8.4rem; line-height: 5; padding:0; text-align: center; background: none;}
+.agent_main .sch_content .txt_red{font-size: 1.6rem;}
+.agent_main .today_sch li{position: relative; display: inline-block; width:32%; font-size: 1.6rem; font-weight: 700; color: #3c3c3c;}
 .agent_main .today_sch li:first-child:before{content:"";}
 .agent_main .today_sch li:before{display: inline-block; content:"|"; position: absolute; top:0; left:0; width:.1rem; height:1.2rem; color: #9c9c9c;}
 .agent_main .info_box{margin-bottom: 3rem;}
+.agent_main .content_box .offer_type{font-weight: 500;}
 .agent_main .content_area .no_date{border-bottom: 1px solid #dedede;}
 .agent_main .content_area .no_inner{padding:4rem 0; transform: unset;}
