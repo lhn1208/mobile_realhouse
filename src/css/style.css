@@ -534,6 +534,12 @@
 .event_state_area .table_type .col .txt_red.type{font-weight: 700;}
 .event_state_area .table_type .col .ev_date{color: #646464;}
 .event_state_area .recomm_area .no_inner{transform: translateY(-20%);}
+/*매물위치*/
+.locate_area .map_area .map_control{top:85%;}
+.locate_area .map_area .view_button{position: absolute; left:1.2rem; bottom:1.4rem;}
+.locate_area .map_area .view_button .btn{color:#3c3c3c;}
+.locate_area .offer_bottom_area{padding:1.2rem; background-color: #fff;}
+
 @media screen and (max-width: 374px){
   html{font-size: 8px;}
   .act_btn+label, .btn_type1{min-width: 7.3rem;}
