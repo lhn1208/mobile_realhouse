@@ -401,8 +401,8 @@
 .fee_sec .agent_select .cont .right_area{top:1.4rem;}
 .fee_sec .agent_select .cont .btn{color: #3c3c3c;}
 .fee_sec .agent_select .cont .btn.check{color: #fff;}
-.fee_sec .agent_select .cont .input_amt{display: inline-block; width:16rem; height:3.6rem; margin-right: .4rem;}
-.fee_sec .agent_select .cont .input_text{width:100%; height: 100%; text-align: right; background-color: #fafafa; color: #3c3c3c;}
+.fee_sec .agent_select .cont .input_amt{display: inline-block; width:16rem; height:3.6rem; margin-right: .4rem; border:1px solid #dedede; border-radius: .5rem;}
+.fee_sec .agent_select .cont .input_text{width:100%; height: 100%; text-align: right; background-color: #fafafa; color: #3c3c3c; border:none; border-radius: .5rem;}
 .fee_sec .agent_select .cont .control_btn_area{display: inline-block; margin-left: .2rem;}
 .agent_select .no_items{padding-top:24%; line-height:2; text-align: center; color: #9c9c9c;}
 /*설정*/
@@ -471,7 +471,7 @@
 .ev_result .result_box{line-height: 2; padding:2.6rem 0; font-size: 1.9rem; font-weight: 700; text-align: center; border:1px solid #dedede; border-top-left-radius: .5rem; border-top-right-radius: .5rem;}
 .ev_result .info_area .info_cont{height: 18rem; display: flex; align-items: center; justify-content:  center; flex-direction: column;}
 .ev_result .login_area{font-size: 1.6rem; text-align: center;}
-.ev_result .login_area .login_btn{width:96%; margin:1.4em 0 6rem; font-size: 1.4rem; background-color: #ff6161; color: #fff; line-height: 3.8; border-radius: .5rem;}
+.ev_result .login_area .login_btn{width:96%; height: 5.7rem; margin:1.4em 0 6rem; font-size: 1.4rem; background-color: #ff6161; color: #fff; line-height: 3.8; border-radius: .5rem;}
 .ev_result .link_area{text-align: center;}
 .ev_result .link_area .link_style{font-size: 1.6rem;}
 .ev_result .link_area .link_style:after{top:.6rem;}
