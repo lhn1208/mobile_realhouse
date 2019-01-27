@@ -15,6 +15,7 @@ $(document).ready(function(){
     $area_offer.on('touchmove',function(){
         if(!($area_offer.hasClass('animate_h_up'))){
              $area_offer.removeClass('animate_h_down').addClass('animated').addClass('animate_h_up');
+             $('.slide_box .all_offer').css('overflow-y','scroll')
         }
     });
  
@@ -45,23 +46,6 @@ $(document).ready(function(){
             $body.removeClass('scroll_hidden');
         }
     }
-
-    //content 닫힘
-    // $(window).scroll(function() {
-    //     var sct=$(window).scrollTop();
-    //     var ev_cont=$('.present_cont').scrollTop();
-    //     if(sct>ev_cont){ 
-    //         console.log('ev_cont->'+ev_cont);
-    //         console.log( $('.slide_line').offset().top);
-    //         var slideLine=$('.slide_line').offset().top;
-    //         $('.present_sec').css({'display':'none'},speed);
-    //        // $('.section_wrap').css('padding-top','24%')
-    //        $('html, body').stop().animate({'scrollTop' : $('.slide_line').offset().top}, 100);
-    //     }else{
-    //         $('.present_sec').css({'display':'block'},speed);
-    //        // $('.section_wrap').removeAttr('style');
-    //     }
-    // });
                  
     //평점
     $('.star_grade span').on('click', function(){
