@@ -188,7 +188,7 @@
 .locate_box .map_btn_area{height: 5.7rem;}
 .locate_box .map_btn_area .map_btn{position: relative; float: left; width:50%; line-height: 4.6; font-size: 1.3rem; font-weight: 700; color: #1e1e1e; text-align: center;}
 .locate_box .map_btn_area .map_btn+ .map_btn:before{display: inline-block; content:""; position: absolute; top:1.8rem; left:0; width:.1rem; height: 1.8rem; background-color: #dedede;}
-
+.offer_info .all_offer .no_cont_date{border-left:1px solid #dedede; border-right: 1px solid #dedede;}
 .visit_req_btn_area{width:100%; background-color: #0ec4bf; text-align: center;}
 .visit_req_btn_area .btn_how_to_area{float: left; width:45%; line-height: 4.7rem; padding-left:1.2rem; text-align: left; background-color: #0ec4bf;}
 .visit_req_btn_area .btn_how_to{height: 2.8rem; padding:.2rem 1.3rem; font-weight: 700; font-size: 1.2rem; color: #fff; border:1px solid #fff; border-radius: 5rem;}
