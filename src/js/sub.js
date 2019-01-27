@@ -15,7 +15,7 @@ $(document).ready(function(){
     $area_offer.on('touchmove',function(){
         if(!($area_offer.hasClass('animate_h_up'))){
              $area_offer.removeClass('animate_h_down').addClass('animated').addClass('animate_h_up');
-             $('.slide_box .all_offer').css('overflow-y','scroll')
+            // $('.slide_box .all_offer').css('overflow-y','scroll')
         }
     });
  
