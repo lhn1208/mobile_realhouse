@@ -245,7 +245,7 @@ section:first-of-type.content_area .header,.content_area .header.border_none{bor
 .swiper_box .swiper_menu li+li:before{display: inline-block; content:""; position: absolute; top:1.8rem; left:0; width:.1rem; height: 1.8rem;; background-color: #dedede;}
 /*더보기*/
 .area_more{height: 5.7rem; font-weight: 700; font-size: 1.2rem; color: #378cff; background-color: #fff; border-bottom: 1px solid #dedede;  border-top:none; text-align: center;}
-.area_more .link_more{width:100%; line-height: 4.4;  color: #378cff; font-size: 1.3rem;}
+.area_more .link_more{width:100%; line-height: 4.2;  color: #378cff; font-size: 1.3rem;}
 .area_more .link_more:after{display: inline-block; content:""; width:1.1rem; height:.6rem; margin-left: .3rem; background:url("../../images/common/bg_link_more.png") no-repeat; background-size: 100%;}
 .area_more.off .link_more:after{background:url("../../images/common/bg_bottom_arr.png") no-repeat; background-size: 100%;}
 .area_more.off .link_more{color: #9c9c9c;}
