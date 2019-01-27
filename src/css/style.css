@@ -59,7 +59,8 @@
 .header_section .filter{float: left; width: 23%; line-height: 3.2; font-size: 1.4rem; font-weight: 700; color: #1e1e1e;text-align: center;}
 .header_section .filter em{padding-left: .5rem; font-size: 1.4rem; font-weight: 700; color: #f15544;}
 .all_offer_area{position: relative; padding-top:4.8rem;}
-.offer_map{position: relative;}
+.offer_map{position: relative; height: 100vh;}
+.offer_map .map{height: 100%;;}
 .offer_map .ico_offer_aera{position: absolute; height:2.8rem; background-color: #fff; border-radius: 5rem; z-index: 80; }
 .offer_map .ico_offer_aera .cnt{display: inline-block; padding:5px 13px 7px; margin-top:-.2rem; font-weight: 700; font-size: 1.4rem; color:#fff; background-color:#ff6161; border-radius: 5rem;}
 .offer_map .ico_offer_aera .address{display: inline-block;padding:0 1.2rem 0 .5rem; font-size: 1.3rem; color:#1e1e1e;}
