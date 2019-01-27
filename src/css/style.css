@@ -406,7 +406,7 @@
 .agent_select .no_items{padding-top:24%; line-height:2; text-align: center; color: #9c9c9c;}
 /*설정*/
 .member_set{padding-top:.5rem;}
-.member_set_list{display: table; width:100%; border-top:1px solid #dedede; border-bottom:1px solid #dedede; background-color: #fff;}
+.member_set_list{display: table; width:100%;border-bottom:1px solid #dedede; background-color: #fff;}
 .member_set_list li{display: table-row; position: relative; height:5.7rem; line-height: 4;}
 .member_set_list li:first-child{border-top:none;}
 .member_set_list li .col{display: table-cell; padding:0 1.2rem; font-size: 1.4rem; border-top:1px solid #dedede;}
