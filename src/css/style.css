@@ -529,7 +529,7 @@
 .open_event_box .event_recomm li:first-child .txt_red{font-size: 2.1rem;}
 .open_event_box .event_recomm li:nth-child(2){margin-left:34%;}
 .open_event_box .event_state{height: 4.9rem; line-height: 3.6; padding:0 1.2rem; border:1px solid #dedede; border-top: none; border-bottom-right-radius: .5rem; border-bottom-left-radius: .5rem; background-color: #f9fcfd;}
-.event_state_area{border-top:1px solid #dedede;}
+.event_state_area{border-top:1px solid #dedede;;}
 .event_state_area .content_area .header .tit{font-weight: 700; color: #1e1e1e;}
 .event_state_area .content_area .header .right_area{top:0; font-weight: 500;}
 .event_state_area .swiper_box .swiper_menu li{width:25%;}
@@ -540,6 +540,8 @@
 .event_state_area .table_type .col .txt_red.type{font-weight: 700;}
 .event_state_area .table_type .col .ev_date{color: #646464;}
 .event_state_area .recomm_area .no_inner{transform: translateY(-20%);}
+.event_state_area .recomm_area .content_area{border-bottom: 1px solid #dedede;}
+.event_state_area .recomm_area .area_more{border-bottom: none;}
 /*매물위치*/
 .locate_area .map_area{height: 76vh;}
 .locate_area .map_area .map{height: 100%; overflow: hidden;}
