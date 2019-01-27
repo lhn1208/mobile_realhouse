@@ -202,6 +202,7 @@
 .visit_req_btn_area .btn_favor .pick.on:after,.visit_req_btn_area .agent_visit_req_btn .btn_favor .pick.on:after{background-image: url("../../images/sub/ico_btn_favor_on.png");}
 .visit_req_btn_area .agent_visit_req_btn .btn_favor{width:100%;}
 .visit_req_btn_area .agent_visit_req_btn .btn_favor:before{display: none;}
+.visit_req_btn_area .agent_visit_req_btn .btn_favor .pick{margin-left: 1.5rem;}
 .visit_req_btn_area .agent_visit_req_btn .btn_favor .pick:after{top:1.2rem; left:15.4rem;}
 /*매수,매도 리스트*/
 .request_swiper .tab_list_box{border:none;}
