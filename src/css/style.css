@@ -538,8 +538,8 @@
 /*매물위치*/
 .locate_area .map_area{height: 82vh;}
 .locate_area .map_area .map{height: 100%; overflow: hidden;}
-.locate_area .map_area .map_control{top:84%;}
-.locate_area .map_area .view_button{position: absolute; left:1.2rem; bottom:3rem;}
+.locate_area .map_area .map_control{top:auto; bottom:6.2rem;}
+.locate_area .map_area .view_button{position: absolute; left:1.2rem; bottom:6rem;}
 .locate_area .map_area .view_button .btn{color:#3c3c3c;}
 .locate_area .locate_bottom_area{height:11vh; padding:1.4rem 1.2rem; background-color: #fff;}
 .locate_area.agent .map_area{height: 72vh;}
