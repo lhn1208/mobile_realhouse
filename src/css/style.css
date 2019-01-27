@@ -176,7 +176,6 @@
 .offer_main .amt_control dt{position: absolute; top:0; left:.8rem; width: 6.8rem; font-size: 1.4rem; color: #ff6161;}
 .offer_main .amt_control dd{float: left; margin-left: 1rem; line-height: 4.6; font-weight: 700; font-size: 1.3rem;}
 .offer_main .amt_control dd:first-of-type{margin-left: 8.2rem;}
-.offer_info .search_items{height: 60rem;}
 .offer_info .swiper_box .swiper_menu{border:1px solid #dedede; border-top-left-radius: .5rem; border-top-right-radius: .5rem;}
 .favoer_cover{position: absolute;}
 .offer_info .swiper_box .items_list li{border-left:1px solid #dedede; border-right:1px solid #dedede;}
