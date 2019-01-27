@@ -537,7 +537,7 @@
 .event_state_area .table_type .col .ev_date{color: #646464;}
 .event_state_area .recomm_area .no_inner{transform: translateY(-20%);}
 /*매물위치*/
-.locate_area .map_area{height: 80vh;}
+.locate_area .map_area{height: 76vh;}
 .locate_area .map_area .map{height: 100%; overflow: hidden;}
 .locate_area .map_area .map_control{top:auto; bottom:8.2rem;}
 .locate_area .map_area .view_button{position: absolute; left:1.2rem; bottom:8rem;}
