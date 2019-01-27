@@ -7,12 +7,12 @@ $(document).ready(function(){
     $Slidebox.find('.header').click(function(){
         if(!($Slidebox.hasClass('animate_h_up'))){
             $Slidebox.removeClass('animate_h_down').addClass('animated').addClass('animate_h_up');
-            var time=setInterval(function(){
-                $('.map').css('display','none');
+            var time=setTimeout(function(){
+                $('.offer_map .map').css('display','none');
             },550);
         }else{
             $Slidebox.removeClass('animate_h_up').addClass('animate_h_down');
-            $('.map').css('display','block');
+            $('.offer_map .map').css('display','block');
         }
     })
  
