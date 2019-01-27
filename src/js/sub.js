@@ -11,13 +11,6 @@ $(document).ready(function(){
             $Slidebox.removeClass('animate_h_up').addClass('animate_h_down');
         }
     })
-    //지역매물
-    $area_offer.on('touchmove',function(){
-        if(!($area_offer.hasClass('animate_h_up'))){
-             $area_offer.removeClass('animate_h_down').addClass('animated').addClass('animate_h_up');
-            // $('.slide_box .all_offer').css('overflow-y','scroll')
-        }
-    });
  
     //pop
     var $slidePop=$('.slide_pop');
