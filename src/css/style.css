@@ -429,7 +429,7 @@
 .custom_sec .list li a:after{top:2.3rem; width:1.6rem; height:1.2rem; background-image:url("../../images/sub/bg_down.png");}
 .custom_sec .list li a.on:after{background-image:url("../../images/sub/bg_up.png");}
 .custom_sec .list li .ico{min-width: 6rem;}
-.custom_sec .list li .cont{padding:1rem; line-height: 1.8; border-top:1px solid #dedede;}
+.custom_sec .list li .cont{padding:1rem; line-height: 1.8; border-top:1px solid #dedede; background-color: #fff;}
 .custom_sec .list li .reply_cont_head{position: relative; line-height: 4; height: 5.7rem; padding:0 1.2rem; background-color: #fafafa; border-top:1px solid #dedede;}
 .custom_sec .list li .reply_cont_head .date{position: absolute; top:.3rem; right:1.2rem; color:#646464;}
 .custom_sec .list li a.on{background-color: #f9fcfd;}
