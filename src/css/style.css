@@ -544,7 +544,7 @@
 .locate_area .map_area .view_button{position: absolute; left:1.2rem; bottom:4rem;}
 .locate_area .map_area .view_button .btn{color:#3c3c3c;}
 .locate_area .locate_bottom_area{height:11vh; padding:1.4rem 1.2rem; background-color: #fff;}
-.locate_area.agent .map_area{height: 68vh;}
+.locate_area.agent .map_area{height: 66vh;}
 .locate_area.agent .locate_bottom_area{height:22vh; padding:0;}
 .locate_area.agent .locate_bottom_area .cont{border-bottom: none;}
 .locate_area.agent .locate_bottom_area strong{font-weight: 700; color: #1e1e1e;}
