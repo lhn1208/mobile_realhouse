@@ -159,7 +159,7 @@ textarea{font-family: "Noto Sans KR",sans-serif; font-size: 1.4rem; color: #3c3c
 .slide_box .header{height: 5.7rem; padding-left: 1.2rem; line-height: 3.4;background-image:url("../../images/common/bg_slide_close.png"); background-repeat: no-repeat;; background-position: 96% 50%; background-size: 5%; background-color: #fff;}
 .slide_box .header .tit{display: inline-block; font-size: 1.6rem; font-weight: 700; color:#1e1e1e; }
 .slide_box .header .cnt{font-size: 1.6rem; font-weight: 700; color: #f15544;}
-.slide_box .all_offer{height: 92%; border-top: 1px solid #dedede;/* overflow-y: scroll;*/}
+.slide_box .all_offer{height: 92%; border-top: 1px solid #dedede; overflow-y: hidden;}
 .slide_box.animate_h_up .header{background-image:url("../../images/common/bg_select_active.png");}
 .animated{animation-duration: .6s; -webkit-animation-duration: .6s; animation-fill-mode:both; -webkit-animation-fill-mode: both;}
 
