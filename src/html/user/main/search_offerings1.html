@@ -47,7 +47,18 @@
                 </div>
                 <!--//지도 확대/축소-->
                 <!--지도 샘플-->
-                <img src="../../../../images/sub/sample/map.jpg">
+                <!-- 1. 지도 노드 -->
+						<div id="daumRoughmapContainer1518483099459" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+						<script charset="UTF-8" class="daum_roughmap_loader_script" src="http://dmaps.daum.net/map_js_init/roughmapLoader.js"></script>
+						<!-- 3. 실행 스크립트 -->
+						<script charset="UTF-8">
+							new daum.roughmap.Lander({
+								"timestamp" : "1518483099459",
+								"key" : "ms8a",
+								"mapWidth" : "1100",
+								"mapHeight" : "800"
+							}).render();
+						</script>			
             </div>                       
         </div>
         <!--전체 매물 슬라이드-->
