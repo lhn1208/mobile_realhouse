@@ -375,13 +375,16 @@
 .notice .header{position: relative; line-height: 3.2; background-color: #f9fcff; border:1px solid #dedede; border-top-right-radius: .5rem; border-top-left-radius: .5rem;}
 .notice .header .tit{height: 5rem; padding:0 1.2rem; font-weight: 700; font-size: 1.6rem; color: #1e1e1e;}
 .notice .header .link{position: absolute; top:5%; right:1.2rem; font-weight: 700;}
-.notice .header .link:after{top:1.6rem; }
+.notice .header .link:after{top:1.5rem; }
 .notice .notice_list{border:1px solid #dedede; border-bottom-right-radius: .5rem; border-bottom-left-radius: .5rem; border-top:none;}
 .notice .notice_list li:first-child{border-top: none;}
-.notice .notice_list li{height: 5rem; padding:0 1.2rem; line-height: 3.6; border-top:1px solid #dedede; text-overflow: ellipsis; white-space: nowrap; word-wrap: normal; overflow: hidden;}
-.notice .notice_list li:after{display: block; content:""; clear: both;}
-.notice .notice_list li .link{float: left;}
-.notice .notice_list li .date{float: right; color: #9c9c9c;}
+.notice .notice_list li{height: 5rem; padding:0 1.2rem; line-height: 3.6; border-top:1px solid #dedede;}
+.notice .notice_list li a{position: relative; width:100%; height: 100%;}
+.notice .notice_list li a:after{display: block; content:""; clear: both;}
+.notice .notice_list li strong{display: inline-block; max-width:78%; font-weight: 500; color: #3c3c3c;  text-overflow: ellipsis; white-space: nowrap; word-wrap: normal; overflow: hidden;}
+.notice .notice_list li .icon_type1{vertical-align: 2rem;}
+.notice .notice_list li .left{float: left; width:80%;}
+.notice .notice_list li .date{float: right; width:20%; font-weight: 500; color: #9c9c9c;}
 .more_sec .share_area{position: relative; line-height: 3.6; padding:0 .8rem; border-top:1px solid #dedede; border-bottom: 1px solid #dedede;}
 .more_sec .share_area>a{float: left; margin:0 .3rem; color: #9c9c9c;}
 .share_area .ico_share{position: absolute; top:-.2rem; right:.8rem}
@@ -445,6 +448,8 @@
 .request_list_header .swiper_menu li a{height: 4.8rem;}
 .request_list_header .swiper_menu li:after{position: absolute; bottom:0; left:21%; width:54%;}
 .request_list .content_area .link_style{margin-left: .6rem;}
+.request_list .content_area .link_style:after{top:2rem;}
+.request_list .content_area .tel_link:after{top:.6rem;}
 .request_list .content_area .ico{vertical-align: 0;}
 .request_list .content_area{margin-top:.5rem;}
 .request_list .content_area.mar_type{margin:0;}
@@ -557,11 +562,13 @@
 .locate_area.agent .locate_bottom_area .link_style{margin-left: .8rem;}
 @media screen and (max-width: 374px){
   html{font-size: 8px;}
+  .notice .notice_list li .icon_type1{vertical-align: 1.6rem;}
   .act_btn+label, .btn_type1{min-width: 7.3rem;}
   .search_input_area .search_box{padding-left: 6rem;}
 }
 @media screen and (min-width: 375px) and (max-width: 376px){
   html{font-size: 9px;}
+  .notice .notice_list li .icon_type1{vertical-align: .1rem;}
   .locate_area .map_area{height: 70vh;}
   .locate_area.agent .map_area{height: 60vh;}
   /*메인*/
