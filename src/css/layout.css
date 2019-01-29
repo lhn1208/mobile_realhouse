@@ -194,6 +194,7 @@ section:first-of-type.content_area .header,.content_area .header.border_none{bor
 /*한줄 라인*/
 .content_box .row:after{display: block; content:""; clear: both;}
 .content_box .row{position: relative; line-height: 4; height: 5.7rem; padding:0 1.2rem; border-bottom: 1px solid #dedede; background-color: #fff;}
+.content_box .row .manager{font-weight: 500; color: #3c3c3c;}
 .content_box .row:after{display: block; content:""; clear: both;}
 .content_box .row .tit{font-weight: 700;}
 .content_box .right_area{position: absolute; right:.8rem; top:0;}

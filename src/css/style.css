@@ -29,7 +29,7 @@
 .offer_type_area .filter_btn_list li{display: block; border-top:1px solid #ccc;}
 .offer_type_area .filter_btn_list li:first-child{border-top:none;}
 .offer_type_area .filter_btn_list li:after{display: block; content:""; clear: both;}
-.offer_type_area .filter_btn_list .act_btn+label{float: left; width: 25%; margin: 0; background-color: transparent; border:none; border-left:1px solid #ccc; border-radius: 0; background-color: #fff;}
+.offer_type_area .filter_btn_list .act_btn+label{float: left; width: 25%; height: 4.3rem; line-height: 3.8; margin: 0; background-color: transparent; border:none; border-left:1px solid #ccc; border-radius: 0;}
 .offer_type_area .filter_btn_list li .act_btn:first-of-type+label{border-left: none;}
 .offer_type_area .filter_btn_list .act_btn:checked+label{background-color: #92d050;}
 .offer_type_area .filter_btn_list li:first-child .act_btn:first-of-type:checked+label{border-top-left-radius: .5rem;}
@@ -318,9 +318,8 @@
 .my_present .purchase_manage .visit_list li{color: #3c3c3c;}
 .my_present .purchase_manage .right_area.type {width:16.6rem;}
 .my_present .purchase_manage .header .right_area.type {top:-.2rem;}
-.my_present .purchase_manage .info_list li{color: #373737; line-he  ight: 2;}
+.my_present .purchase_manage .info_list li{color: #373737; line-height: 2;}
 .my_present.sale_present .no_cont_date{border-bottom: 1px solid #dedede; padding:12% 0;}
-.my_present.sale_present .agent{font-weight: 500; color: #3c3c3c;}
 
 .purch_info{height: 34.4rem;}
 .purch_info .header i{margin-left:0;}
