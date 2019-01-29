@@ -318,7 +318,7 @@
 .my_present .purchase_manage .visit_list li{color: #3c3c3c;}
 .my_present .purchase_manage .right_area.type {width:16.6rem;}
 .my_present .purchase_manage .header .right_area.type {top:-.2rem;}
-.my_present .purchase_manage .info_list li{color: #373737; line-height: 2;}
+.my_present .purchase_manage .info_list li{color: #373737; line-he  ight: 2;}
 .my_present.sale_present .no_cont_date{border-bottom: 1px solid #dedede; padding:12% 0;}
 
 .purch_info{height: 34.4rem;}
@@ -349,7 +349,8 @@
 .sale_present .right_area.btn_width{width:40%;}
 .sale_present .right_area .btn_inner{position: relative;}
 .sale_present .content_box .row.bottom_area .right_area.txt{top:.1rem;}
-.offer_req_inner{position: relative; height: 100vh;}
+.offer_req_inner{position: relative;/* height: calc(100vh - 5rem);*/}
+.offer_req_inner .request_offer .items_list{padding-bottom: 10rem;}
 .offer_req_inner .offer_req_btn{position: absolute; bottom:0;}
 /*더보기*/
 .more_sec{background-color: #fff;}
