@@ -198,7 +198,7 @@ section:first-of-type.content_area .header,.content_area .header.border_none{bor
 .content_box .row .tit{font-weight: 700;}
 .content_box .right_area{position: absolute; right:.8rem; top:0;}
 .content_box .row .right_area.link_style{top:.2rem;}
-.content_box .link_style:after{display: block; top:2rem;}
+.content_box .row .link_style:after{display: block; top:2rem;}
 .content_box .row.no_req{color: #ff6161; text-align: center;}
 .content_box .row.state_list{text-align: center; padding:0;}
 .content_box .row.state_list .state{float: left; width:25%;}
