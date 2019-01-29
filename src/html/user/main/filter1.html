@@ -20,8 +20,9 @@
 <div class="wrapper">
     <div id=sub_container class="sub_container">  
         <div class="container_inner">
-            <div class="filter_area">  
-                <div class="section_inner">
+            <div class="filter">
+                <div class="filter_area">  
+                    <div class="section_inner">
                         <div class="content_head type1">
                             <h2 class="tit">매매금액</h2>
                             <span class="filter_desc">최소~최대</span>
@@ -42,18 +43,19 @@
                         </div>
                         <div class="control_area clearfix">
                             <div class="control">
-                            <button class="minus"><span class="blind">마이너스</span></button>
-                            <label for="control_min">
-                                <input type="text" id="control_min" class="input_control" placeholder="최소">
-                            </label>
-                            <button class="plus"><span class="blind">플러스</span></button>
-                        </div>
-                        <div class="control max">
-                            <button class="minus"><span class="blind">마이너스</span></button>
-                            <label for="control_max">
-                                <input type="text" id="control_max" class="input_control" placeholder="최대">
-                            </label>
-                            <button class="plus"><span class="blind">플러스</span></button>
+                                <button class="minus"><span class="blind">마이너스</span></button>
+                                <label for="control_min">
+                                    <input type="text" id="control_min" class="input_control" placeholder="최소">
+                                </label>
+                                <button class="plus"><span class="blind">플러스</span></button>
+                            </div>
+                            <div class="control max">
+                                <button class="minus"><span class="blind">마이너스</span></button>
+                                <label for="control_max">
+                                    <input type="text" id="control_max" class="input_control" placeholder="최대">
+                                </label>
+                                <button class="plus"><span class="blind">플러스</span></button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -103,21 +105,23 @@
                         </div>
                         <div class="control_area clearfix">
                             <div class="control">
-                            <button class="minus"><span class="blind">마이너스</span></button>
-                            <label for="control_min">
-                                <input type="text" id="control_min" class="input_control" placeholder="최소">
-                            </label>
-                            <button class="plus"><span class="blind">플러스</span></button>
-                        </div>
-                        <div class="control max">
-                            <button class="minus"><span class="blind">마이너스</span></button>
-                            <label for="control_max">
-                                <input type="text" id="control_max" class="input_control" placeholder="최대">
-                            </label>
-                            <button class="plus"><span class="blind">플러스</span></button>
-                        </div>
+                                <button class="minus"><span class="blind">마이너스</span></button>
+                                <label for="control_min">
+                                    <input type="text" id="control_min" class="input_control" placeholder="최소">
+                                </label>
+                                <button class="plus"><span class="blind">플러스</span></button>
+                            </div>
+                            <div class="control max">
+                                <button class="minus"><span class="blind">마이너스</span></button>
+                                <label for="control_max">
+                                    <input type="text" id="control_max" class="input_control" placeholder="최대">
+                                </label>
+                                <button class="plus"><span class="blind">플러스</span></button>
+                            </div>
+                        </div>                    
                     </div>
                 </div>
+            
                 <!--방구조-->
                 <div class="filter_area">  
                     <div class="section_inner">
@@ -169,7 +173,7 @@
                 </div> 
                 <!--//층구분-->        
                 <!--건축연도-->
-                 <div class="filter_area">  
+                    <div class="filter_area">  
                     <div class="section_inner">
                         <div class="content_head type1">
                             <h2 class="tit">건축연도</h2>
@@ -193,7 +197,7 @@
                     </div>
                 </div>   
                 <!--//건축연도-->       
-                 <!--옵션-->
+                    <!--옵션-->
                 <div class="filter_area">  
                     <div class="section_inner">
                         <div class="content_head type1">
@@ -242,13 +246,14 @@
                         </div> 
                     </div>
                 </div>   
-                <!--//내부시설 옵션-->         
-            </div>
-            <div class="btn_submit offer_submit fixed">
-                <button class="btn">초기화</button>
-                <button class="btn">필터적용(1,234)</button>
-            </div>
+                <!--//내부시설 옵션-->   
+            </div>      
         </div>
+        <div class="btn_submit offer_submit fixed">
+            <button class="btn">초기화</button>
+            <button class="btn">필터적용(1,234)</button>
+        </div>
+        
     </div>
 </div>
 </body>
