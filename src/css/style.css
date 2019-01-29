@@ -47,7 +47,7 @@
 .control_area .control button{float: left; width:3.7rem; height:3.7rem; background-color:#fafafa; border:1px solid #dedede; border-radius: 0;}
 .control_area .control button:before{display: inline-block; content:""; background-repeat: no-repeat; background-size: 100%; text-align: center;}
 .control_area .control .minus:before{width:1.5rem; height: .2rem; vertical-align: .4rem; background-image: url("../../images/sub/bg_minus.png");}
-.control_area .control .plus:before{width:1.5rem; height:1.5rem; background-image: url("../../images/sub/bg_plus.png");}
+.control_area .control .plus:before{width:1.5rem; height:1.5rem; background-image: url("../../images/sub/bg_plus.png"); vertical-align: -.2rem}
 .control_area .control label{display: inline-block; float: left; height: 3.7rem; border-top:1px solid #dedede; border-bottom: 1px solid #dedede}
 .control_area .control .input_control{float: left; width:9.5rem; height: 3.4rem; border:none; text-align: center;}
 .control_area .control .input_control::placeholder{color: #9c9c9c;}
@@ -57,7 +57,7 @@
 .header_section{background-color: #fff;}
 .header_section .offer_info_header{float: left; width: 77%; height: 4.7rem; border-right: 1px solid #dedede;} 
 .header_section .offer_info_header a{width:100%; height: 100%; padding:1.2rem 3.2rem 1rem 1.2rem; font-size: 1.4rem; color: #1e1e1e; background: url("../../images/common/bg_select_active.png") no-repeat 96% 50%; background-size: 1.3rem; text-overflow:ellipsis; white-space: nowrap; word-wrap: normal; overflow: hidden;}
-.header_section .filter{float: left; width: 23%; line-height: 3.2; font-size: 1.4rem; font-weight: 700; color: #1e1e1e;text-align: center;}
+.header_section .filter{float: left; width: 23%; line-height: 3.4; font-size: 1.4rem; font-weight: 700; color: #1e1e1e;text-align: center;}
 .header_section .filter em{padding-left: .5rem; font-size: 1.4rem; font-weight: 700; color: #f15544;}
 .all_offer_area{position: relative; padding-top:4.8rem;}
 .offer_map{position: relative; height: 100vh;}
@@ -81,10 +81,10 @@
 } */
 @keyframes heightUp1 {
   0% {height:4.7rem;}
-  100% {height:calc(100% - 9.3rem);}
+  100% {height:calc(100% - 9.5rem);}
 }
 @keyframes heightDown1 {
-  0% {height:calc(100% - 9.3rem);}
+  0% {height:calc(100% - 9.5rem);}
   100% {height:4.7rem;}
 }
 
@@ -93,10 +93,10 @@
 .area_offer.animate_h_down{animation-name: heightDown2; -webkit-animation-name: heightDown2;}
 @keyframes heightUp2 {
   0% {height:27rem;}
-  100% {height:calc(100% - 9.3rem);}
+  100% {height:calc(100% - 9.5rem);}
 }
 @keyframes heightDown2 {
-  0% {height:calc(100% - 9.3rem);}
+  0% {height:calc(100% - 9.5rem);}
   100% {height:27rem;}
 }
 

@@ -279,11 +279,11 @@ section:first-of-type.content_area .header,.content_area .header.border_none{bor
 .filter_scroll_area{position: relative; width:96%; margin:0 auto; padding:2rem 0;}
 .filter_scroll_area .scroll_inner{padding:0 3.3rem 0 .2rem;}
 .filter_scroll_bar{position: relative; width:100%; height:.4rem; background:#ccc;}
-.filter_scroll_bar .handler{position: absolute; top:-1.3rem; left:-1px; width:3rem; height: 3rem; background:#fff; border-radius: 5rem; border:1px solid #dedede; box-shadow: 2px 2px 1px #dedede; z-index: 10;}
+.filter_scroll_bar .handler{position: absolute; top:-1.3rem; left:-1px; width:3rem; height: 3rem; background:#fff; border-radius: 5rem; border:1px solid #dedede; box-shadow: 2px 2px 5px #dedede; z-index: 10;}
 .filter_scroll_bar .handler.max{left:100%;}
 .filter_scroll_bar .slider_range{position: absolute; top:0; left:0; height: .4rem; width:100%; background-color: #378cff;}
 .filter_amt{position: absolute; top:5rem; left:0; width:100%; margin-top:.4rem; font-size: 1.2rem; color: #ccc; }
-.filter_amt span{display: inline-block; position: absolute; left:1.3rem; width: 3.6rem; font-size: 1.1rem;}
+.filter_amt span{display: inline-block; position: absolute; left:1.1rem; width: 3.6rem; font-size: 1.1rem;}
 .filter_amt span:nth-child(2){position: absolute; left:47%;}
 .filter_amt span:nth-child(3){position: absolute; left:93%;}
 .filter_amt span:before{display: block; content:""; position: absolute; top:-1rem; left:1.1rem; width:.1rem; height: .8rem; background-color: #dedede;}
