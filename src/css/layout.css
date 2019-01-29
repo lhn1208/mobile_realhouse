@@ -4,7 +4,7 @@
 .txt_red{color:#f15544}
 .txt_blue{color:#378cff;}
 .link_style{display: inline-block; position: relative; padding-right: 1rem; color: #378cff; font-size: 1.3rem; font-weight: 700;}
-.link_style:after{display: inline-block; content:""; position: absolute; top:.4rem; right:-.2rem; width:.8rem; height:1.4rem; background:url("../../images/common/arr_link.png") no-repeat; background-size: 100%;}
+.link_style:after{display: inline-block; content:""; position: absolute; top:.4rem; right:-.2rem; width:.8rem; height:1.3rem; background:url("../../images/common/arr_link.png") no-repeat; background-size: 100%;}
 /*버튼*/
 button:focus{outline:none;}
 .act_btn +label,.btn_type1{display: inline-block; position: relative; min-width:8rem; height:3.8rem; line-height: 2.8; margin-left:1%; font-weight:700; font-size: 1.3rem; color: #9c9c9c; border:1px solid #ccc; border-radius: .5rem; text-align: center; vertical-align: middle; background-color: #fff;}
@@ -198,7 +198,7 @@ section:first-of-type.content_area .header,.content_area .header.border_none{bor
 .content_box .row .tit{font-weight: 700;}
 .content_box .right_area{position: absolute; right:.8rem; top:0;}
 .content_box .row .right_area.link_style{top:.2rem;}
-.content_box .link_style:after{display: block; top:1.9rem;}
+.content_box .link_style:after{display: block; top:2rem;}
 .content_box .row.no_req{color: #ff6161; text-align: center;}
 .content_box .row.state_list{text-align: center; padding:0;}
 .content_box .row.state_list .state{float: left; width:25%;}
