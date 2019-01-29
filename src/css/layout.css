@@ -165,7 +165,7 @@ textarea{font-family: "Noto Sans KR",sans-serif; font-size: 1.4rem; color: #3c3c
 
 .content_area{position: relative;}
 section:first-of-type.content_area .header,.content_area .header.border_none{border-top:none;}
-.content_area .header{position: relative; height:5.7rem; padding:0 1.2rem; line-height: 4; font-weight: 700; font-size: 1.4rem; background-color: #f9fcfd; border-top: 1px solid #dedede; border-bottom: 1px solid #dedede;}
+.content_area .header{position: relative; height:5.7rem; padding:0 1.2rem; line-height: 4; font-weight: 700; font-size: 1.4rem; background-color: #f9fcfd; border-top: 1px solid #dedede; border-bottom: 1px solid #dedede; overflow: hidden;}
 .content_area .header.bg_none{background: #fff;}
 .content_area .header.border_t_none{border-top: none;}
 .content_area .header:after{display: block; content:""; clear: both;}
