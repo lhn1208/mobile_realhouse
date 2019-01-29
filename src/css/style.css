@@ -342,7 +342,7 @@
 .sale_present .present_manage .left{margin-left: 0;}
 .sale_present .present_manage .content_box .row.bottom_area .right_area.btn{top:.8rem;}
 .sale_present .content_area{margin:.5rem 0;}
-.sale_present .header .tit{float: left; font-weight: 700; color: #1e1e1e;}
+.sale_present .header .tit{font-weight: 700; color: #1e1e1e;}
 .sale_present .offer_desc{line-height: 2; padding:1.2rem; border-top:1px solid #dedede; border-bottom: 1px solid #dedede; background-color: #fffbfb;}
 .sale_present .offer_desc li{height: auto; text-indent: -1.4rem; padding-left: 1.4rem; word-break: keep-all;}
 .sale_present .offer_desc li:before{display: none;}
