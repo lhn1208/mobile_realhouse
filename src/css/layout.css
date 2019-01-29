@@ -33,7 +33,7 @@ button:focus{outline:none;}
 .btn_submit{width:100%; background-color: #0ec4bf; text-align: center;}
 .btn_submit:after{display: block; content: ""; clear: both;}
 .btn_submit .btn{position: relative; float: left; width:50%; line-height: 3.6; color: #fff; font-size: 1.4rem; font-weight: 700;}
-.btn_submit .btn+.btn:before{display: inline-block; content:""; position: absolute; top:2rem; left:0; width:.2rem; height:1.7rem; background-color: #fff;}
+.btn_submit .btn+.btn:before{display: inline-block; content:""; position: absolute; top:1.8rem; left:0; width:.2rem; height:1.7rem; background-color: #fff;}
 .btn_submit .next,.btn_submit .off{opacity: .6;}
 .btn_submit .prev{ background-size: 4%;}
 
