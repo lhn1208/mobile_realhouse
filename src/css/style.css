@@ -565,7 +565,7 @@
 .locate_area.agent .locate_bottom_area strong{font-weight: 700; color: #1e1e1e;}
 .locate_area.agent .locate_bottom_area .link_style{margin-left: .8rem;}
 @media screen and (max-width: 374px){
-  
+  .offer_main .offer_mark dl{padding:0 .3rem 0 .8rem;}
 }
 @media screen and (min-width: 375px) and (max-width: 376px){
   /* html{font-size: 9px;}
