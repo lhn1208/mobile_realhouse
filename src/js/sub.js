@@ -2,18 +2,29 @@ $(document).ready(function(){
     var $body=$('body');
     //전체매물 slideup
     var $Slidebox=$('.slide_box');
-    var $all_offer=$('.slide_box.slide_offer');//전체매물
-    var $area_offer=$('.area_offer');//지역매물
+   
+    var slide_prev_h=$Slidebox.outerHeight();
+    var header_h=$('.search_h').outerHeight();
+    var cal_h=Math.ceil($('html,body').outerHeight() - header_h);
     $Slidebox.find('.header').click(function(){
-        if(!($Slidebox.hasClass('animate_h_up'))){
-            $Slidebox.removeClass('animate_h_down').addClass('animated').addClass('animate_h_up');
+        if(!($Slidebox.hasClass('height_up'))){
+            $Slidebox.addClass('height_up');
+            $Slidebox.animate({
+                'height': cal_h
+            },700)
+
             var time=setTimeout(function(){
-                $('.offer_map .map').css('display','none');
-            },550);
+                $('.offer_map .map, .offer_map .ico_offer_aera').css('display','none');
+            },750);
+          
         }else{
-            $Slidebox.removeClass('animate_h_up').addClass('animate_h_down');
-            $('.offer_map .map').css('display','block');
+            $Slidebox.removeClass('height_up');
+            $Slidebox.animate({
+                'height':slide_prev_h
+            },700)
+            $('.offer_map .map, .offer_map .ico_offer_aera').css('display','block');
         }
+     
     })
  
     //pop
