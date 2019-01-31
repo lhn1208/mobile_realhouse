@@ -22,12 +22,12 @@ $(document).ready(function(){
         }
     });
 
-    // var $member_input=$('.member_form .member_input');
-    // $member_input.focus('input',function(){
-    //     $(this).next('.delete').css('display','block');
-    // })
-    // $member_input.blur('input',function(){
-    //     $(this).next('.delete').removeAttr('style');
-    // })
+    var $member_input=$('.member_form .member_input');
+    $member_input.focus('input',function(){
+        $(this).next('.delete').css('display','block');
+    })
+    $member_input.blur('input',function(){
+        $(this).next('.delete').removeAttr('style');
+    })
 
 });
