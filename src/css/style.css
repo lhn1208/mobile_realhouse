@@ -565,16 +565,13 @@
 .locate_area.agent .locate_bottom_area strong{font-weight: 700; color: #1e1e1e;}
 .locate_area.agent .locate_bottom_area .link_style{margin-left: .8rem;}
 @media screen and (max-width: 374px){
-  html{font-size: 8px;}
-  .notice .notice_list li .icon_type1{vertical-align: .1rem;}
-  .act_btn+label, .btn_type1{min-width: 7.3rem;}
-  .search_input_area .search_box{padding-left: 6rem;}
+  
 }
 @media screen and (min-width: 375px) and (max-width: 376px){
-  html{font-size: 9px;}
+  /* html{font-size: 9px;}
   .notice .notice_list li .icon_type1{vertical-align: .1rem;}
   .locate_area .map_area{height: 70vh;}
-  .locate_area.agent .map_area{height: 60vh;}
+  .locate_area.agent .map_area{height: 60vh;} */
   /*메인*/
   /* .main_cont .content,  .main_cont .content .txt_red{font-size: 1.3rem;}
   .swiper_list .swiper-wrapper .info .desc{font-size: 1.2rem;} */
