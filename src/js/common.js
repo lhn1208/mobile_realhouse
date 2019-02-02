@@ -31,7 +31,7 @@ $(document).ready(function(){
     })
 
     //swiper menu
-    var top_h=$(".present_sec").outerHeight() + 54;
+    var top_h=$(".present_sec").outerHeight() + 34;
     var $swiperMenu=$('.swiper_fix .swiper_menu');
     $(window).scroll(function() {
         var sct=$(window).scrollTop();
