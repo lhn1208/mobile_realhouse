@@ -249,8 +249,9 @@
 .present_cont .state dl:first-of-type{margin-left: 0;}
 .present_cont .state dl{float: left; width:20%;}
 .present_cont .state dd{font-size: 1.6rem; font-weight: 700; color: #378cff;}
-.my_present{background-color:#fff;}
-.my_present .present_manage{width:92%; margin:0 auto; padding-top:2.5rem;}
+.my_present{position: relative; background-color:#fff;}
+.my_present .present_manage{width:92%; margin:0 auto; padding:2.5rem 0 3rem;}
+.my_present .present_manage.no_items li{height: auto;}
 .present_manage li{position: relative; height: 8.4rem; margin-top:3.2rem;}
 .present_manage li:first-child{margin-top:0;}
 .present_manage li:before{display: block; content:""; position: absolute; top:3.8rem; left:1.5rem; width:.6rem; height: 7.5rem; background-color: #e6e6e6;}
@@ -277,7 +278,8 @@
 .my_present .client_manage{position: relative;}
 .my_present .client_manage .content_box .right_area.btn{top:24%;}
 
-.my_present .client_register{margin:2rem 0;}
+/* .my_present .client_register_area{position: absolute; bottom:0; width:100%;} */
+.client_register .register_list{margin-top:2rem;}
 .client_register .register_list li{padding:1.2rem; width:100%; border-top:1px solid #dedede; background-color: #fff;}
 .client_register .register_list .manager .btn{position: relative; min-width:27%; color: #646464;}
 .client_register .register_list .manager .btn.bg_type:before{display: inline-block; content:""; margin-right: .4rem; width:1.2rem; height: .8rem; background-repeat: no-repeat; background-size: 100%;;}
