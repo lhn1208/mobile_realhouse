@@ -32,7 +32,7 @@ $(document).ready(function(){
 
     //swiper menu
     var top_h=$(".present_sec").outerHeight();
-    var $swiperMenu=$('.swiper_box .swiper_menu');
+    var $swiperMenu=$('.swiper_fix .swiper_menu');
     $(window).scroll(function() {
         var sct=$(window).scrollTop();
         if(sct>top_h){ 
