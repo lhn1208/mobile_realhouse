@@ -10,7 +10,7 @@
 .filter_locate_box .locate{width: 96%; margin:0 auto;}
 .filter_locate_box .locate:after{display: block; content:""; clear: both;}
 .filter_locate_box .locate dt{margin-left: 0;}
-.filter_locate_box .area{float: left; width:32.6%; height:3.7rem; line-height: 2.7; margin-left: 1%; padding:0 .75rem; font-weight: 500; color: #1e1e1e; border:none; background-image:url("../../images/common/bg_select_active.png"); background-repeat: no-repeat; background-color: #fff; background-position: 88% 50%; background-size: 1.3rem; border:1px solid #e6e6e6; border-radius: .5rem; text-align: left;}
+.filter_locate_box .area{float: left; width:32.6%; height:3.8rem; line-height: 2.7; margin-left: 1%; padding:0 .75rem; font-weight: 500; color: #1e1e1e; border:none; background-image:url("../../images/common/bg_select_active.png"); background-repeat: no-repeat; background-color: #fff; background-position: 88% 50%; background-size: 1.3rem; border:1px solid #e6e6e6; border-radius: .5rem; text-align: left;}
 .filter_locate_box .area.no_data{position: relative; line-height: 3; background-color: #fafafa; background-image:url("../../images/common/bg_bottom_arr.png");}
 .filter_locate_box .area.no_data::before{display: block; content: ""; position: absolute; top:50%; left: .75rem; width:.35rem; height: .1rem; background-color: #9c9c9c;}
 .link_section .link_area a{float: left; width:33.3%; line-height: 3.6; border: 1px solid #dedede; border-top: none; border-left: none; background-color: #fff; text-align: center;}
@@ -105,7 +105,7 @@
 .agent_grade_box .grade li{float: left; width:33.3%; line-height: 3.9;}
 .agent_grade_box .agent_img{top:1rem;}
 .grade_list_area{font-weight: 400;}
-.grade_list_area .contract_type{font-weight: 400;}
+.grade_list_area .contract_type{font-weight: 500;}
 .grade_list_area .date{font-size: 1.2rem; color: #646464;}
 .grade_list_area .grade_list{padding:1rem 0;}
 .grade_list_area .grade_list li:first-child{margin-left:0;}
@@ -150,7 +150,7 @@
 .offer_info .info_head .tit{font-size: 1.4rem;}
 .offer_info .info_head .build_type{margin-right: 1.2rem; font-weight: 700;}
 .offer_info .explain_area{padding:1rem; line-height: 2; border:1px solid #dedede; border-radius: .5rem;}
-.offer_info .mark_ico .detail i{height:2.8rem; margin-left: 0; line-height: 1.3; font-size: 1.5rem; vertical-align: 0;}
+.offer_info .mark_ico .detail i{height:2.6rem; margin-left: 0; line-height: 1.4; font-size: 1.5rem; vertical-align: 0;}
 .list_tb li .detail .desc{font-size: 1.1rem;}
 .offer_main .amt_control{position: relative; width:96%; min-height: 6.3rem; margin:0 auto; line-height: 4.4; border:1px solid #dedede; border-radius: .5rem; background-color:#fff;}
 .offer_main .amt_control dt:after{display: block; content:""; position: absolute; top:0; right:.5rem; width: .1rem; height: 6.1rem; background-color: #dedede; background-size: 100%;}
@@ -158,12 +158,12 @@
 .offer_main .amt_control dd{float: left; margin-left: 1rem; line-height: 4.6; font-weight: 700; font-size: 1.3rem;}
 .offer_main .amt_control dd:first-of-type{margin-left: 8.2rem;}
 .offer_info .swiper_box .swiper_menu{border:1px solid #dedede; border-top-left-radius: .5rem; border-top-right-radius: .5rem;}
-.favoer_cover{position: absolute;}
+.favor_cover{position: absolute; top:4.8rem;}
 .offer_info .swiper_box .items_list li{border-left:1px solid #dedede; border-right:1px solid #dedede;}
 .offer_info .area_more{height: 5.8rem; border:none;}
 .offer_info .area_more .inner{height: 5.7rem; border: 1px solid #dedede; border-bottom-left-radius: .5rem; border-bottom-right-radius: .5rem; border-top:none;}
 .offer_info .all_offer .no_cont_date{border-left:1px solid #dedede; border-right: 1px solid #dedede;}
-.favoer_cover .deal_complete{position: absolute; top:7%; left:50%; width:68%; margin-left: -34%; padding:1rem 0 1rem; line-height: 1.4; font-size: 1.6rem; border-radius: 5rem; background-color: #fff; text-align: center;}
+.favor_cover .deal_complete{position: absolute; top:7%; left:50%; width:68%; margin-left: -34%; padding:1rem 0 1rem; line-height: 1.4; font-size: 1.6rem; border-radius: 5rem; background-color: #fff; text-align: center;}
 
 .locate_box {border:1px solid #dedede;border-radius: .5rem;;}
 .locate_box .locate_header{padding:0 1.2rem; height: 5.7rem; line-height: 3.8; border-bottom: 1px solid #dedede;}
@@ -249,13 +249,15 @@
 .present_cont .state dl:first-of-type{margin-left: 0;}
 .present_cont .state dl{float: left; width:20%;}
 .present_cont .state dd{font-size: 1.6rem; font-weight: 700; color: #378cff;}
-.my_present .present_manage{width:96%; margin:0 auto; padding-top:2.5rem; background-color:#fff;}
-.present_manage li{position: relative; height: 8.4rem;}
-.present_manage li:before{display: block; content:""; position: absolute; top:3.2rem; left:1.2rem; width:.6rem; height: 5rem; background-color: #e6e6e6;}
+.my_present{background-color:#fff;}
+.my_present .present_manage{width:92%; margin:0 auto; padding-top:2.5rem;}
+.present_manage li{position: relative; height: 8.4rem; margin-top:3.2rem;}
+.present_manage li:first-child{margin-top:0;}
+.present_manage li:before{display: block; content:""; position: absolute; top:3.8rem; left:1.5rem; width:.6rem; height: 7.5rem; background-color: #e6e6e6;}
 .present_manage li:last-child:before{background: none;}
-.present_manage li .head{position: absolute; top:0; left:0; width:3.3rem; height:3.3rem; line-height: 2; font-size: 1.6rem; font-weight: 700; color: #fff; background-color: #f7941d; border-radius: 5rem; text-align: center;} 
+.present_manage li .head{position: absolute; top:0; left:0; width:3.6rem; height:3.6rem; line-height: 2.2; font-size: 1.6rem; font-weight: 700; color: #fff; background-color: #f7941d; border-radius: 5rem; text-align: center;} 
 .present_manage .content_inner{padding-top:.5rem;}
-.present_manage .left{float:left;margin-left: 3.8rem;}
+.present_manage .left{float:left;margin-left: 4.2rem;}
 .present_manage .right{float:right; text-align: right;}
 .present_manage .build_address{position: relative; font-weight: 700; color: #378cff;}
 .present_manage .build_address:after{display: block; content:""; position: absolute; top:.4rem; right:-1.2rem; width:.7rem; height:1.2rem; background: url("../../images/common/arr_link.png") no-repeat; background-size: 100%;}

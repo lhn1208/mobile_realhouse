@@ -30,4 +30,16 @@ $(document).ready(function(){
         $(this).next('.delete').removeAttr('style');
     })
 
+    //swiper menu
+    var top_h=$(".present_sec").outerHeight();
+    var $swiperMenu=$('.swiper_box .swiper_menu');
+    $(window).scroll(function() {
+        var sct=$(window).scrollTop();
+        if(sct>top_h){ 
+            console.log('aaaa');
+            $swiperMenu.addClass('fix')
+        }else{
+            $swiperMenu.removeClass('fix')
+        }
+    });
 });

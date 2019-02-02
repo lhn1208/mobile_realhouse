@@ -122,8 +122,6 @@ textarea{resize: none;}
 .member_box_area .close{position: absolute; top:1.7rem; right:1.2rem; width:1.6rem; height:1.6rem; background:url("../../images/common/close.png") no-repeat; background-size:100%;}
 .member_box{width:96%; margin:0 auto 2.4rem;}
 .member_box .member_form{position: relative; }
-/* .member_box .member_form label{position: relative; width:100%; display: inline-block;}
-.member_form .member_input{width:100%; line-height: 3.5; padding:0 4.2rem 0 .8rem; font-size: 1.4rem;} */
 
 .member_box .member_form .input_form{display: inline-block; width:100%; height:5.7rem;}
 .member_box .member_form .member_input{width:100%; height: 100%; padding:0 1.2rem; font-size: 1.4rem; color: #3c3c3c; border:none; background-color: #fff;}
