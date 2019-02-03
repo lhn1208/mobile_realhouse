@@ -59,7 +59,7 @@ button:focus{outline:none;}
 textarea::placeholder,input[type="text"]::placeholder{color: #9c9c9c; font-size: 1.4rem; font-weight: 500; font-family: "Noto Sans KR",sans-serif,"돋움","Dotum";}
 textarea,input[type="text"]{font-size: 1.4rem; font-weight: 500; font-family: "Noto Sans KR",sans-serif,"돋움","Dotum";}
 .input_text{line-height: 2.4; padding:0 .6rem; font-size: 1.4rem; border:1px solid #dedede; border-radius: .5rem;}
-.full_input{width:100%; line-height: 3.8; padding:0 .6rem;}
+.full_input{display: inline-block; width:100%; line-height: 3.8; padding:0 .6rem;}
 .full_input input[type="text"]{border:none; color: #3c3c3c;}
 .full_input input[type="text"]::placeholder{columns: #9c9c9c;; font-size: 1.4rem;}
 /*textarea*/

@@ -428,7 +428,7 @@
 .custom_sec .list li .reply_cont_head{position: relative; line-height: 4; height: 5.7rem; padding:0 1.2rem; background-color: #fafafa; border-top:1px solid #dedede;}
 .custom_sec .list li .reply_cont_head .date{position: absolute; top:.3rem; right:1.2rem; color:#646464;}
 .custom_sec .list li a.on{background-color: #f9fcfd;}
-.qna_register .tit_area{border-bottom: 1px solid #dedede; background-color: #fcfcfc;}
+.qna_register .tit_area{border-bottom: 1px solid #dedede; background-color: #fff;}
 .custom_sec.memo li .date{color: #646464;}
 /*나의매수/나의매도 요청내역*/
 .request_list_header .swiper_menu li a{height: 4.8rem;}
