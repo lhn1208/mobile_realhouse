@@ -495,9 +495,9 @@
 .pop_push .push_btn .push_close{float: left; background-color: #ff6161;}
 .pop_push .push_btn .push_show{float: right; background-color:#92d050;}
 .pop_push .desc{font-size: 1.4rem; color: #646464; text-align: center;}
-.set_date .content_box .row{line-height: 4.2;}
+.set_date .content_box .row{line-height: 4.4; font-size: 1.3rem;}
 .set_date .content_area .header .tit{font-weight: 500;}
-.set_date .link_area a{color: #3c3c3c;}
+.set_date .link_area a{height: 5.7rem; line-height: 4; color: #3c3c3c;}
 .other_client .content_area .right_area.btn{top:.8rem; color: #646464;}
 .offer_notify .content_area .header .tit,.offer_notify .content_area .checkbox+label em{color: #3c3c3c; font-weight: 500;}
 .offer_pic .swiper-container{ width: 100%; height: 100%; position: fixed; top:0; left:0; right:0; bottom:0;}
@@ -545,10 +545,10 @@
 .locate_area .map_area .map_control{top:auto; bottom:4.2rem;}
 .locate_area .map_area .view_button{position: absolute; left:1.2rem; bottom:4rem;}
 .locate_area .map_area .view_button .btn{color:#3c3c3c;}
-.locate_area .locate_bottom_area{height:11vh; padding:1.4rem 1.2rem; background-color: #fff;}
+.locate_area .locate_bottom_area{height:7.7rem; padding:1.4rem 1.2rem; background-color: #fff; border-top:1px solid #dedede;}
 .locate_area.agent .map_area{height: 66vh;}
 .locate_area.agent .locate_bottom_area{height:22vh; padding:0;}
-.locate_area.agent .locate_bottom_area .cont{border-bottom: none;}
+.locate_area.agent .locate_bottom_area .cont{height: 11.6rem; padding:.6rem 1.2rem; border-bottom: none;}
 .locate_area.agent .locate_bottom_area strong{font-weight: 700; color: #1e1e1e;}
 .locate_area.agent .locate_bottom_area .link_style{margin-left: .8rem;}
 @media screen and (max-width: 376px){
