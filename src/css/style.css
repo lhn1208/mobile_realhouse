@@ -236,7 +236,7 @@
 .section_wrap .slide_line{position: absolute; bottom:0; left:0; display: block; width:100%; height:2.2rem; padding-top:.8rem; z-index: 25;}
 /*매수/매도 중개현황*/
 .req_resent{padding-top:1.2rem;}
-.present_sec{position: relative; display: block; width: 96%; margin:0 auto 1.5rem; background-color:#fff;}
+.present_sec{position: relative; display: block; width: 96%; margin:0 auto 1.2rem; background-color:#fff;}
 .present_sec .content_area .content_box .cont:first-of-type{border:1px solid #dedede;  border-top-left-radius: .5rem; border-top-right-radius: .5rem;}
 .present_sec .content_area .content_box .row{border-left: 1px solid #dedede; border-right:1px solid #dedede;}
 .present_sec .content_area .content_box .row.bottom_area{ border-bottom-left-radius: .5rem; border-bottom-right-radius: .5rem;}
@@ -421,7 +421,7 @@
 .custom_sec li .date{font-size: 1.3rem; color: #646464;}
 .custom_sec .tit{font-size: 1.4rem; color: #3c3c3c;}
 .custom_sec .notice_list a:after{background-image:url("../../images/sub/bg_arr.png");} 
-.custom_sec .list li a:after{top:2.3rem; width:1.2rem; height:.7rem; background-image:url("../../images/sub/bg_down.png");}
+.custom_sec .list li a:after{top:3.2rem; width:1.2rem; height:.7rem; background-image:url("../../images/sub/bg_down.png");}
 .custom_sec .list li a.on:after{background-image:url("../../images/sub/bg_up.png");}
 .custom_sec .list li .ico{min-width: 6rem;}
 .custom_sec .list li .cont{padding:1rem; line-height: 1.8; border-top:1px solid #dedede; background-color: #fff;}
@@ -429,6 +429,7 @@
 .custom_sec .list li .reply_cont_head .date{position: absolute; top:.3rem; right:1.2rem; color:#646464;}
 .custom_sec .list li a.on{background-color: #f9fcfd;}
 .qna_register .tit_area{border-bottom: 1px solid #dedede; background-color: #fff;}
+.custom_sec.memo li a{color: #3c3c3c;}
 .custom_sec.memo li .date{color: #646464;}
 /*나의매수/나의매도 요청내역*/
 .request_list_header .swiper_menu li a{height: 4.8rem;}
@@ -478,8 +479,8 @@
 .set_visit_area .link_select:first-of-type{margin-left: .4rem;}
 /*오픈 이벤트 추천확인*/
 .sub_container .ev_result .intro{margin:6.2rem 0 8rem;}
-.ev_result .result_box{line-height: 2; padding:2.6rem 0; font-size: 1.9rem; font-weight: 700; text-align: center; border:1px solid #dedede; border-top-left-radius: .5rem; border-top-right-radius: .5rem;}
-.ev_result .info_area .info_cont{height: 18rem; display: flex; align-items: center; justify-content:  center; flex-direction: column;}
+.ev_result .result_box{line-height: 2; padding:2.6rem 0; font-size: 1.5rem; font-weight: 700; text-align: center; border:1px solid #dedede; border-top-left-radius: .5rem; border-top-right-radius: .5rem;}
+.ev_result .info_area .info_cont{height: 13rem; display: flex; align-items: center; justify-content:  center; flex-direction: column;}
 .ev_result .login_area{font-size: 1.6rem; text-align: center;}
 .ev_result .login_area .login_btn{width:96%; height: 5.7rem; margin:1.4em 0 6rem; font-size: 1.4rem; background-color: #ff6161; color: #fff; line-height: 3.8; border-radius: .5rem;}
 .ev_result .link_area{text-align: center;}
@@ -487,10 +488,10 @@
 .ev_result .link_area .link_style:after{top:.6rem;}
 
 .pop_push .intro .logo{margin:0 auto; font-weight: 500;}
-.pop_push .intro .sub_tit{font-size: 1.6rem;}
-.pop_push .push_cont{padding:8rem 0; font-size: 2.6rem; font-weight: 700; text-align: center;}
+.pop_push .intro .sub_tit{font-size: 1.5rem; font-weight: 500;}
+.pop_push .push_cont{padding:8rem 0; font-size: 2.4rem; font-weight: 700; text-align: center;}
 .pop_push .push_btn{width:80%; margin:0 auto 12rem;}
-.pop_push .push_btn .btn{width:12rem; height: 12rem; font-size: 2.6rem; color: #fff; border-radius: 6rem;}
+.pop_push .push_btn .btn{width:9rem; height: 9rem; font-size: 2.4rem; color: #fff; border-radius: 6rem;}
 .pop_push .push_btn .push_close{float: left; background-color: #ff6161;}
 .pop_push .push_btn .push_show{float: right; background-color:#92d050;}
 .pop_push .desc{font-size: 1.4rem; color: #646464; text-align: center;}
@@ -519,12 +520,12 @@
 .set_alarm .content_box .row .filter_scroll_bar{width:60%;}
 .set_alarm .content_box .row .right_area.btn{top:.8rem;}
 /*오픈추천 이벤트*/
-.open_event_box .event_recomm{min-height: 8.4rem; line-height: 6; margin-top:.5rem; padding:0 1.2rem; background-color: #fff; border:1px solid #dedede; border-top-left-radius: .5rem; border-top-right-radius: .5rem; text-align: right;}
+.open_event_box .event_recomm{min-height: 8.4rem; line-height: 6; margin-top:1.2rem; padding:0 1.2rem; background-color: #fff; border:1px solid #dedede; border-top-left-radius: .5rem; border-top-right-radius: .5rem; text-align: right;}
 .open_event_box .event_recomm li{font-weight: 700; display: inline-block; width:28%; margin-left: 1rem;}
-.open_event_box .event_recomm li:first-child{position: absolute; top:-2.3rem; left:0; width:38%; margin-left: 0; font-size: 1.6rem;}
-.open_event_box .event_recomm li:first-child .txt_red{font-size: 2.1rem;}
+.open_event_box .event_recomm li:first-child{position: absolute; top:-1.9rem; left:-2rem; width:38%; margin-left: 0; font-size: 1.5rem;}
+.open_event_box .event_recomm li:first-child .txt_red{font-size: 2rem;}
 .open_event_box .event_recomm li:nth-child(2){margin-left:34%;}
-.open_event_box .event_state{height: 4.9rem; line-height: 3.6; padding:0 1.2rem; border:1px solid #dedede; border-top: none; border-bottom-right-radius: .5rem; border-bottom-left-radius: .5rem; background-color: #f9fcfd;}
+.open_event_box .event_state{height: 5.7rem; line-height: 4; padding:0 1.2rem; border:1px solid #dedede; border-top: none; border-bottom-right-radius: .5rem; border-bottom-left-radius: .5rem; background-color: #f9fcfd;}
 .event_state_area{border-top:1px solid #dedede;;}
 .event_state_area .content_area .header .tit{font-weight: 700; color: #1e1e1e;}
 .event_state_area .content_area .header .right_area{top:0; font-weight: 500;}
