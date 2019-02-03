@@ -162,7 +162,7 @@ textarea{resize: none;}
 .member_box_area .agree_box .all_agree{height: 5.7rem; padding:0 .8rem; line-height: 4.2; border-top:1px solid #dedede; background-color: #fafafa; border-bottom-left-radius: .3rem; border-bottom-right-radius: .3rem;}
 .member_box_area .agree_box .all_agree em{color: #3c3c3c;}
 .member_box_area .agree_box .label_btn+label:before{right:.4rem;}
-.member_box_area.agent_login .agent_login_inner{padding-top:50%; transform: translateY(-20%);}
+.member_box_area.agent_login .agent_login_inner{padding-top:50%; transform: translateY(-25%);}
 
 .agent_logo{ width:14rem; margin:0 auto 5.4rem;}
 .agent_login .agent_logo .img_logo{display: inline-block;}
