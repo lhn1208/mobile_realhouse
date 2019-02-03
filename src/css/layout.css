@@ -59,11 +59,13 @@ button:focus{outline:none;}
 textarea::placeholder,input[type="text"]::placeholder{color: #9c9c9c; font-size: 1.4rem; font-weight: 500; font-family: "Noto Sans KR",sans-serif,"돋움","Dotum";}
 textarea,input[type="text"]{font-size: 1.4rem; font-weight: 500; font-family: "Noto Sans KR",sans-serif,"돋움","Dotum";}
 .input_text{line-height: 2.4; padding:0 .6rem; font-size: 1.4rem; border:1px solid #dedede; border-radius: .5rem;}
-.full_input{width:100%; line-height: 3.8; padding:0 .6rem; border:none; color: #3c3c3c;}
-.full_input::placeholder{color:#9c9c9c !important; font-size: 1.4rem !important;}
+.full_input{width:100%; line-height: 3.8; padding:0 .6rem;}
+.full_input input[type="text"]{border:none; color: #3c3c3c;}
+.full_input input[type="text"]::placeholder{columns: #9c9c9c;; font-size: 1.4rem;}
 /*textarea*/
 textarea{font-family: "Noto Sans KR",sans-serif; font-size: 1.4rem; color: #3c3c3c; background-color: #fff;}
-.textarea{width:100%; height: 31rem; padding:1rem .6rem; overflow-y: scroll; border:none; outline:none;}
+.textarea{width:100%; height: 31rem; padding:1rem .6rem; border:none; outline:none;}
+
 /*아이콘*/
 .icon_type1{display: inline-block; margin-left: .5rem; height: 1.9rem; padding:.3rem .8rem; min-width: 4rem; line-height: 1; color:#fff; border-radius: 3rem; font-weight: 700; font-size: 1.2rem; vertical-align: .1rem; text-align: center;}
 .icon_type1.en{height: 1.6rem; line-height: .7rem; font-size: .9rem;}
