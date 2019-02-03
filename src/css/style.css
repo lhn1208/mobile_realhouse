@@ -417,7 +417,7 @@
 /*공지사항,1대1문의*/
 .custom_sec li{position: relative; font-size: 1.4rem; line-height: 1.8; border-bottom: 1px solid #dedede;} 
 .custom_sec li a:after{display: inline-block; content:""; position: absolute; top:2.2rem; right:1rem; width:.8rem; height:1.8rem; background-repeat:no-repeat; background-size: 100%;}
-.custom_sec li a{display: block; padding:.6rem 1rem; background-color: #fff;}
+.custom_sec li a{display: block; padding:1.2rem 1rem; background-color: #fff;}
 .custom_sec li .date{font-size: 1.3rem; color: #646464;}
 .custom_sec .tit{font-size: 1.4rem; color: #3c3c3c;}
 .custom_sec .notice_list a:after{background-image:url("../../images/sub/bg_arr.png");} 
@@ -433,6 +433,8 @@
 /*나의매수/나의매도 요청내역*/
 .request_list_header .swiper_menu li a{height: 4.8rem;}
 .request_list_header .swiper_menu li:after{position: absolute; bottom:0; left:21%; width:54%;}
+.request_list .content_area:first-of-type{margin-top:0;}
+.request_list .content_area:first-of-type .header{border-top: none;}
 .request_list .content_area .link_style{margin-left: .6rem;}
 .request_list .content_area .link_style:after{top:2rem;}
 .request_list .content_area .tel_link:after{top:.6rem;}
@@ -458,7 +460,7 @@
 .agent_visit_req .content_area .visit_finish{color: #0ec4bf;}
 
 .my_purchase{padding-top:.4rem;}
-.visit_pop{height: 33%;}
+.visit_pop{height: 33%; background-color:#fff;}
 .visit_pop .content_area .header{font-size: 1.6rem;}
 .visit_pop .link_select{margin:0 .2rem;}
 .visit_pop .btn{height: 3.8rem; vertical-align: .1rem}
