@@ -425,6 +425,7 @@
 .custom_sec li .date{font-size: 1.3rem; color: #646464;}
 .custom_sec .tit{font-size: 1.4rem; color: #3c3c3c;}
 .custom_sec .notice_list a:after{background-image:url("../../images/sub/bg_arr.png");} 
+.custom_sec .notice_list .ico{vertical-align: .3rem;}
 .custom_sec .list li a:after{top:3.2rem; width:1.2rem; height:.7rem; background-image:url("../../images/sub/bg_down.png");}
 .custom_sec .list li a.on:after{background-image:url("../../images/sub/bg_up.png");}
 .custom_sec .list li .ico{min-width: 6rem;}
