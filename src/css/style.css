@@ -470,7 +470,7 @@
 .visit_pop .content_area .header{font-size: 1.6rem;}
 .visit_pop .link_select{margin:0 .2rem;}
 .visit_pop .btn{height: 3.8rem; vertical-align: .1rem}
-.visit_pop .info_box{padding:1.4rem 1.2rem 2rem; border-bottom: none;}
+.visit_pop .info_box{padding:1.4rem 1.2rem 4rem; border-bottom: none;}
 /*일정관리*/
 .schedule_box .tab_list_box{height: 5.7rem; border:none;}
 .schedule_box .swiper_menu li.active a{color: #1e1e1e;}
