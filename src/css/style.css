@@ -188,7 +188,7 @@
 .visit_req_btn_area .agent_visit_req_btn .btn_favor{width:100%;}
 .visit_req_btn_area .agent_visit_req_btn .btn_favor:before{display: none;}
 .visit_req_btn_area .agent_visit_req_btn .btn_favor .pick{width:auto; margin-left: 1.5rem;}
-.visit_req_btn_area .agent_visit_req_btn .btn_favor .pick:after{top:1.2rem; left:-2.5rem;}
+.visit_req_btn_area .agent_visit_req_btn .btn_favor .pick:after{top:1.3rem; left:-2.5rem;}
 /*매수,매도 리스트*/
 .request_swiper .tab_list_box{border:none;}
 .request_swiper .swiper_menu{position: fixed; top:0; left:0; width:100%; border-bottom: none; z-index: 100;}
