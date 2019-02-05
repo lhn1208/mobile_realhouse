@@ -258,7 +258,7 @@
 .my_present{position: relative; background-color:#fff;}
 .my_present .present_manage{width:92%; margin:0 auto; padding:2.5rem 0 3rem;}
 .my_present .present_manage.no_items li{height: auto;}
-.present_manage li{position: relative; height: 8.4rem; margin-top:3.2rem;}
+.present_manage li{position: relative; height: 8.4rem; margin-top:3.1rem;}
 .present_manage li:first-child{margin-top:0;}
 .present_manage li:before{display: block; content:""; position: absolute; top:3.8rem; left:1.5rem; width:.6rem; height: 7.5rem; background-color: #e6e6e6;}
 .present_manage li:last-child:before{background: none;}
