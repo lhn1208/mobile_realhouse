@@ -409,7 +409,7 @@
 .member_set_list li{display: table-row; position: relative; height:5.7rem; line-height: 4;}
 .member_set_list li:first-child{border-top:none;}
 .member_set_list li .col{display: table-cell; padding:0 1.2rem; font-size: 1.4rem; border-top:1px solid #dedede;}
-.member_set_list li .member_tit{width:23%; color: #9c9c9c;}
+.member_set_list li .member_tit{width:24%; color: #9c9c9c;}
 .member_set_list li .member_cont{width:77%; position: relative;}
 .member_set_list li .member_cont .btn_setting{position: absolute; top:16%; right:1.5rem; color: #646464;}
 .member_set_list li .member_pw{width:50%; font-size: 2.8rem; color: #3c3c3c; border:none; background: none;}
