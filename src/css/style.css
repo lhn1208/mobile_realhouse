@@ -217,7 +217,7 @@
 .contract_cont .th.col{width:19%; padding:0 .2rem; text-align: right;}
 .contract_cont .deal_type_area .act_btn+label{width:24%; min-width: 6.5rem; margin-left: 0;}
 .contract_cont .input_amt_area{display: inline-block; width:87.2%; height: 3.8rem; margin:0 .2rem; padding:0 .4rem; border:1px solid #dedede; border-radius: .5rem; vertical-align: -1.1rem;}
-.contract_cont .input_amt{width:100%; height:98%; border:none; vertical-align: 1.1rem;  text-align: right;}
+.contract_cont .input_amt{width:100%; height:90%; border:none; vertical-align: 1.1rem;  text-align: right;}
 .contract_cont .content_info{width:100%}
 .contract_cont .cont.col{line-height: 2; padding:1.2rem;}
 /*알림*/
