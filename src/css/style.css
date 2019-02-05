@@ -224,6 +224,7 @@
 .alarm {position: relative; padding-top:.4rem;}
 .alarm .content_box .cont{line-height: 1.6;}
 .alarm .alarm_header{margin-bottom:.8rem;}
+.alarm .alarm_header .icon_type1{vertical-align: .2rem;}
 .alarm .alarm_date{margin-left: .6rem; font-size: 1.3rem; font-weight: 500; color: #646464;}
 .alarm  .alarm_cont{word-break: keep-all;}
 .alarm .no_inner{ transform: translateY(40%);}
@@ -369,7 +370,6 @@
 .notice .notice_list li a{position: relative; width:100%; height: 100%;}
 .notice .notice_list li a:after{display: block; content:""; clear: both;}
 .notice .notice_list li strong{display: inline-block; max-width:78%; font-weight: 500; color: #3c3c3c;  text-overflow: ellipsis; white-space: nowrap; word-wrap: normal; overflow: hidden;}
-.notice .notice_list li .icon_type1{vertical-align: 2rem;}
 .notice .notice_list li .left{float: left; width:80%;}
 .notice .notice_list li .date{float: right; width:20%; font-weight: 500; color: #9c9c9c;}
 .more_sec .share_area{position: relative; line-height: 3.6; padding:0 .8rem; border-top:1px solid #dedede; border-bottom: 1px solid #dedede;}
