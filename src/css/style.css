@@ -20,7 +20,7 @@
 /*필터*/
 .section_inner.deal_type{padding-bottom: 1.1rem;}
 .filter_area:last-of-type .section_inner{border-bottom: none;}
-.filter_area .content_head{padding-top:1.7rem;}
+.filter_area .content_head{padding-top:1.7rem; position: static;}
 .filter_area .deal_type_area,.filter_area .offer_type_area {width: 96%; margin:0 auto;}
 .filter_area .deal_type_area .act_btn+label{width:23.4%; margin-bottom: .8rem;}
 .filter_area .offer_type_area .act_btn+label{width:32%; margin-bottom: .8rem;}
