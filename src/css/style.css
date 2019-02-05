@@ -18,10 +18,11 @@
 .link_section .link_area a:nth-of-type(3n){border-right: 0;}
 .link_section .link_area a.active{color: #fff; background-color: #92d050;}
 /*필터*/
+.section_inner.deal_type{padding-bottom: 1.1rem;}
 .filter_area:last-of-type .section_inner{border-bottom: none;}
 .filter_area .content_head{padding-top:1.7rem;}
 .filter_area .deal_type_area,.filter_area .offer_type_area {width: 96%; margin:0 auto;}
-.filter_area .deal_type_area .act_btn+label{width:23.4%}
+.filter_area .deal_type_area .act_btn+label{width:23.4%; margin-bottom: .8rem;}
 .filter_area .offer_type_area .act_btn+label{width:32%; margin-bottom: .8rem;}
 .filter_area .offer_type_area .act_btn+label:nth-of-type(3n+1){margin-left: 0;}
 .content_head .filter_desc{position: absolute; top:2rem; right:1rem; color: #378cff;}
@@ -29,7 +30,7 @@
 .offer_type_area .filter_btn_list li{display: block; border-top:1px solid #ccc;}
 .offer_type_area .filter_btn_list li:first-child{border-top:none;}
 .offer_type_area .filter_btn_list li:after{display: block; content:""; clear: both;}
-.offer_type_area .filter_btn_list .act_btn+label{float: left; width: 25%; height: 4.3rem; line-height: 3.6; margin: 0; background-color: transparent; border:none; border-left:1px solid #ccc; border-radius: 0;}
+.offer_type_area .filter_btn_list .act_btn+label{float: left; display: block; width: 25%; min-height: 4.3rem; margin: 0; padding:.3rem 0; background-color: transparent; border:none; border-left:1px solid #ccc; border-radius: 0;}
 .offer_type_area .filter_btn_list li .act_btn:first-of-type+label{border-left: none;}
 .offer_type_area .filter_btn_list .act_btn:checked+label{background-color: #92d050;}
 .offer_type_area .filter_btn_list li:first-child .act_btn:first-of-type:checked+label{border-top-left-radius: .4rem;}
@@ -88,8 +89,9 @@
 .agent_select .cont .address{padding-top:0.6rem;}
 .agent_select_area .content_area .header{border-top:none;}
 .new_request .select_area{padding: 1.7rem 1.2rem; background-color: #fff;}
+.new_request .select_area .select_area_inner{text-align: center;}
 .new_request .tit{margin-bottom: 1rem; font-size: 1.6rem; font-weight: 700;}
-.new_request .link_select{margin-left:.2rem;}
+.new_request .link_select{margin-left:.2rem; text-align: left;}
 .new_request .info_box{border-top: 1px solid #dedede; background-color:#fffbfb;}
 .new_request .sub_info{padding-top:3rem; line-height: 2;}
 .new_request .sub_info .line_dot{display: inline-block; width:100%; border-top: 1px dashed #3c3c3c; margin-bottom: .4rem;}
@@ -185,8 +187,8 @@
 .visit_req_btn_area .btn_favor .pick.on:after,.visit_req_btn_area .agent_visit_req_btn .btn_favor .pick.on:after{background-image: url("../../images/sub/ico_btn_favor_on.png");}
 .visit_req_btn_area .agent_visit_req_btn .btn_favor{width:100%;}
 .visit_req_btn_area .agent_visit_req_btn .btn_favor:before{display: none;}
-.visit_req_btn_area .agent_visit_req_btn .btn_favor .pick{margin-left: 1.5rem;}
-.visit_req_btn_area .agent_visit_req_btn .btn_favor .pick:after{top:1.2rem; left:15.4rem;}
+.visit_req_btn_area .agent_visit_req_btn .btn_favor .pick{width:auto; margin-left: 1.5rem;}
+.visit_req_btn_area .agent_visit_req_btn .btn_favor .pick:after{top:1.2rem; left:-2.5rem;}
 /*매수,매도 리스트*/
 .request_swiper .tab_list_box{border:none;}
 .request_swiper .swiper_menu{position: fixed; top:0; left:0; width:100%; border-bottom: none; z-index: 100;}
@@ -467,7 +469,6 @@
 .visit_pop .btn{height: 3.8rem; vertical-align: .1rem}
 .visit_pop .info_box{border-bottom: none;}
 /*일정관리*/
-/* .schedule_box{height: calc(100% - 10.5rem);} */
 .schedule_box .tab_list_box{height: 5.7rem; border:none;}
 .schedule_box .swiper_menu li.active a{color: #1e1e1e;}
 .schedule_box .swiper_menu li.active:after{background-color: #1e1e1e;}
@@ -476,7 +477,12 @@
 .schedule_box .content_box .row.bottom_area .btn{top:.8rem; color: #3c3c3c;}
 .schedule_box .swiper-wrapper{height: 80% !important;}
 .schedule_box .custom_sec .no_date .no_inner{padding-top:50%; transform: none;}
+/*현장 방문시간 설정*/
+.set_visit_area .content_box .row{line-height: normal; padding:.8rem 1.2rem;}
+.set_visit_area .link_area{display: inline-block; width:70%;}
+.set_visit_area .link_area .link_select{width:42%;}
 .set_visit_area .link_select:first-of-type{margin-left: .4rem;}
+.set_visit_area .content_area .row{min-height: 5.7rem; height: auto;}
 /*오픈 이벤트 추천확인*/
 .sub_container .ev_result .intro{margin:6.2rem 0 8rem;}
 .ev_result .result_box{line-height: 2; padding:2.6rem 0; font-size: 1.5rem; font-weight: 700; text-align: center; border:1px solid #dedede; border-top-left-radius: .5rem; border-top-right-radius: .5rem;}
@@ -520,12 +526,12 @@
 .set_alarm .content_box .row .filter_scroll_bar{width:60%;}
 .set_alarm .content_box .row .right_area.btn{top:.8rem;}
 /*오픈추천 이벤트*/
-.open_event_box .event_recomm{min-height: 8.4rem; line-height: 6; margin-top:1.2rem; padding:0 1.2rem; background-color: #fff; border:1px solid #dedede; border-top-left-radius: .5rem; border-top-right-radius: .5rem; text-align: right;}
+.open_event_box .event_recomm{min-height: 8.4rem; margin-top:1.2rem; padding:3.1rem 1.2rem; background-color: #fff; border:1px solid #dedede; border-top-left-radius: .5rem; border-top-right-radius: .5rem; text-align: right;}
 .open_event_box .event_recomm li{font-weight: 700; display: inline-block; width:28%; margin-left: 1rem;}
-.open_event_box .event_recomm li:first-child{position: absolute; top:-1.9rem; left:-2rem; width:38%; margin-left: 0; font-size: 1.5rem;}
+.open_event_box .event_recomm li:first-child{position: absolute; top:2.6rem; left:-2rem; width:38%; margin-left: 0; font-size: 1.5rem;}
 .open_event_box .event_recomm li:first-child .txt_red{font-size: 2rem;}
 .open_event_box .event_recomm li:nth-child(2){margin-left:34%;}
-.open_event_box .event_state{height: 5.7rem; line-height: 4; padding:0 1.2rem; border:1px solid #dedede; border-top: none; border-bottom-right-radius: .5rem; border-bottom-left-radius: .5rem; background-color: #f9fcfd;}
+.open_event_box .event_state{min-height: 5.7rem; padding:1.7rem 1.2rem; border:1px solid #dedede; border-top: none; border-bottom-right-radius: .5rem; border-bottom-left-radius: .5rem; background-color: #f9fcfd;}
 .event_state_area{border-top:1px solid #dedede;;}
 .event_state_area .content_area .header .tit{font-weight: 700; color: #1e1e1e;}
 .event_state_area .content_area .header .right_area{top:0; font-weight: 500;}
@@ -551,34 +557,3 @@
 .locate_area.agent .locate_bottom_area .cont{height: 11.6rem; padding:.6rem 1.2rem; border-bottom: none;}
 .locate_area.agent .locate_bottom_area strong{font-weight: 700; color: #1e1e1e;}
 .locate_area.agent .locate_bottom_area .link_style{margin-left: .8rem;}
-@media screen and (max-width: 376px){
-  .offer_main .offer_mark dl{padding:0 .3rem 0 .8rem;}
-  .offer_main .amt_control dt{top:.2rem; left:.5rem; font-size: 1.3rem;} 
-  .offer_main .amt_control dt:after{top:-.2rem; right: .8rem;}
-  .offer_main .amt_control dd:first-of-type{margin-left: 7rem;}
-  .offer_main .amt_control dd{font-size: 1.2rem; line-height: 5;}
-}
-@media screen and (min-width: 320px) and (max-width: 359px){
-  .offer_main .offer_mark dl:first-of-type dd{font-size:1.7rem;}
-  .offer_main .offer_mark dl{padding:0 .3rem;}
-  .offer_main .offer_mark dd{font-size: 1.4rem;}
-  .offer_main .amt_control dd{line-height: 6; font-size: 1rem;}
-  /* html{font-size: 9px;}
-  .notice .notice_list li .icon_type1{vertical-align: .1rem;}
-  .locate_area .map_area{height: 70vh;}
-  .locate_area.agent .map_area{height: 60vh;} */
-  /*메인*/
-  /* .main_cont .content,  .main_cont .content .txt_red{font-size: 1.3rem;}
-  .swiper_list .swiper-wrapper .info .desc{font-size: 1.2rem;} */
-  /*금액조절*/
-  /* .offer_main .offer_mark dl:first-of-type dd{font-size: 1.8rem;}
-  .offer_main .offer_mark dl{padding-left:1.2rem;}
-  .offer_main .offer_mark dl dd{font-size: 1.5rem;}
-  .offer_main .amt_control dd{line-height: 4.8; font-size: 1.2rem;} */
-  /*중개사 평점*/
-  /* .agent_info .info_detal{font-size: 1.3rem;}
-  .grade_list_area .grade_list li em{font-size: 1.3rem;}
-  .grade_list_area .grade_list .star_grade span{width:1.1rem; height: 1.1rem;} */
-  /*매물 중개현황*/
-  /* .sale_present .present_manage .btn_type1{min-width:7rem;} */
-}
