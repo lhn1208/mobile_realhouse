@@ -496,14 +496,15 @@
 .ev_result .link_area .link_style{font-size: 1.6rem;}
 .ev_result .link_area .link_style:after{top:.6rem;}
 
-.pop_push .intro .logo{margin:0 auto; font-weight: 500;}
+.pop_push .intro .logo{width:14.9rem; margin:4.1rem auto .9rem; font-weight: 500;}
 .pop_push .intro .sub_tit{font-size: 1.5rem; font-weight: 500;}
-.pop_push .push_cont{padding:8rem 0; font-size: 2.4rem; font-weight: 700; text-align: center;}
-.pop_push .push_btn{width:80%; margin:0 auto 10rem;}
+.pop_push .push_cont{padding-top:20%; transform: translateY(0); font-size: 2.3rem; font-weight: 700; text-align: center;}
+.pop_push .push_btn_area{position: fixed; width:100%; bottom:8.3rem;}
+.pop_push .push_btn{ width:80%; margin:0 auto;}
 .pop_push .push_btn .btn{width:9rem; height: 9rem; font-size: 2.4rem; color: #fff; border-radius: 6rem;}
 .pop_push .push_btn .push_close{float: left; background-color: #ff6161;}
 .pop_push .push_btn .push_show{float: right; background-color:#92d050;}
-.pop_push .desc{font-size: 1.4rem; color: #646464; text-align: center;}
+.pop_push .desc{position: fixed; width:100%; bottom:2.2rem; font-size: 1.4rem; color: #646464; text-align: center;}
 .set_date .content_box .row{line-height: 4.4; font-size: 1.3rem;}
 .set_date .content_area .header .tit{font-weight: 500;}
 .set_date .link_area a{height: 5.7rem; line-height: 4; color: #3c3c3c;}

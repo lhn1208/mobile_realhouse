@@ -29,18 +29,18 @@ button:focus{outline:none;}
 /*하단 버튼*/
 .btn_submit{height: 5rem;}
 .btn_submit .submit{width:100%; line-height: 3.6; font-size: 1.4rem; font-weight: 700; color: #fff; text-align: center; background-color: #0ec4bf;}
-.btn_submit .submit.off{opacity: .4;}
 .btn_submit{width:100%; background-color: #0ec4bf; text-align: center;}
 .btn_submit:after{display: block; content: ""; clear: both;}
 .btn_submit .btn{position: relative; float: left; width:50%; line-height: 3.6; color: #fff; font-size: 1.4rem; font-weight: 700;}
+.btn_submit .btn.off,.btn_submit .submit.off{color: #50d8d4;}
 .btn_submit .btn+.btn:before{display: inline-block; content:""; position: absolute; top:1.8rem; left:0; width:.2rem; height:1.7rem; background-color: #fff;}
-.btn_submit .next,.btn_submit .off{opacity: .4;}
 .btn_submit .prev{ background-size: 4%;}
 
 .process::after{display: inline-block; content:""; position: absolute; top:1.8rem; left:50%; width:.86rem; height:4.6rem; margin-right:.4rem; background-repeat:no-repeat; background-size: 100%; }
-
-.btn_submit .prev:after{ content:"";  margin-left:-2.8rem; background-image:url("../../images/common/bg_prev_btn_active.png");}
-.btn_submit .next:after{ content:""; margin-left:2.3rem;  background-image:url("../../images/common/bg_next_btn_active.png");}
+.btn_submit .prev:after,.btn_submit .prev.off:after{content:"";  margin-left:-2.8rem; background-image:url("../../images/common/bg_prev_btn_active.png");}
+.btn_submit .next:after,.btn_submit .next.off:after{content:""; margin-left:2.3rem;  background-image:url("../../images/common/bg_next_btn_active.png");}
+.btn_submit .prev.off:after{background-image:url("../../images/common/bg_prev_btn.png");}
+.btn_submit .next.off:after{background-image:url("../../images/common/bg_next_btn.png");}
 .btn_submit .prev.on,.btn_submit .next.on{opacity: 1;}
 .control_btn{width:6.5rem; height:3.6rem; margin:0 .2rem; border:1px solid #dedede; border-radius: .5rem; background-image:url("../../images/sub/bg_up.png"); background-repeat: no-repeat; background-position:50%; background-size: 24%;}
 .control_btn.down{background-image:url("../../images/sub/bg_down.png");}
@@ -86,7 +86,7 @@ textarea{font-family: "Noto Sans KR",sans-serif; font-size: 1.4rem; color: #3c3c
 .cover.active{display: block;}
 
 .sub_container .intro {text-align: center;}
-.sub_container .intro .logo{width: 12.5rem; margin:0 auto 1.6rem;}
+.sub_container .intro .logo{width: 14.9rem; margin:0 auto 1.6rem;}
 .sub_container .intro .sub_tit{font-size: 1.6rem; font-weight: 700; color: #3c3c3c;}
 /*슬라이드*/
 .swiper_list{margin-bottom: 3rem;}
