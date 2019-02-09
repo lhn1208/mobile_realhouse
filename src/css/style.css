@@ -551,7 +551,7 @@
 .event_state_area .recomm_area .inner{height: 5.7rem; border-bottom: 1px solid #dedede;}
 /*매물위치*/
 .locate_area .map_area{height: 76vh;}
-.locate_area .map_area .map{height: 100%; overflow: hidden;}
+.locate_area .map_area .map{overflow: hidden;}
 .locate_area .map_area .map_control{top:auto; bottom:4.2rem;}
 .locate_area .map_area .view_button{position: absolute; left:1.2rem; bottom:4rem;}
 .locate_area .map_area .view_button .btn{color:#3c3c3c;}
