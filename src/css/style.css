@@ -152,7 +152,7 @@
 .offer_info .info_head .tit{font-size: 1.4rem;}
 .offer_info .info_head .build_type{margin-right: 1.2rem; font-weight: 700;}
 .offer_info .explain_area{padding:1rem; line-height: 2; border:1px solid #dedede; border-radius: .5rem;}
-.offer_info .mark_ico .detail i{height:2.6rem; margin-left: 0; line-height: 1.4; font-weight:500; font-size: 1.5rem; vertical-align: 0;}
+.offer_info .mark_ico .detail i{height:2.6rem; margin-left: 0; line-height: 1.3; font-weight:500; font-size: 1.5rem; vertical-align: 0;}
 .list_tb li .detail .desc{font-size: 1.1rem;}
 .offer_main .amt_control{position: relative; width:96%; min-height: 6.3rem; margin:0 auto; line-height: 4.4; border:1px solid #dedede; border-radius: .5rem; background-color:#fff;}
 .offer_main .amt_control dt:after{display: block; content:""; position: absolute; top:0; right:.5rem; width: .1rem; height: 6.1rem; background-color: #dedede; background-size: 100%;}
