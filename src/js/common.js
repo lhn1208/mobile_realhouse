@@ -36,7 +36,6 @@ $(document).ready(function(){
     $(window).scroll(function() {
         var sct=$(window).scrollTop();
         if(sct>top_h){ 
-            console.log('aaaa');
             $swiperMenu.addClass('fix')
         }else{
             $swiperMenu.removeClass('fix')
