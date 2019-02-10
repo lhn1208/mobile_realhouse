@@ -210,7 +210,7 @@ section:first-of-type.content_area .header{border-top:none;}
 .content_box .row.state_list .state:first-of-type{margin-left: 0;}
 .content_box .row.state_list .state .cnt{color:#378cff;}
 .content_box .row.state_list .state .cnt.red{color:#ff6161;}
-.content_box .row.bottom_area{background-color: #f9fcfd;}
+.content_box .row.bottom_area{background-color: #fafafa;}
 .content_box .row.bottom_area .right_area{top:-.2rem;}
 .content_box .row.bottom_area .btn{min-width: 7.5rem;}
 

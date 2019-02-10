@@ -42,4 +42,13 @@ $(document).ready(function(){
             $swiperMenu.removeClass('fix')
         }
     });
+
+    //동의 박스
+    var $agreeBox=$('.agree_box');
+    $agreeBox.find('.agree_txt').click(function(){
+        if(!($(this).next('.checkbox').is(':checked')))
+        $(this).next('.checkbox').prop("checked", true);
+        else
+        $(this).next('.checkbox').prop("checked", false);
+    })
 });
