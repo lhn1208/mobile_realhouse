@@ -460,7 +460,8 @@
 .request_history .agent_visit_req .area_more{border-left:none; border-right: none;}
 .request_history .request_list .content_area .link_style:after{top:.5rem;}
 .request_list .content_area .link_tel:after{top:.5rem;}
-.agent_visit_req{margin-bottom: 10rem;}
+.request_history .agent_visit_req{margin-top:5px; margin-bottom: 10rem}
+.request_history .request_list .agent_visit_req .content_area:first-of-type .header{border-top:1px solid #dedede;}
 .agent_visit_req .content_area  .state{color: #ff6161;}
 .agent_visit_req .content_area .consult_finish{color: #378cff;}
 .agent_visit_req .content_area .visit_finish{color: #0ec4bf;}
